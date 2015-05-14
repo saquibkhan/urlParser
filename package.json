@@ -1,0 +1,40 @@
+{
+  "name": "urlParser",
+  "version": "0.0.1",
+  "description": "Url parser, written in C and the fastest url parser.",
+  "main": "url.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bindings": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./test/test-url.js"
+  },
+  "gypfile": true,
+  "keywords": [
+    "url",
+    "parser",
+    "for",
+    "node.js",
+    "fastest",
+    "url",
+    "parser",
+    "for",
+    "node.js",
+    "urlparser",
+    "for",
+    "node",
+    "fast",
+    "url",
+    "parser",
+    "in",
+    "c",
+    "for",
+    "node.js"
+  ],
+  "author": "Saquib Khan",
+  "license": "MIT"
+}
