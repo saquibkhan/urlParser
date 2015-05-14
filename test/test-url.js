@@ -874,7 +874,22 @@ var parseTests = {
     pathname: '/:npm/npm',
     path: '/:npm/npm',
     href: 'git+ssh://git@github.com/:npm/npm'
-  }
+  },
+
+  //Added by Saquib
+  //   'http:\\\\evil-phisher\\foo.html?json="\\"': {
+  //   protocol: 'http:',
+  //   slashes: true,
+  //   host: 'evil-phisher',
+  //   hostname: 'evil-phisher',
+  //   pathname: '/foo.html',
+  //   search: '?json=%22%5C%5C%22',
+  //   query: 'json=%22%5C%5C%22',
+  //   path: '/foo.html?json=%22%5C%5C%22',
+  //   hash: null,
+  //   href: 'http://evil-phisher/foo.html?json=' +
+  //       '%22%5C%22'
+  // },
 
 };
 
