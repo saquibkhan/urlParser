@@ -1,4 +1,4 @@
-#Url parser for Node.js
+#Url parser for Node.js - ***Work In Progress***
 
 ##Compiling and Running
 1. cd lib
