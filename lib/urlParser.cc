@@ -19,74 +19,123 @@ using namespace std;
 #define FORWARD_SLASH '/'
 #define TRAILING_WHITESPACES " \t\f\v\n\r"
 
-#define MAX_ERROR_MSG 0x1000
+#define SPACE ' '
+#define TAB '\t'
+#define FORM_FEED '\f'
+#define VTAB '\v'
+#define NEWLINE '\n'
+#define CARRIAGE_RETURN '\r'
 
-/* Compile the regular expression described by "regex_text" into
-   "r". */
-static int compile_regex (regex_t * r, const char * regex_text)
+bool _isSpace(const char &str)
 {
-    int status = regcomp (r, regex_text, REG_EXTENDED|REG_NEWLINE);
-    if (status != 0) {
-  char error_message[MAX_ERROR_MSG];
-  regerror (status, r, error_message, MAX_ERROR_MSG);
-        printf ("Regex error compiling '%s': %s\n",
-                 regex_text, error_message);
-        return 1;
-    }
-    return 0;
+  //Note: /s is =>
+  //space character
+  //tab character
+  //carriage return character
+  //new line character
+  //vertical tab character
+  //form feed character
+  
+  return (str == SPACE || str == TAB || str == FORM_FEED || str == VTAB || str == NEWLINE || str == CARRIAGE_RETURN);
 }
 
-/*
-  Match the string in "to_match" against the compiled regular
-  expression in "r".
- */
-
-static int match_regex (regex_t * r, const char * to_match)
+bool _simplePath(const std::string &strRest, std::string &strPath, std::string &strSearch)
 {
-    /* "P" is a pointer into the string which points to the end of the
-       previous match. */
-    const char * p = to_match;
-    /* "N_matches" is the maximum number of matches allowed. */
-    const int n_matches = 10;
-    /* "M" contains the matches found. */
-    regmatch_t m[n_matches];
+  //simplePathPattern = /^(\/\/?(?!\/)[^\?\s]*)(\?[^\s]*)?$/
+  // [1]: string starting from (zero or one occurences // 
+  //AND not followed by / AND zero or more occurences of (string other than ? and spaces) )
+  //[2]: any string matching ? and not containing spaces
+  //[3] Zero or one match of full [1]+[2] 
 
-    while (1) {
-        int i = 0;
-        int nomatch = regexec (r, p, n_matches, m, 0);
-        if (nomatch) {
-            printf ("No more matches.\n");
-            return nomatch;
-        }
-        for (i = 0; i < n_matches; i++) {
-            int start;
-            int finish;
-            if (m[i].rm_so == -1) {
-                break;
-            }
-            start = m[i].rm_so + (p - to_match);
-            finish = m[i].rm_eo + (p - to_match);
-            if (i == 0) {
-                printf ("$& is ");
-            }
-            else {
-                printf ("$%d is ", i);
-            }
-            printf ("'%.*s' (bytes %d:%d)\n", (finish - start),
-                    to_match + start, start, finish);
-        }
-        p += m[0].rm_eo;
+  //Note: /s is =>
+  //space character
+  //tab character
+  //carriage return character
+  //new line character
+  //vertical tab character
+  //form feed character
+
+  int i = 0;
+  int len = strRest.length();
+
+  if (0 == len)
+  {
+    //no match
+    return false;
+  }  
+
+  if (strRest[i] != FORWARD_SLASH)
+  {
+    //no match
+  }
+
+  //[1] - zero or one ?
+  ++i;
+  if (strRest[i] == FORWARD_SLASH)
+  {
+    ++i;
+    if (strRest[i] == FORWARD_SLASH)
+    {
+      //no match
+      return false;
     }
-    return 0;
+    else
+    {
+      ++i;
+    }
+  }
+
+  //[^\?\s]*
+  while (i < len && strRest[i] != QUOTION_MARK && !_isSpace(strRest[i]))
+  {
+    ++i;
+  }
+
+  //match ?
+  if (i < len && strRest[i] == QUOTION_MARK)
+  {
+    strPath = std::string(strRest, 0, i);
+  }
+  else if (_isSpace(strRest[i]))
+  {
+    //no match
+    return false;
+  }
+  else
+  {
+    //end of string - no search string
+    strPath = std::string(strRest, 0, len);
+    return true;
+  }
+
+  //(\?[^\s]*)
+  int iSearchPos = i;
+  while (i < len && !_isSpace(strRest[i]))
+  {
+    ++i;
+  }
+
+  if (_isSpace(strRest[i]))
+  {
+    //no match
+    return false;
+  }
+  else
+  {
+    //end of string - search string also found
+    strSearch = std::string(strRest, iSearchPos, i-iSearchPos);
+  }
+
+  return true;
 }
 
 void _parse(std::string strUrl, bool bParseQueryString, bool bSlashesDenoteHost)
 {
   printf("Url:%s\n", strUrl.c_str());
   int iUrlLen = strUrl.length();
-  for(int i = 0; i < iUrlLen && (strUrl[i] != QUOTION_MARK && strUrl[i] != HASH_MARK); i++)
+  for (int i = 0; i < iUrlLen && (strUrl[i] != QUOTION_MARK && strUrl[i] != HASH_MARK); i++)
   {
-    if(strUrl[i] == BACK_SLASH)
+    if (strUrl[i] == BACK_SLASH)
     {
       strUrl[i] = FORWARD_SLASH;
     }
@@ -105,70 +154,33 @@ void _parse(std::string strUrl, bool bParseQueryString, bool bSlashesDenoteHost)
 
   printf("strRest = %s\n", strRest.c_str());
 
-  if(!bSlashesDenoteHost && strUrl.find(HASH_MARK) == std::string::npos)
+  if (!bSlashesDenoteHost && strUrl.find(HASH_MARK) == std::string::npos)
   {
-    regex_t regExp;
-    //const char * cstrSimplePathPattern = "^(\\/\\/?(?!\\/)[^\\\?\\s]*)(\\\?[^[:space:]]*)?$";
-    const char * cstrSimplePathPattern = "^(//?)";
-    compile_regex(&regExp, cstrSimplePathPattern);
-    match_regex(&regExp, strRest.c_str());
-    regfree (&regExp);
-
-    // int ret = 0;
-    // char msgbuf[100];
-    // //std::string strSimplePathPattern = "^\\(//?\\(?!/\\)\\[^\?\\s\\]*\\)";
-    // std::string strSimplePathPattern = "\\(//\\)*";
-    // regex_t regExp;
-
-    // int nMatch = 2;
-    // regmatch_t regMatch[nMatch];
-
-    // //Compile regular expression
-    // //ret = regcomp(&simplePathPattern, "^(//?(?!/)[^\?\\s]*)(\?[^\\s]*)?$", 0);
-    // //ret = regcomp(&simplePathPattern, "^(\\/\\/?(?!\\/)[^\?\\s]*)(\?[^\\s]*)?$", 0);
-    // ret = regcomp(&regExp, strSimplePathPattern.c_str(), REG_NOSUB);
-    // if (ret) {
-    //     fprintf(stderr, "Could not compile regex simplePathPattern\n");
-    //     return;
-    // }
-
-    // /* Execute regular expression */
-    // ret = regexec(&regExp, strRest.c_str(), nMatch, &regMatch[0], REG_NOSUB);
-    // if (!ret) {
-    //     printf("Match");
-    // }
-    // else if (ret == REG_NOMATCH) {
-    //     printf("No match");
-    // }
-    // else {
-    //     regerror(ret, &regExp, msgbuf, sizeof(msgbuf));
-    //     fprintf(stderr, "Regex match failed: %s\n", msgbuf);
-    //     return;
-    // }
+    std::string strPath, strSearch;
+    if (_simplePath(strRest, strPath, strSearch))
+    {
+      printf("Path: %s\n", strPath.c_str());
+      printf("Search: %s\n", strSearch.c_str());
+    }
 
   }
 
 }
 
 
-Handle<Value> parse(const Arguments& args) {
-  HandleScope scope;
+void parse(const FunctionCallbackInfo<Value>& args) {
+  Isolate* isolate = Isolate::GetCurrent();
+  HandleScope scope(isolate);
 
-  Local<Object> obj = Object::New();
+  Local<Object> obj = Object::New(isolate);
 
   if (args.Length() != FUCTION_PARAM) {
-    ThrowException(Exception::TypeError(String::New(ERR_INVALID_NUM_ARGS)));
-    return scope.Close(obj);
+    isolate->ThrowException(Exception::TypeError(String::NewFromUtf8(isolate, ERR_INVALID_NUM_ARGS)));
   }
 
   if (!args[0]->IsString() || !args[1]->IsBoolean() || !args[2]->IsBoolean()) {
-    ThrowException(Exception::TypeError(String::New(ERR_INVALID_ARGS)));
-    return scope.Close(obj);
+    isolate->ThrowException(Exception::TypeError(String::NewFromUtf8(isolate, ERR_INVALID_ARGS)));
   }
-
-  // Local<v8::String> url = args[0]->ToString();
-  // Local<v8::String> parseQueryString = args[1]->ToString();
-  // Local<v8::String> slashesDenoteHost = args[2]->ToString();
 
   v8::String::Utf8Value param1(args[0]->ToString());
   std::string strUrl = std::string(*param1);
@@ -178,16 +190,15 @@ Handle<Value> parse(const Arguments& args) {
 
   _parse(strUrl, bParseQueryString, bSlashesDenoteHost);
 
-  obj->Set(String::NewSymbol("url"), String::New(strUrl.c_str()));
-  obj->Set(String::NewSymbol("parseQueryString"), Boolean::New(bParseQueryString));
-  obj->Set(String::NewSymbol("slashesDenoteHost"), Boolean::New(bSlashesDenoteHost));
+  obj->Set(String::NewFromUtf8(isolate, "url"), String::NewFromUtf8(isolate, strUrl.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, "parseQueryString"), Boolean::New(isolate, bParseQueryString));
+  obj->Set(String::NewFromUtf8(isolate, "slashesDenoteHost"), Boolean::New(isolate, bSlashesDenoteHost));
 
-  return scope.Close(obj);
+  args.GetReturnValue().Set(obj);
 }
 
 void Init(Handle<Object> exports) {
-  exports->Set(String::NewSymbol(FUCTION_NAME),
-      FunctionTemplate::New(parse)->GetFunction());
+  NODE_SET_METHOD(exports, FUCTION_NAME, parse);
 }
 
 NODE_MODULE(urlParser, Init)
