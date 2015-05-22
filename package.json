@@ -6,6 +6,10 @@
   "directories": {
     "test": "test"
   },
+  "repository": {
+  "type": "git",
+  "url": "git://github.com/saquibkhan/urlParser.git"
+  },
   "dependencies": {
     "bindings": "^1.2.1"
   },
@@ -17,24 +21,14 @@
   "keywords": [
     "url",
     "parser",
-    "for",
-    "node.js",
     "fastest",
-    "url",
-    "parser",
-    "for",
-    "node.js",
     "urlparser",
-    "for",
-    "node",
-    "fast",
-    "url",
-    "parser",
-    "in",
     "c",
-    "for",
-    "node.js"
+    "c++"
   ],
-  "author": "Saquib Khan",
+  "author": {
+    "name": "Saquib Khan",
+    "email": "saquibofficial@gmail.com"
+  },
   "license": "MIT"
 }

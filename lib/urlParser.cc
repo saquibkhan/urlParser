@@ -39,7 +39,8 @@ bool _isSpace(const char &str)
   return (str == SPACE || str == TAB || str == FORM_FEED || str == VTAB || str == NEWLINE || str == CARRIAGE_RETURN);
 }
 
-bool _simplePath(const std::string &strRest, std::string &strPath, std::string &strSearch)
+bool _simplePath(const std::string &strRest, std::string &strPath,
+    std::string &strSearch, std::string &strQuery)
 {
   //simplePathPattern = /^(\/\/?(?!\/)[^\?\s]*)(\?[^\s]*)?$/
   // [1]: string starting from (zero or one occurences // 
@@ -124,6 +125,7 @@ bool _simplePath(const std::string &strRest, std::string &strPath, std::string &
   {
     //end of string - search string also found
     strSearch = std::string(strRest, iSearchPos, i-iSearchPos);
+    strQuery = std::string(strRest, iSearchPos+1, i-iSearchPos); //skipping ?
   }
 
   return true;
@@ -156,11 +158,12 @@ void _parse(std::string strUrl, bool bParseQueryString, bool bSlashesDenoteHost)
 
   if (!bSlashesDenoteHost && strUrl.find(HASH_MARK) == std::string::npos)
   {
-    std::string strPath, strSearch;
-    if (_simplePath(strRest, strPath, strSearch))
+    std::string strPath, strSearch, strQuery;
+    if (_simplePath(strRest, strPath, strSearch, strQuery))
     {
       printf("Path: %s\n", strPath.c_str());
       printf("Search: %s\n", strSearch.c_str());
+      printf("Query: %s\n", strQuery.c_str());
     }
 
   }
