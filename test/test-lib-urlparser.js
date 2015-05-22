@@ -5,4 +5,4 @@ var urlParser = require('bindings')('./../lib/build/Release/urlParser');
 //console.log(urlParser.parse("HTTP://www.example.com", true, false));
 
 //console.log(urlParser.parse("//www.example.com", true, false));
-console.log(urlParser.parse("/////", true, false));
+console.log(urlParser.parse("//google.com?a=1 ", true, false));

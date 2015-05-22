@@ -3,6 +3,7 @@
 #include <v8.h>
 #include <iostream>
 #include <regex.h>
+#include <regex>
 
 using namespace v8;
 using namespace std;
@@ -107,12 +108,23 @@ void _parse(std::string strUrl, bool bParseQueryString, bool bSlashesDenoteHost)
 
   if(!bSlashesDenoteHost && strUrl.find(HASH_MARK) == std::string::npos)
   {
-    regex_t regExp;
+    //regex_t regExp;
     //const char * cstrSimplePathPattern = "^(\\/\\/?(?!\\/)[^\\\?\\s]*)(\\\?[^[:space:]]*)?$";
-    const char * cstrSimplePathPattern = "^(//?)";
-    compile_regex(&regExp, cstrSimplePathPattern);
-    match_regex(&regExp, strRest.c_str());
-    regfree (&regExp);
+    //const char * cstrSimplePathPattern = "^(//?)";
+    //compile_regex(&regExp, cstrSimplePathPattern);
+    //match_regex(&regExp, strRest.c_str());
+    //regfree (&regExp);
+
+    std::regex re("^(//?(?!/)[^\?[:space:]]*)(\?[^[:space:]]*)?$");
+    std::smatch match;
+    if (/*std::regex_search(strRest, match, re)*/ std::regex_match(strRest, match, re) && match.size() > 1) {
+      printf("match found subexp=%d\n",match.size());
+        for (unsigned i=0; i<match.size(); ++i) {
+          printf("%s", match[i]);
+        }
+    } else {
+      printf("not found");
+    } 
 
     // int ret = 0;
     // char msgbuf[100];
