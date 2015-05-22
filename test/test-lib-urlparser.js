@@ -6,3 +6,4 @@ var urlParser = require('bindings')('./../lib/build/Release/urlParser');
 
 //console.log(urlParser.parse("//www.example.com", true, false));
 console.log(urlParser.parse("//google.com?a=b", true, false));
+console.log(urlParser.parse("http://google.com?a=b", true, false));

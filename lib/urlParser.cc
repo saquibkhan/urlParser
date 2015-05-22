@@ -3,6 +3,7 @@
 #include <v8.h>
 #include <iostream>
 #include <regex.h>
+#include <algorithm>
 
 using namespace v8;
 using namespace std;
@@ -39,6 +40,40 @@ bool _isSpace(const char &str)
   return (str == SPACE || str == TAB || str == FORM_FEED || str == VTAB || str == NEWLINE || str == CARRIAGE_RETURN);
 }
 
+bool _protoPattern(const std::string &strRest, std::string &strProto)
+{
+  // /^([a-z0-9.+-]+:)/i
+  int i = 0;
+  int len = strRest.length();
+  if (0 == len)
+  {
+    //no match
+    return false;
+  }
+
+  while ( i < len && ((strRest[i] >= 'A' && strRest[i] <= 'Z') || (strRest[i] >= 'a' && strRest[i] <= 'z')
+      || strRest[i] == '.' || strRest[i] == '+' || strRest[i] == '-'))
+  {
+    ++i;
+  }
+
+  if (0 == i)
+  {
+    //no match
+    return false;
+  }
+
+  if (i < len && strRest[i] == ':')
+  {
+    //match found
+    ++i;
+    strProto = strRest.substr(0, i);
+    return true;
+  }
+
+  return false;
+}
+
 bool _simplePath(const std::string &strRest, std::string &strPath,
     std::string &strSearch, std::string &strQuery)
 {
@@ -68,6 +103,7 @@ bool _simplePath(const std::string &strRest, std::string &strPath,
   if (strRest[i] != FORWARD_SLASH)
   {
     //no match
+    return false;
   }
 
   //[1] - zero or one ?
@@ -95,7 +131,7 @@ bool _simplePath(const std::string &strRest, std::string &strPath,
   //match ?
   if (i < len && strRest[i] == QUOTION_MARK)
   {
-    strPath = std::string(strRest, 0, i);
+    strPath = strRest.substr(0, i);
   }
   else if (_isSpace(strRest[i]))
   {
@@ -105,7 +141,7 @@ bool _simplePath(const std::string &strRest, std::string &strPath,
   else
   {
     //end of string - no search string
-    strPath = std::string(strRest, 0, len);
+    strPath = strRest.substr(0, len);
     return true;
   }
 
@@ -124,8 +160,8 @@ bool _simplePath(const std::string &strRest, std::string &strPath,
   else
   {
     //end of string - search string also found
-    strSearch = std::string(strRest, iSearchPos, i-iSearchPos);
-    strQuery = std::string(strRest, iSearchPos+1, i-iSearchPos); //skipping ?
+    strSearch = strRest.substr(iSearchPos, i-iSearchPos);
+    strQuery = strRest.substr(iSearchPos+1, i-iSearchPos); //skipping ?
   }
 
   return true;
@@ -164,8 +200,19 @@ void _parse(std::string strUrl, bool bParseQueryString, bool bSlashesDenoteHost)
       printf("Path: %s\n", strPath.c_str());
       printf("Search: %s\n", strSearch.c_str());
       printf("Query: %s\n", strQuery.c_str());
-    }
 
+      return;
+    }
+  }
+
+  std::string strProto;
+  if (_protoPattern(strRest, strProto))
+  {
+    std::transform(strProto.begin(), strProto.end(), strProto.begin(), ::tolower);
+    printf("Proto: %s\n", strProto.c_str());
+    
+    strRest = strRest.substr(strProto.length());
+    printf("After Proto strRest: %s\n", strRest.c_str());
   }
 
 }
