@@ -2,9 +2,9 @@
 
 ##Compiling and Running
 1. cd lib
-2. sudo node-gyp configure
-3. sudo node-gyp build
-4. node ./../test/test-lib-urlparser.js
+2. make configure
+3. make build
+4. make test
 
 ###References:
 1. joyent/node [lib/url.js](https://github.com/joyent/node/blob/master/lib/url.js)
