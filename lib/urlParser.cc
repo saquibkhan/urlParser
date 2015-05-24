@@ -167,9 +167,27 @@ bool _simplePath(const std::string &strRest, std::string &strPath,
   return true;
 }
 
-void _parse(std::string strUrl, bool bParseQueryString, bool bSlashesDenoteHost)
+class CUrl
 {
-  printf("Url:%s\n", strUrl.c_str());
+  public:
+    std::string path;
+    std::string href;
+    std::string pathname;
+    std::string search;
+    std::string query;
+    std::string protocol;
+    std::string slashes;
+    std::string auth;
+    std::string host;
+    std::string parseHost;
+    std::string hostname;
+    std::string port;
+    std::string hash;
+    std::string format;
+};
+
+void _parse(std::string strUrl, CUrl &outUrl, bool bParseQueryString, bool bSlashesDenoteHost)
+{
   int iUrlLen = strUrl.length();
   for (int i = 0; i < iUrlLen && (strUrl[i] != QUOTION_MARK && strUrl[i] != HASH_MARK); i++)
   {
@@ -178,7 +196,6 @@ void _parse(std::string strUrl, bool bParseQueryString, bool bSlashesDenoteHost)
       strUrl[i] = FORWARD_SLASH;
     }
   }
-  printf("%s\n", strUrl.c_str());
 
   std::string strRest = strUrl;
 
@@ -190,33 +207,24 @@ void _parse(std::string strUrl, bool bParseQueryString, bool bSlashesDenoteHost)
   else
     strRest.clear();            // str is all whitespace
 
-  printf("strRest = %s\n", strRest.c_str());
 
   if (!bSlashesDenoteHost && strUrl.find(HASH_MARK) == std::string::npos)
   {
-    std::string strPath, strSearch, strQuery;
-    if (_simplePath(strRest, strPath, strSearch, strQuery))
+    if (_simplePath(strRest, outUrl.pathname, outUrl.search, outUrl.query))
     {
-      printf("Path: %s\n", strPath.c_str());
-      printf("Search: %s\n", strSearch.c_str());
-      printf("Query: %s\n", strQuery.c_str());
-
+      outUrl.path = strRest;
+      outUrl.href = strRest;
       return;
     }
   }
 
-  std::string strProto;
-  if (_protoPattern(strRest, strProto))
+  if (_protoPattern(strRest, outUrl.protocol))
   {
-    std::transform(strProto.begin(), strProto.end(), strProto.begin(), ::tolower);
-    printf("Proto: %s\n", strProto.c_str());
-    
-    strRest = strRest.substr(strProto.length());
-    printf("After Proto strRest: %s\n", strRest.c_str());
+    std::transform(outUrl.protocol.begin(), outUrl.protocol.end(), outUrl.protocol.begin(), ::tolower);
+    strRest = strRest.substr(outUrl.protocol.length());
   }
 
 }
-
 
 void parse(const FunctionCallbackInfo<Value>& args) {
   Isolate* isolate = Isolate::GetCurrent();
@@ -238,11 +246,39 @@ void parse(const FunctionCallbackInfo<Value>& args) {
   bool bParseQueryString = args[1]->ToBoolean()->BooleanValue();
   bool bSlashesDenoteHost = args[2]->ToBoolean()->BooleanValue();
 
-  _parse(strUrl, bParseQueryString, bSlashesDenoteHost);
+  CUrl outUrl;
+  _parse(strUrl, outUrl, bParseQueryString, bSlashesDenoteHost);
 
-  obj->Set(String::NewFromUtf8(isolate, "url"), String::NewFromUtf8(isolate, strUrl.c_str()));
-  obj->Set(String::NewFromUtf8(isolate, "parseQueryString"), Boolean::New(isolate, bParseQueryString));
-  obj->Set(String::NewFromUtf8(isolate, "slashesDenoteHost"), Boolean::New(isolate, bSlashesDenoteHost));
+  //Output
+  //this.path
+  //this.href
+  //this.pathname
+  //this.search
+  //this.query
+  //this.protocol
+  //this.slashes
+  //this.auth
+  //this.host
+  //this.parseHost
+  //this.hostname
+  //this.port
+  //this.hash
+  //this.format
+
+  obj->Set(String::NewFromUtf8(isolate, "path"), String::NewFromUtf8(isolate, outUrl.path.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, "href"), String::NewFromUtf8(isolate, outUrl.href.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, "pathname"), String::NewFromUtf8(isolate, outUrl.pathname.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, "search"), String::NewFromUtf8(isolate, outUrl.search.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, "query"), String::NewFromUtf8(isolate, outUrl.query.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, "protocol"), String::NewFromUtf8(isolate, outUrl.protocol.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, "slashes"), String::NewFromUtf8(isolate, outUrl.slashes.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, "auth"), String::NewFromUtf8(isolate, outUrl.auth.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, "host"), String::NewFromUtf8(isolate, outUrl.host.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, "parseHost"), String::NewFromUtf8(isolate, outUrl.parseHost.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, "hostname"), String::NewFromUtf8(isolate, outUrl.hostname.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, "port"), String::NewFromUtf8(isolate, outUrl.port.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, "hash"), String::NewFromUtf8(isolate, outUrl.hash.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, "format"), String::NewFromUtf8(isolate, outUrl.format.c_str()));
 
   args.GetReturnValue().Set(obj);
 }
