@@ -8,17 +8,18 @@
 using namespace v8;
 using namespace std;
 
-#define FUCTION_NAME "parse"
+#define FUCTION_NAME 'parse'
 #define FUCTION_PARAM 3
 
-#define ERR_INVALID_ARGS  "Wrong arguments"
-#define ERR_INVALID_NUM_ARGS  "Wrong number of arguments"
+#define ERR_INVALID_ARGS  'Wrong arguments'
+#define ERR_INVALID_NUM_ARGS  'Wrong number of arguments'
 
 #define QUOTION_MARK '?'
 #define HASH_MARK '#'
 #define BACK_SLASH '\\'
 #define FORWARD_SLASH '/'
-#define TRAILING_WHITESPACES " \t\f\v\n\r"
+#define AT_RATE '@'
+#define TRAILING_WHITESPACES ' \t\f\v\n\r'
 
 #define SPACE ' '
 #define TAB '\t'
@@ -26,6 +27,22 @@ using namespace std;
 #define VTAB '\v'
 #define NEWLINE '\n'
 #define CARRIAGE_RETURN '\r'
+
+#define PROTO_JAVASCRIPT 'javascript'
+#define PROTO_JAVASCRIPT_COLON 'javascript:'
+
+#define PROTO_HTTP 'http'
+#define PROTO_HTTPS 'https'
+#define PROTO_FTP 'ftp'
+#define PROTO_GOPHER 'gopher'
+#define PROTO_FILE 'file'
+#define PROTO_HTTP_COLON 'http:'
+#define PROTO_HTTPS_COLON 'https:'
+#define PROTO_FTP_COLON 'ftp:'
+#define PROTO_GOPHER_COLON 'gopher:'
+#define PROTO_FILE_COLON 'file:'
+
+
 
 bool _isSpace(const char &str)
 {
@@ -57,6 +74,7 @@ bool _protoPattern(const std::string &strRest, std::string &strProto)
     ++i;
   }
 
+  // at least one match is required.
   if (0 == i)
   {
     //no match
@@ -186,6 +204,85 @@ class CUrl
     std::string format;
 };
 
+bool isHostless(const std::string &strRest)
+{
+  // /^\/\/[^@\/]+@[^@\/]+/)*/
+  int len = strRest.length();
+  int i = 0;
+
+  if (0 == len)
+  {
+    return false;
+  }
+
+  if (strRest[i] == FORWARD_SLASH)
+  {
+    ++i;
+    if (i < len && strRest[i] == FORWARD_SLASH)
+    {
+      ++i;
+      bool atLeastOne = false;
+      while (i < len && strRest[i] != AT_RATE && strRest[i] != FORWARD_SLASH)
+      {
+        ++i;
+        atLeastOne = true;
+      }
+
+      if (i < len && atLeastOne && strRest[i] == AT_RATE)
+      {
+        ++i;
+        atLeastOne = false;
+        while (i < len && strRest[i] != AT_RATE && strRest[i] != FORWARD_SLASH)
+        {
+          ++i;
+          atLeastOne = true;
+        }
+
+        if ( i < len && atLeastOne && strRest[i] == FORWARD_SLASH)
+        {
+          return true;
+        }
+      }
+    }
+  }
+
+  return false;
+}
+
+bool isHostlessProtocol(const std::string &strProtocol)
+{
+  //   hostlessProtocol = {
+  //   'javascript': true,
+  //   'javascript:': true
+  // },
+
+
+  return (strProtocol == PROTO_JAVASCRIPT || strProtocol == PROTO_JAVASCRIPT_COLON);
+}
+
+bool isSlashedProtocol(const std::string &strProtocol)
+{
+  // protocols that always contain a // bit.
+  // slashedProtocol = {
+  //   'http': true,
+  //   'https': true,
+  //   'ftp': true,
+  //   'gopher': true,
+  //   'file': true,
+  //   'http:': true,
+  //   'https:': true,
+  //   'ftp:': true,
+  //   'gopher:': true,
+  //   'file:': true
+  // }
+
+  return (strProtocol == PROTO_HTTP || strProtocol == PROTO_HTTP_COLON
+      || strProtocol == PROTO_HTTPS || strProtocol == PROTO_HTTPS_COLON
+      || strProtocol == PROTO_FTP || strProtocol == PROTO_FTP_COLON
+      || strProtocol == PROTO_FILE || strProtocol == PROTO_FILE_COLON
+      || strProtocol == PROTO_GOPHER || strProtocol == PROTO_GOPHER_COLON);
+}
+
 void _parse(std::string strUrl, CUrl &outUrl, bool bParseQueryString, bool bSlashesDenoteHost)
 {
   int iUrlLen = strUrl.length();
@@ -205,7 +302,7 @@ void _parse(std::string strUrl, CUrl &outUrl, bool bParseQueryString, bool bSlas
   if (found != std::string::npos)
     strRest.erase(found+1);
   else
-    strRest.clear();            // str is all whitespace
+    strRest.clear();// str is all whitespace
 
 
   if (!bSlashesDenoteHost && strUrl.find(HASH_MARK) == std::string::npos)
@@ -218,12 +315,33 @@ void _parse(std::string strUrl, CUrl &outUrl, bool bParseQueryString, bool bSlas
     }
   }
 
-  if (_protoPattern(strRest, outUrl.protocol))
+  bool bProto = _protoPattern(strRest, outUrl.protocol);
+  if (bProto)
   {
     std::transform(outUrl.protocol.begin(), outUrl.protocol.end(), outUrl.protocol.begin(), ::tolower);
     strRest = strRest.substr(outUrl.protocol.length());
   }
 
+  // figure out if it's got a host
+  // user@server is *always* interpreted as a hostname, and url
+  // resolution will treat //foo/bar as host=foo,path=bar because that's
+  // how the browser resolves relative URLs.
+
+  bool slashes = (strRest[0] == FORWARD_SLASH && strRest[1] == FORWARD_SLASH);
+  if (slashesDenoteHost || bProto || isHostless(strRest)) 
+  {
+    if (slashes && !(bProto && isHostlessProtocol(outUrl.protocol)) {
+      strRest = strRest.substr(2);
+      outUrl.slashes = true;
+    }
+  }
+
+//TODO: isSlashedProtocol looks like a bug, capital letter proo will not enter
+  if (!isHostlessProtocol(outUrl.protocol) &&
+    (slashes || (bProto && !isSlashedProtocol(outUrl.protocol))))
+  {
+      
+  }
 }
 
 void parse(const FunctionCallbackInfo<Value>& args) {
@@ -265,20 +383,20 @@ void parse(const FunctionCallbackInfo<Value>& args) {
   //this.hash
   //this.format
 
-  obj->Set(String::NewFromUtf8(isolate, "path"), String::NewFromUtf8(isolate, outUrl.path.c_str()));
-  obj->Set(String::NewFromUtf8(isolate, "href"), String::NewFromUtf8(isolate, outUrl.href.c_str()));
-  obj->Set(String::NewFromUtf8(isolate, "pathname"), String::NewFromUtf8(isolate, outUrl.pathname.c_str()));
-  obj->Set(String::NewFromUtf8(isolate, "search"), String::NewFromUtf8(isolate, outUrl.search.c_str()));
-  obj->Set(String::NewFromUtf8(isolate, "query"), String::NewFromUtf8(isolate, outUrl.query.c_str()));
-  obj->Set(String::NewFromUtf8(isolate, "protocol"), String::NewFromUtf8(isolate, outUrl.protocol.c_str()));
-  obj->Set(String::NewFromUtf8(isolate, "slashes"), String::NewFromUtf8(isolate, outUrl.slashes.c_str()));
-  obj->Set(String::NewFromUtf8(isolate, "auth"), String::NewFromUtf8(isolate, outUrl.auth.c_str()));
-  obj->Set(String::NewFromUtf8(isolate, "host"), String::NewFromUtf8(isolate, outUrl.host.c_str()));
-  obj->Set(String::NewFromUtf8(isolate, "parseHost"), String::NewFromUtf8(isolate, outUrl.parseHost.c_str()));
-  obj->Set(String::NewFromUtf8(isolate, "hostname"), String::NewFromUtf8(isolate, outUrl.hostname.c_str()));
-  obj->Set(String::NewFromUtf8(isolate, "port"), String::NewFromUtf8(isolate, outUrl.port.c_str()));
-  obj->Set(String::NewFromUtf8(isolate, "hash"), String::NewFromUtf8(isolate, outUrl.hash.c_str()));
-  obj->Set(String::NewFromUtf8(isolate, "format"), String::NewFromUtf8(isolate, outUrl.format.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, 'path'), String::NewFromUtf8(isolate, outUrl.path.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, 'href'), String::NewFromUtf8(isolate, outUrl.href.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, 'pathname'), String::NewFromUtf8(isolate, outUrl.pathname.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, 'search'), String::NewFromUtf8(isolate, outUrl.search.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, 'query'), String::NewFromUtf8(isolate, outUrl.query.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, 'protocol'), String::NewFromUtf8(isolate, outUrl.protocol.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, 'slashes'), String::NewFromUtf8(isolate, outUrl.slashes.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, 'auth'), String::NewFromUtf8(isolate, outUrl.auth.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, 'host'), String::NewFromUtf8(isolate, outUrl.host.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, 'parseHost'), String::NewFromUtf8(isolate, outUrl.parseHost.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, 'hostname'), String::NewFromUtf8(isolate, outUrl.hostname.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, 'port'), String::NewFromUtf8(isolate, outUrl.port.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, 'hash'), String::NewFromUtf8(isolate, outUrl.hash.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, 'format'), String::NewFromUtf8(isolate, outUrl.format.c_str()));
 
   args.GetReturnValue().Set(obj);
 }
