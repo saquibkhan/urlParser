@@ -201,7 +201,8 @@ class CUrl
     std::string hostname;
     std::string port;
     std::string hash;
-    std::string format;
+
+    std::string rest;
 
     void _parseHost();
 };
@@ -491,6 +492,7 @@ void _parse(std::string strUrl, CUrl &outUrl, bool bParseQueryString, bool bSlas
     {
       outUrl.auth = strRest.substr(0, atSign);
       strRest = strRest.substr(atSign+1);
+      // TODO: this.auth = decodeURIComponent(auth);
     }
 
     hostEnd = _findNonHostChars(strRest);
@@ -561,7 +563,8 @@ void parse(const FunctionCallbackInfo<Value>& args) {
   obj->Set(String::NewFromUtf8(isolate, "hostname"), String::NewFromUtf8(isolate, outUrl.hostname.c_str()));
   obj->Set(String::NewFromUtf8(isolate, "port"), String::NewFromUtf8(isolate, outUrl.port.c_str()));
   obj->Set(String::NewFromUtf8(isolate, "hash"), String::NewFromUtf8(isolate, outUrl.hash.c_str()));
-  obj->Set(String::NewFromUtf8(isolate, "format"), String::NewFromUtf8(isolate, outUrl.format.c_str()));
+
+  obj->Set(String::NewFromUtf8(isolate, "rest"), String::NewFromUtf8(isolate, outUrl.rest.c_str()));
 
   args.GetReturnValue().Set(obj);
 }

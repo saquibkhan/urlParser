@@ -1,4 +1,4 @@
-var url = require('url')
+var url = require('./../url')
 var n = 25 * 100;
 
 var urls = [
