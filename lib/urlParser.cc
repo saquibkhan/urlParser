@@ -201,7 +201,6 @@ class CUrl
     std::string hostname;
     std::string port;
     std::string hash;
-    std::string format;
 
     void _parseHost();
 };
@@ -397,6 +396,31 @@ void CUrl::_parseHost()
   }
 }
 
+void _validateHostName(std::string &strHostName)
+{
+  int len = strHostName.length();
+  if (len > 0)
+  {
+    int i = 0;
+    int iPartStart = i;
+    while (i < len)
+    {
+      if (strHostName[i] == '.')
+      {
+        //match pattern
+        std::string strPart = strHostName.substr(iPartStart, (i-iPartStart));
+        if (!_matchHostNamePattern(strPart))
+        {
+
+        }
+
+        iPartStart = i+1;
+      }
+      ++i;
+    }
+  }
+}
+
 void _parse(std::string strUrl, CUrl &outUrl, bool bParseQueryString, bool bSlashesDenoteHost)
 {
   int iUrlLen = strUrl.length();
@@ -508,6 +532,21 @@ void _parse(std::string strUrl, CUrl &outUrl, bool bParseQueryString, bool bSlas
 
     // if hostname begins with [ and ends with ]
     // assume that it's an IPv6 address.
+    bool bipv6Hostname = false;
+    std::string strHostName = outUrl.hostname;
+    int iHostNameLen = strHostName.length();
+    if (iHostNameLen > 0)
+    {
+      bipv6Hostname = strHostName[0] == '['
+          && strHostName[iHostNameLen - 1] == ']';
+    }
+
+    if (!bipv6Hostname)
+    {
+      //validate hostname
+      _validateHostName(outUrl.hostname)
+    }
+
   }
 }
 
@@ -561,7 +600,6 @@ void parse(const FunctionCallbackInfo<Value>& args) {
   obj->Set(String::NewFromUtf8(isolate, "hostname"), String::NewFromUtf8(isolate, outUrl.hostname.c_str()));
   obj->Set(String::NewFromUtf8(isolate, "port"), String::NewFromUtf8(isolate, outUrl.port.c_str()));
   obj->Set(String::NewFromUtf8(isolate, "hash"), String::NewFromUtf8(isolate, outUrl.hash.c_str()));
-  obj->Set(String::NewFromUtf8(isolate, "format"), String::NewFromUtf8(isolate, outUrl.format.c_str()));
 
   args.GetReturnValue().Set(obj);
 }
