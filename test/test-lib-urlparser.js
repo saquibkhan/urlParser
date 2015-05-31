@@ -1,4 +1,4 @@
-var urlParser = require('bindings')('./../lib/build/Release/urlParser');
+var urlParser = require('bindings')('urlParser');
 
 //console.log(urlParser.parse("http:\\\\evil-phisher\\foo.html#h\\a\\s\\h", true, false));
 //console.log(urlParser.parse("http:\\\\evil-phisher\\foo.html", true, false));
