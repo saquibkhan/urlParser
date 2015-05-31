@@ -396,24 +396,64 @@ void CUrl::_parseHost()
   }
 }
 
-void _validateHostName(std::string &strHostName)
+bool _matchHostNamePartPattern(const std::string &strPart)
+{
+  bool bFound = false;
+  return bFound;
+}
+
+bool _matchHostnamePartStart(const std::string &strPart,
+    std::string &bit1, std::string &bit2)
+{
+  bool bFound = false;
+  return bFound;
+}
+
+void _validateHostName(std::string &strHostName, std::string &strNotHost)
 {
   int len = strHostName.length();
   if (len > 0)
   {
     int i = 0;
     int iPartStart = i;
+    std::string strNonAscHostName = strHostName;
     while (i < len)
     {
       if (strHostName[i] == '.')
       {
-        //match pattern
-        std::string strPart = strHostName.substr(iPartStart, (i-iPartStart));
-        if (!_matchHostNamePattern(strPart))
+        if (strNonAscHostName[i] > 127)
         {
-
+          strNonAscHostName[i] = 'x';
         }
-
+        if ( i != iPartStart)
+        {
+          //Part found match pattern
+          std::string strPart = strHostName.substr(iPartStart, (i-iPartStart));
+          if (!_matchHostNamePartPattern(strPart))
+          {
+            // we test again with ASCII char only
+            std::string strNonAscPart = strNonAscHostName.substr(iPartStart, (i-iPartStart));
+            if (!_matchHostNamePartPattern(strNonAscPart))
+            {
+              std::string strValidParts = strHostName.substr(0, i);
+              if (i+1 < len)
+              {
+                strNotHost = strHostName.substr(i+1);
+              }
+              std::string bit1,bit2;
+              if (_matchHostnamePartStart(strPart, bit1, bit2))
+              {
+                if (bit1.length() != 0 && bit2.length()!=0)
+                {
+                  strValidParts += bit1;
+                  strNotHost = bit2 + strNotHost;
+                }
+                strHostName = strValidParts;
+                break;
+              }
+            }
+          }
+        }
         iPartStart = i+1;
       }
       ++i;
@@ -544,7 +584,12 @@ void _parse(std::string strUrl, CUrl &outUrl, bool bParseQueryString, bool bSlas
     if (!bipv6Hostname)
     {
       //validate hostname
-      _validateHostName(outUrl.hostname)
+      std::string strNotHost;
+      _validateHostName(outUrl.hostname, strNotHost);
+      if (strNotHost.length() != 0)
+      {
+        strRest = '/' + strNotHost + strRest;
+      }
     }
 
   }
