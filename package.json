@@ -1,14 +1,10 @@
 {
   "name": "urlParser",
-  "version": "0.0.1",
-  "description": "Url parser, written in C and the fastest url parser.",
+  "version": "0.1.0",
+  "description": "Fastest UrlParser library for Node.js",
   "main": "url.js",
   "directories": {
     "test": "test"
-  },
-  "repository": {
-  "type": "git",
-  "url": "git://github.com/saquibkhan/urlParser.git"
   },
   "dependencies": {
     "bindings": "^1.2.1"
@@ -17,18 +13,22 @@
   "scripts": {
     "test": "node ./test/test-url.js"
   },
-  "gypfile": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saquibkhan/urlParser.git"
+  },
   "keywords": [
+    "fastest",
     "url",
     "parser",
-    "fastest",
     "urlparser",
-    "c",
-    "c++"
+    "c++",
+    "c"
   ],
-  "author": {
-    "name": "Saquib Khan",
-    "email": "saquibofficial@gmail.com"
+  "author": "Saquib Khan <saquibofficial@gmail.com> (https://github.com/saquibkhan)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saquibkhan/urlParser/issues"
   },
-  "license": "MIT"
+  "homepage": "https://github.com/saquibkhan/urlParser"
 }
