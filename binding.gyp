@@ -1,8 +1,8 @@
 {
-  "targets": [
+  'targets': [
     {
-      "target_name": "urlParser",
-      "sources": [ "urlParser.cc" ]
+      'target_name': 'urlParser',
+      'sources': [ 'src/urlParser.cc' ]
     }
   ]
 }

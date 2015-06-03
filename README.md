@@ -1,10 +1,9 @@
 #Url parser for Node.js - ***Work In Progress***
 
 ##Compiling and Running
-1. cd lib
-2. make configure
-3. make build
-4. make test
+1. make configure
+2. make build
+3. make test
 
 ###References:
 1. joyent/node [lib/url.js](https://github.com/joyent/node/blob/master/lib/url.js)

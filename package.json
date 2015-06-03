@@ -2,7 +2,7 @@
   "name": "urlParser",
   "version": "0.1.0",
   "description": "Fastest UrlParser library for Node.js",
-  "main": "url.js",
+  "main": "./lib/url.js",
   "directories": {
     "test": "test"
   },
@@ -12,7 +12,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "node ./test/test-url.js",
-    "install": "make rebuild"
+    "install": "make configure",
+    "postinstall": "make rebuild",
   },
   "repository": {
     "type": "git",
