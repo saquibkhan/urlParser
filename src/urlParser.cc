@@ -45,6 +45,8 @@ using namespace std;
 #define PROTO_GOPHER_COLON "gopher:"
 #define PROTO_FILE_COLON "file:"
 
+#define HOSTNAME_MAX_LEN 255
+
 bool _isSpace(const char &str)
 {
   //Note: /s is =>
@@ -398,14 +400,96 @@ void CUrl::_parseHost()
 
 bool _matchHostNamePartPattern(const std::string &strPart)
 {
-  bool bFound = false;
+  //TODO: Cross check and test For emty string also it return true
+  //hostnamePartPattern = /^[+a-z0-9A-Z_-]{0,63}$/
+
+  bool bFound = true;
+  int len = strPart.length();
+  if (len > 0)
+  {
+    int i = 0;
+    int iCount = 0;
+    while (i < len)
+    {
+      if (iCount > 63)
+      {
+        bFound = false;
+        break;
+      }
+      if ((strPart[i] >= 'a' && strPart[i] <= 'z')
+          || (strPart[i] >= 'A' && strPart[i] <= 'Z')
+          || (strPart[i] >= '0' && strPart[i] <= '9')
+          || (strPart[i] == '+')
+          || (strPart[i] == '_')
+          || (strPart[i] == '-')
+          )
+      {
+        ++iCount;
+      }
+      else
+      {
+        bFound = false;
+        break;
+      }
+      ++i;
+    }
+  }
   return bFound;
 }
 
 bool _matchHostnamePartStart(const std::string &strPart,
     std::string &bit1, std::string &bit2)
 {
-  bool bFound = false;
+  //TODO: Cross check and test For emty string also it return true
+  //hostnamePartStart = /^([+a-z0-9A-Z_-]{0,63})(.*)$/
+  bool bFound = true;
+  int len = strPart.length();
+  if (len > 0)
+  {
+    int i = 0;
+    int iPart1 = 0;
+    int iPart2 = 0;
+    while (i < len)
+    {
+      if (iPart1 > 63)
+      {
+        bFound = false;
+        break;
+      }
+      if ((strPart[i] >= 'a' && strPart[i] <= 'z')
+          || (strPart[i] >= 'A' && strPart[i] <= 'Z')
+          || (strPart[i] >= '0' && strPart[i] <= '9')
+          || (strPart[i] == '+')
+          || (strPart[i] == '_')
+          || (strPart[i] == '-')
+          )
+      {
+        ++iPart1;
+        iPart2 = iPart1;
+      }
+      else
+      {
+        if (iPart1 > 63)
+        {
+          bFound = false;
+        }
+        else
+        {
+          ++iPart2;
+        }
+        break;
+      }
+      ++i;
+    }
+    if (bFound)
+    {
+      bit1 = strPart.substr(0, iPart1);
+      if (iPart2 > iPart1)
+      {
+        bit2 = strPart.substr(iPart1, (iPart2 - iPart1));
+      }
+    }
+  }
   return bFound;
 }
 
@@ -514,7 +598,7 @@ void _parse(std::string strUrl, CUrl &outUrl, bool bParseQueryString, bool bSlas
     }
   }
 
-  //TODO: isSlashedProtocol looks like a bug, capital letter proo will not enter
+  //TODO: isSlashedProtocol looks like a bug, capital letter protocol will not pass
   if (!isHostlessProtocol(outUrl.protocol) &&
     (slashes || (bProto && !isSlashedProtocol(outUrl.protocol))))
   {
@@ -551,10 +635,13 @@ void _parse(std::string strUrl, CUrl &outUrl, bool bParseQueryString, bool bSlas
 
     // Now we have a portion which is definitely the auth.
     // Pull that off.
-    if (-1 == atSign)
+    if (atSign != -1)
     {
       outUrl.auth = strRest.substr(0, atSign);
       strRest = strRest.substr(atSign+1);
+
+      //TODO: Call this from javascript layer
+      //this.auth = decodeURIComponent(auth);
     }
 
     hostEnd = _findNonHostChars(strRest);
@@ -572,16 +659,16 @@ void _parse(std::string strUrl, CUrl &outUrl, bool bParseQueryString, bool bSlas
 
     // if hostname begins with [ and ends with ]
     // assume that it's an IPv6 address.
-    bool bipv6Hostname = false;
+    bool bIpv6Hostname = false;
     std::string strHostName = outUrl.hostname;
     int iHostNameLen = strHostName.length();
     if (iHostNameLen > 0)
     {
-      bipv6Hostname = strHostName[0] == '['
+      bIpv6Hostname = strHostName[0] == '['
           && strHostName[iHostNameLen - 1] == ']';
     }
 
-    if (!bipv6Hostname)
+    if (!bIpv6Hostname)
     {
       //validate hostname
       std::string strNotHost;
@@ -591,6 +678,37 @@ void _parse(std::string strUrl, CUrl &outUrl, bool bParseQueryString, bool bSlas
         strRest = '/' + strNotHost + strRest;
       }
     }
+
+    if (outUrl.hostname.length() > HOSTNAME_MAX_LEN)
+    {
+      outUrl.hostname = "";
+    }
+    else
+    {
+      // hostnames are always lower case.
+      std::transform(outUrl.hostname.begin(), outUrl.hostname.end(), outUrl.hostname.begin(), ::tolower);
+    }
+
+    if (!bIpv6Hostname)
+    {
+      // IDNA Support: Returns a punycoded representation of "domain".
+      // It only converts parts of the domain name that
+      // have non-ASCII characters, i.e. it doesn't matter if
+      // you call it with a domain that already is ASCII-only.
+
+      //TODO: Call from Javascript layer
+      //this.hostname = punycode.toASCII(this.hostname);
+    }
+
+    if (outUrl.port.length() > 0)
+    {
+      outUrl.host = outUrl.hostname + ":" + outUrl.port;
+    }
+    else
+    {
+      outUrl.host = outUrl.hostname;
+    }
+    outUrl.href += outUrl.host;
 
   }
 }
