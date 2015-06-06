@@ -204,6 +204,18 @@ class CUrl
     std::string port;
     std::string hash;
 
+    std::string tmpRest;
+    bool tmpAtSign;
+    bool tmpbIsipv6;
+
+    CUrl()
+    {
+      this->slashes = false;
+
+      this->tmpAtSign = false;
+      this->tmpbIsipv6 = false;
+    }
+
     void _parseHost();
 };
 
@@ -332,6 +344,7 @@ int _findNonHostChars(const std::string &strRest)
         || strRest[i] == '?'
         || strRest[i] == ';'
         || strRest[i] == '#'
+        //autoEscape Chars below
         || strRest[i] == '{'
         || strRest[i] == '}'
         || strRest[i] == '|'
@@ -640,6 +653,7 @@ void _parse(std::string strUrl, CUrl &outUrl, bool bParseQueryString, bool bSlas
       outUrl.auth = strRest.substr(0, atSign);
       strRest = strRest.substr(atSign+1);
 
+      outUrl.tmpAtSign = true;
       //TODO: Call this from javascript layer
       //this.auth = decodeURIComponent(auth);
     }
@@ -696,6 +710,7 @@ void _parse(std::string strUrl, CUrl &outUrl, bool bParseQueryString, bool bSlas
       // have non-ASCII characters, i.e. it doesn't matter if
       // you call it with a domain that already is ASCII-only.
 
+      outUrl.tmpbIsipv6 = true;
       //TODO: Call from Javascript layer
       //this.hostname = punycode.toASCII(this.hostname);
     }
@@ -710,7 +725,37 @@ void _parse(std::string strUrl, CUrl &outUrl, bool bParseQueryString, bool bSlas
     }
     outUrl.href += outUrl.host;
 
+    // strip [ and ] from the hostname
+    // the host field still retains them, though
+    if (bIpv6Hostname)
+    {
+      outUrl.hostname = outUrl.hostname.substr(1, outUrl.hostname.length() - 2);
+      if (strRest[0] != FORWARD_SLASH) {
+        strRest = "/" + strRest;
+      }
+    }
+  } //End of not hostless protocol
+
+  // now rest is set to the post-host stuff.
+  // chop off any delim chars.
+  if (outUrl.protocol != PROTO_JAVASCRIPT && outUrl.protocol != PROTO_JAVASCRIPT) {
+
+    // First, make 100% sure that any "autoEscape" chars get
+    // escaped, even if encodeURIComponent doesn't think they
+    // need to be.
+
+    // for (var i = 0, l = autoEscape.length; i < l; i++) {
+    //   var ae = autoEscape[i];
+    //   if (rest.indexOf(ae) === -1)
+    //     continue;
+    //   var esc = encodeURIComponent(ae);
+    //   if (esc === ae) {
+    //     esc = escape(ae);
+    //   }
+    //   rest = rest.split(ae).join(esc);
+    // }
   }
+
 }
 
 void parse(const FunctionCallbackInfo<Value>& args) {
@@ -763,6 +808,10 @@ void parse(const FunctionCallbackInfo<Value>& args) {
   obj->Set(String::NewFromUtf8(isolate, "hostname"), String::NewFromUtf8(isolate, outUrl.hostname.c_str()));
   obj->Set(String::NewFromUtf8(isolate, "port"), String::NewFromUtf8(isolate, outUrl.port.c_str()));
   obj->Set(String::NewFromUtf8(isolate, "hash"), String::NewFromUtf8(isolate, outUrl.hash.c_str()));
+
+  obj->Set(String::NewFromUtf8(isolate, "rest"), String::NewFromUtf8(isolate, outUrl.tmpRest.c_str()));
+  obj->Set(String::NewFromUtf8(isolate, "isATSign"), Boolean::New(isolate, outUrl.tmpAtSign));
+  obj->Set(String::NewFromUtf8(isolate, "isIpv6"), Boolean::New(isolate, outUrl.tmpbIsipv6));
 
   args.GetReturnValue().Set(obj);
 }

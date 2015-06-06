@@ -22,7 +22,7 @@
 var common = require('./common');
 var assert = require('assert');
 
-var url = require('./lib/url'),
+var url = require('./../lib/url'),
     util = require('util');
 
 // URLs to parse, and expected data
