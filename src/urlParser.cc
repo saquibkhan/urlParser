@@ -300,19 +300,23 @@ bool isSlashedProtocol(const std::string &strProtocol)
 
 int _findHostEndingChars(const std::string &strRest)
 {
+  printf("_findHostEndingChars called strRest=%s\n", strRest.c_str());
+
   //hostEndingChars = ['/', '?', '#']
   int ifoundIndex = -1;
   int len = strRest.length();
   int i = 0;
   while (i < len)
   {
-    if (strRest[i] == BACK_SLASH || strRest[i] == QUOTION_MARK || strRest[i] == HASH_MARK)
+    if (strRest[i] == FORWARD_SLASH || strRest[i] == QUOTION_MARK || strRest[i] == HASH_MARK)
     {
       ifoundIndex = i;
       break;
     }
     ++i;
   }
+
+  printf("_findHostEndingChars ifoundIndex=%d\n", ifoundIndex);
   return ifoundIndex;
 }
 
