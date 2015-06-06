@@ -573,12 +573,20 @@ void _parse(std::string strUrl, CUrl &outUrl, bool bParseQueryString, bool bSlas
 
   //Trim
   std::string whitespaces (TRAILING_WHITESPACES);
-  std::size_t found = strRest.find_last_not_of(whitespaces);
-  if (found != std::string::npos)
-    strRest.erase(found+1);
+  std::size_t first = strRest.find_first_not_of(whitespaces);
+  std::size_t last = strRest.find_last_not_of(whitespaces);
+  if (first != std::string::npos || last != std::string::npos)
+  {
+    if (last == strRest.length())
+    {
+      last = strRest.length()-1;
+    }
+    strRest = strRest.substr(first, last-first+1);
+  }
   else
-    strRest.clear();// str is all whitespace
-
+  {
+    strRest.clear();
+  }
 
   if (!bSlashesDenoteHost && strUrl.find(HASH_MARK) == std::string::npos)
   {
