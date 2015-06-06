@@ -207,6 +207,8 @@ class CUrl
     std::string tmpRest;
     bool tmpAtSign;
     bool tmpbIsipv6;
+    bool tmpbHostNamePresent;
+    bool tmpbHostPresent;
 
     CUrl()
     {
@@ -214,6 +216,8 @@ class CUrl
 
       this->tmpAtSign = false;
       this->tmpbIsipv6 = false;
+      this->tmpbHostNamePresent = false;
+      this->tmpbHostPresent = false;
     }
 
     void _parseHost();
@@ -686,7 +690,13 @@ void _parse(std::string strUrl, CUrl &outUrl, bool bParseQueryString, bool bSlas
     }
 
     outUrl.host = strRest.substr(0, hostEnd);
+    if (outUrl.host.length() == 0)
+    {
+      outUrl.tmpbHostPresent = true;
+    }
     strRest = strRest.substr(hostEnd);
+
+    outUrl.tmpbHostNamePresent = true;
 
     //pull out port
     outUrl._parseHost();
@@ -835,6 +845,12 @@ void parse(const FunctionCallbackInfo<Value>& args) {
   obj->Set(String::NewFromUtf8(isolate, "rest"), String::NewFromUtf8(isolate, outUrl.tmpRest.c_str()));
   obj->Set(String::NewFromUtf8(isolate, "isATSign"), Boolean::New(isolate, outUrl.tmpAtSign));
   obj->Set(String::NewFromUtf8(isolate, "isIpv6"), Boolean::New(isolate, outUrl.tmpbIsipv6));
+  obj->Set(String::NewFromUtf8(isolate, "tmpbHostNamePresent"), Boolean::New(isolate, outUrl.tmpbHostNamePresent));
+  obj->Set(String::NewFromUtf8(isolate, "tmpbHostPresent"), Boolean::New(isolate, outUrl.tmpbHostPresent));
+
+  
+
+  
 
   args.GetReturnValue().Set(obj);
 }
