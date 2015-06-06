@@ -588,7 +588,7 @@ void _parse(std::string strUrl, CUrl &outUrl, bool bParseQueryString, bool bSlas
     strRest.clear();
   }
 
-  if (!bSlashesDenoteHost && strUrl.find(HASH_MARK) == std::string::npos)
+  if (!bSlashesDenoteHost && (strUrl.find(HASH_MARK) == std::string::npos))
   {
     if (_simplePath(strRest, outUrl.pathname, outUrl.search, outUrl.query))
     {
@@ -674,7 +674,8 @@ void _parse(std::string strUrl, CUrl &outUrl, bool bParseQueryString, bool bSlas
       hostEnd = strRest.length();
     }
 
-    outUrl.host = strRest.substr(hostEnd);
+    outUrl.host = strRest.substr(0, hostEnd);
+    strRest = strRest.substr(hostEnd);
 
     //pull out port
     outUrl._parseHost();
@@ -743,6 +744,9 @@ void _parse(std::string strUrl, CUrl &outUrl, bool bParseQueryString, bool bSlas
       }
     }
   } //End of not hostless protocol
+
+  //Capture strRest in temporary variable for further processing in JS layer
+  outUrl.tmpRest = strRest;
 
   // now rest is set to the post-host stuff.
   // chop off any delim chars.
