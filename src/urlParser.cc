@@ -647,12 +647,16 @@ void _parse(std::string strUrl, CUrl &outUrl, bool bParseQueryString, bool bSlas
     int atSign = -1;
     if (-1 == hostEnd)
     {
-      atSign = strUrl.find_last_of(AT_RATE);
+      atSign = strRest.find_last_of(AT_RATE);
     }
     else
     {
-      atSign = strUrl.find_last_of(AT_RATE, hostEnd);
+      atSign = strRest.find_last_of(AT_RATE, hostEnd);
     }
+
+    printf("atSign: %d \n",atSign);
+    printf("hostEnd: %d \n",hostEnd);
+    printf("strRest before: %s\n", strRest.c_str());
 
     // Now we have a portion which is definitely the auth.
     // Pull that off.
@@ -665,6 +669,9 @@ void _parse(std::string strUrl, CUrl &outUrl, bool bParseQueryString, bool bSlas
       //TODO: Call this from javascript layer
       //this.auth = decodeURIComponent(auth);
     }
+
+    printf("outUrl.auth: %s\n", outUrl.auth.c_str());
+    printf("strRest: %s\n", strRest.c_str());
 
     hostEnd = _findNonHostChars(strRest);
 
