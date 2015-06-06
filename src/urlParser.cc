@@ -379,6 +379,7 @@ int _findNonHostChars(const std::string &strRest)
 void CUrl::_parseHost()
 {
   // portPattern = /:[0-9]*$/
+  printf("CUrl::_parseHost - this->host=%s\n", this->host.c_str());
   std::string strHost = this->host;
   int len = strHost.length();
   if (0 == len)
@@ -387,9 +388,19 @@ void CUrl::_parseHost()
   }
 
   int i = 0;
-  if (strHost[i] == ':')
+  int iColonPos = -1;
+  while (i < len)
   {
+    if (strHost[i] == ':')
+    {
+      iColonPos = i;
+      ++i;
+      break;
+    }
     ++i;
+  }
+  if (iColonPos != -1)
+  {
     while (i < len)
     {
       if(strHost[i] >= '0' && strHost[i] <= '9')
@@ -403,18 +414,25 @@ void CUrl::_parseHost()
     }
   }
 
-  if (i != 0)
+  if (iColonPos != -1)
   {
-    std::string strPort = strHost.substr(0, i);
+    printf("colon found iColonPos=%d, i=%d\n", iColonPos, i);
+    std::string strPort = strHost.substr(iColonPos, i);
+    printf("strPort=%s\n", strPort.c_str());
+
     if ( strPort != ":")
     {
       this->port = strPort.substr(1);
+      printf("this->port=%s\n", this->port.c_str());
     }
-    strHost = strHost.substr(0, (strHost.length() - this->port.length()));
+
+    strHost = strHost.substr(0, iColonPos);
+    printf("CUrl::_parseHost - strHost=%s\n", strHost.c_str());
   }
 
   if (strHost.length())
   {
+    printf("CUrl::_parseHost - strHost=%s\n", strHost.c_str());
     this->hostname = strHost;
   }
 }
