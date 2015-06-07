@@ -304,7 +304,7 @@ bool isSlashedProtocol(const std::string &strProtocol)
 
 int _findHostEndingChars(const std::string &strRest)
 {
-  printf("_findHostEndingChars called strRest=%s\n", strRest.c_str());
+  //printf("_findHostEndingChars called strRest=%s\n", strRest.c_str());
 
   //hostEndingChars = ['/', '?', '#']
   int ifoundIndex = -1;
@@ -320,7 +320,7 @@ int _findHostEndingChars(const std::string &strRest)
     ++i;
   }
 
-  printf("_findHostEndingChars ifoundIndex=%d\n", ifoundIndex);
+  //printf("_findHostEndingChars ifoundIndex=%d\n", ifoundIndex);
   return ifoundIndex;
 }
 
@@ -379,7 +379,7 @@ int _findNonHostChars(const std::string &strRest)
 void CUrl::_parseHost()
 {
   // portPattern = /:[0-9]*$/
-  printf("CUrl::_parseHost - this->host=%s\n", this->host.c_str());
+  //printf("CUrl::_parseHost - this->host=%s\n", this->host.c_str());
   std::string strHost = this->host;
   int len = strHost.length();
   if (0 == len)
@@ -416,23 +416,23 @@ void CUrl::_parseHost()
 
   if (iColonPos != -1)
   {
-    printf("colon found iColonPos=%d, i=%d\n", iColonPos, i);
+    //printf("colon found iColonPos=%d, i=%d\n", iColonPos, i);
     std::string strPort = strHost.substr(iColonPos, i);
-    printf("strPort=%s\n", strPort.c_str());
+    //printf("strPort=%s\n", strPort.c_str());
 
     if ( strPort != ":")
     {
       this->port = strPort.substr(1);
-      printf("this->port=%s\n", this->port.c_str());
+      //printf("this->port=%s\n", this->port.c_str());
     }
 
     strHost = strHost.substr(0, iColonPos);
-    printf("CUrl::_parseHost - strHost=%s\n", strHost.c_str());
+    //printf("CUrl::_parseHost - strHost=%s\n", strHost.c_str());
   }
 
   if (strHost.length())
   {
-    printf("CUrl::_parseHost - strHost=%s\n", strHost.c_str());
+    //printf("CUrl::_parseHost - strHost=%s\n", strHost.c_str());
     this->hostname = strHost;
   }
 }
@@ -680,9 +680,9 @@ void _parse(std::string strUrl, CUrl &outUrl, bool bParseQueryString, bool bSlas
       atSign = strRest.find_last_of(AT_RATE, hostEnd);
     }
 
-    printf("atSign: %d \n",atSign);
-    printf("hostEnd: %d \n",hostEnd);
-    printf("strRest before: %s\n", strRest.c_str());
+    //printf("atSign: %d \n",atSign);
+    //printf("hostEnd: %d \n",hostEnd);
+    //printf("strRest before: %s\n", strRest.c_str());
 
     // Now we have a portion which is definitely the auth.
     // Pull that off.
@@ -696,8 +696,8 @@ void _parse(std::string strUrl, CUrl &outUrl, bool bParseQueryString, bool bSlas
       //this.auth = decodeURIComponent(auth);
     }
 
-    printf("outUrl.auth: %s\n", outUrl.auth.c_str());
-    printf("strRest: %s\n", strRest.c_str());
+    //printf("outUrl.auth: %s\n", outUrl.auth.c_str());
+    //printf("strRest: %s\n", strRest.c_str());
 
     hostEnd = _findNonHostChars(strRest);
 

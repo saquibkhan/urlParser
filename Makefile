@@ -5,7 +5,7 @@ rebuild:src/urlParser.cc
 configure:
 	node-gyp configure
 test:
-	node ./test/test-lib-urlparser.js
+	node ./test/test-url.js
 .PHONY: rebuild configure test clean
 clean:
 	node-gyp clean

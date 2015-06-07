@@ -1,4 +1,7 @@
-var url = require('url')
+var url = require('./../lib/url')
+//var url = require('url')
+//var url = require("fast-url-parser")
+
 var n = 25 * 100;
 
 var urls = [
@@ -36,5 +39,5 @@ function benchmark(name, fun) {
   var time = seconds + nanos / 1e9;
   var rate = n / time;
 
-  console.log('misc/url.js %s: %s', name, rate.toPrecision(5));
+  console.log('misc/url.js %s: %s t:%s', name, rate.toPrecision(5), time);
 }

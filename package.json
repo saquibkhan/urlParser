@@ -7,13 +7,14 @@
     "test": "test"
   },
   "dependencies": {
-    "bindings": "^1.2.1"
+    "bindings": "^1.2.1",
+    "fast-url-parser": "^1.1.3"
   },
   "devDependencies": {},
   "scripts": {
     "test": "node ./test/test-url.js",
     "install": "make configure",
-    "postinstall": "make rebuild",
+    "postinstall": "make rebuild"
   },
   "repository": {
     "type": "git",
