@@ -1,0 +1,3112 @@
+143adb306060 1d6 Stub:ArraySingleArgumentConstructorStub
+143adb3062a0 1d7 Stub:CEntryStub
+143adb3064e0 a8 Stub:BinaryOpICStub
+143adb306600 64 Handler:An IC handler from the snapshot
+143adb3066e0 a2e Stub:RecordWriteStub
+143adb307180 124 Stub:StoreBufferOverflowStub
+143adb307320 35 Stub:BinaryOpICStub
+143adb3073c0 127 Stub:CEntryStub
+143adb307560 196 Stub:BinaryOpICStub
+143adb307760 14a Stub:BinaryOpICStub
+143adb307920 35 Stub:BinaryOpICStub
+143adb3079c0 8a Stub:CallFunctionStub
+143adb307ac0 fb Builtin:A builtin from the snapshot
+143adb307c20 dc Stub:BinaryOpICStub
+143adb307d60 56 Stub:DoubleToIStub
+143adb307e20 6c Stub:BinaryOpICStub
+143adb307f00 140 CallIC:A call IC from the snapshot
+143adb3080a0 dc Stub:BinaryOpICStub
+143adb3081e0 58 Stub:DoubleToIStub
+143adb3082a0 18 Handler:An IC handler from the snapshot
+143adb308320 17a Stub:BinaryOpICStub
+143adb308500 1b6 Stub:BinaryOpICStub
+143adb308720 5c Stub:BinaryOpICStub
+143adb3087e0 f Stub:BinaryOpICWithAllocationSiteStub
+143adb308860 421 Stub:BinaryOpWithAllocationSiteStub
+143adb308d00 dc Stub:BinaryOpICStub
+143adb308e40 14a Stub:BinaryOpICStub
+143adb309000 1e2 Stub:CreateAllocationSiteStub
+143adb309260 a43 Stub:RecordWriteStub
+143adb309d20 a18 Stub:RecordWriteStub
+143adb30a7a0 fc Stub:BinaryOpICStub
+143adb30a900 192 Stub:BinaryOpICStub
+143adb30ab00 69a Stub:RecordWriteStub
+143adb30b200 48 Stub:StoreBufferOverflowStub
+143adb30b2c0 fc Stub:BinaryOpICStub
+143adb30b420 fe Stub:StoreArrayLiteralElementStub
+143adb30b580 6bb Stub:RecordWriteStub
+143adb30bca0 14a Stub:BinaryOpICStub
+143adb30be60 e4 Stub:BinaryOpICStub
+143adb30bfc0 196 Stub:BinaryOpICStub
+143adb30c1c0 64 Handler:An IC handler from the snapshot
+143adb30c2a0 60 Stub:CompareICStub
+143adb30c360 4c Stub:CompareNilICStub
+143adb30c420 5c Stub:BinaryOpICStub
+143adb30c4e0 13c Stub:BinaryOpICStub
+143adb30c680 16e Stub:BinaryOpICStub
+143adb30c860 1e6 Stub:ArrayNArgumentsConstructorStub
+143adb30cac0 a18 Stub:RecordWriteStub
+143adb30d540 64 Handler:An IC handler from the snapshot
+143adb30d620 35 Stub:BinaryOpICStub
+143adb30d6c0 17a Stub:InternalArrayNArgumentsConstructorStub
+143adb30d8a0 35 Stub:BinaryOpICStub
+143adb30d940 13a CallIC:A call IC from the snapshot
+143adb30dae0 18 Handler:An IC handler from the snapshot
+143adb30db60 35 Stub:BinaryOpICStub
+143adb30dc00 18 Handler:An IC handler from the snapshot
+143adb30dc80 6be Stub:RecordWriteStub
+143adb30e3a0 8c Stub:LoadElementStub
+143adb30e4a0 dc Stub:BinaryOpICStub
+143adb30e5e0 134 CallIC:A call IC from the snapshot
+143adb30e780 1c6 Stub:InternalArraySingleArgumentConstructorStub
+143adb30e9c0 dc Stub:BinaryOpICStub
+143adb30eb00 168 Stub:BinaryOpICStub
+143adb30ece0 1b6 Stub:BinaryOpICStub
+143adb30ef00 140 CallIC:A call IC from the snapshot
+143adb30f0a0 123 CallIC:A call IC from the snapshot
+143adb30f240 93 Stub:ArrayConstructorStub
+143adb30f340 1d2 Stub:ArrayNArgumentsConstructorStub
+143adb30f580 1d6 Stub:ArrayNArgumentsConstructorStub
+143adb30f7c0 1d6 Stub:ArrayNArgumentsConstructorStub
+143adb30fa00 18a Stub:ArrayNArgumentsConstructorStub
+143adb30fc00 18a Stub:ArrayNArgumentsConstructorStub
+143adb30fe00 1aa Stub:ArrayNArgumentsConstructorStub
+143adb310020 5c Stub:BinaryOpICStub
+143adb3100e0 13c Stub:BinaryOpICStub
+143adb310280 a0 Stub:BinaryOpICStub
+143adb310380 dc Stub:BinaryOpICStub
+143adb3104c0 108 Stub:BinaryOpICStub
+143adb310640 ec Stub:BinaryOpICStub
+143adb3107a0 18 Handler:An IC handler from the snapshot
+143adb310820 14a Stub:BinaryOpICStub
+143adb3109e0 14a Stub:BinaryOpICStub
+143adb310ba0 4a Stub:CompareICStub
+143adb310c60 10 Handler:An IC handler from the snapshot
+143adb310ce0 dc Stub:BinaryOpICStub
+143adb310e20 176 Stub:BinaryOpICStub
+143adb311000 c0 Stub:BinaryOpICStub
+143adb311120 1a2 Stub:BinaryOpICStub
+143adb311340 a8 Stub:BinaryOpICStub
+143adb311460 16a Stub:BinaryOpICStub
+143adb311640 b0 Stub:BinaryOpICStub
+143adb311760 64 Handler:An IC handler from the snapshot
+143adb311840 17a Stub:BinaryOpICStub
+143adb311a20 35 Stub:BinaryOpICStub
+143adb311ac0 35 Stub:BinaryOpICStub
+143adb311b60 14a Stub:BinaryOpICStub
+143adb311d20 11d CallIC:A call IC from the snapshot
+143adb311ea0 13a CallIC:A call IC from the snapshot
+143adb312040 35 Stub:BinaryOpICStub
+143adb3120e0 35 Stub:BinaryOpICStub
+143adb312180 18 Handler:An IC handler from the snapshot
+143adb312200 35 Stub:BinaryOpICStub
+143adb3122a0 12e Stub:BinaryOpICStub
+143adb312440 a8 Stub:BinaryOpICStub
+143adb312560 64 Handler:An IC handler from the snapshot
+143adb312640 192 Stub:BinaryOpICStub
+143adb312840 64 Stub:BinaryOpICStub
+143adb312920 35 Stub:BinaryOpICStub
+143adb3129c0 dc Stub:BinaryOpICStub
+143adb312b00 56 Stub:DoubleToIStub
+143adb312bc0 10 Handler:An IC handler from the snapshot
+143adb312c40 18a Stub:BinaryOpICStub
+143adb312e40 dc Stub:BinaryOpICStub
+143adb312f80 1c6 Stub:InternalArraySingleArgumentConstructorStub
+143adb3131c0 dc Stub:BinaryOpICStub
+143adb313300 18 Handler:An IC handler from the snapshot
+143adb313380 6ac Stub:RecordWriteStub
+143adb313aa0 12e Stub:BinaryOpICStub
+143adb313c40 26 Handler:An IC handler from the snapshot
+143adb313ce0 18 Builtin:A builtin from the snapshot
+143adb313d60 164 Stub:BinaryOpICStub
+143adb313f40 6c Stub:BinaryOpICStub
+143adb314020 1a2 Stub:BinaryOpICStub
+143adb314240 11d CallIC:A call IC from the snapshot
+143adb3143c0 119 Stub:JSEntryStub
+143adb314540 123 CallIC:A call IC from the snapshot
+143adb3146e0 64 Handler:An IC handler from the snapshot
+143adb3147c0 2bc Stub:RecordWriteStub
+143adb314ae0 14e Stub:InternalArrayNoArgumentConstructorStub
+143adb314ca0 35 Stub:BinaryOpICStub
+143adb314d40 200 Stub:MathPowStub
+143adb314fa0 7c Stub:BinaryOpICStub
+143adb315080 68 Stub:ArgumentsAccessStub
+143adb315160 18a Stub:BinaryOpICStub
+143adb315360 35 Stub:BinaryOpICStub
+143adb315400 dc Stub:BinaryOpICStub
+143adb315540 16e Stub:BinaryOpICStub
+143adb315720 13a CallIC:A call IC from the snapshot
+143adb3158c0 f Stub:BinaryOpICWithAllocationSiteStub
+143adb315940 4d0 Stub:BinaryOpWithAllocationSiteStub
+143adb315e80 5c Stub:DoubleToIStub
+143adb315f40 162 Stub:ArrayNoArgumentConstructorStub
+143adb316120 12e Stub:BinaryOpICStub
+143adb3162c0 5a0 Stub:FastCloneShallowArrayStub
+143adb3168c0 192 Stub:BinaryOpICStub
+143adb316ac0 172 Stub:BinaryOpICStub
+143adb316ca0 10 Handler:An IC handler from the snapshot
+143adb316d20 140 CallIC:A call IC from the snapshot
+143adb316ec0 35 Stub:BinaryOpICStub
+143adb316f60 13c Stub:BinaryOpICStub
+143adb317100 13a CallIC:A call IC from the snapshot
+143adb3172a0 18a Stub:BinaryOpICStub
+143adb3174a0 18 Handler:An IC handler from the snapshot
+143adb317520 1de Stub:ArraySingleArgumentConstructorStub
+143adb317760 11d CallIC:A call IC from the snapshot
+143adb3178e0 64 Handler:An IC handler from the snapshot
+143adb3179c0 dc Stub:BinaryOpICStub
+143adb317b00 140 CallIC:A call IC from the snapshot
+143adb317ca0 18 Handler:An IC handler from the snapshot
+143adb317d20 17a Stub:InternalArrayNArgumentsConstructorStub
+143adb317f00 5c Stub:CompareNilICStub
+143adb317fc0 6c Stub:BinaryOpICStub
+143adb3180a0 dc Stub:BinaryOpICStub
+143adb3181e0 1de Stub:ArraySingleArgumentConstructorStub
+143adb318420 18 Handler:An IC handler from the snapshot
+143adb3184a0 13c Stub:BinaryOpICStub
+143adb318640 10 Handler:An IC handler from the snapshot
+143adb3186c0 a0 Stub:BinaryOpICStub
+143adb3187c0 6c7 Stub:RecordWriteStub
+143adb318f00 a0 Stub:BinaryOpICStub
+143adb319000 4c Stub:CompareNilICStub
+143adb3190c0 a0 Stub:BinaryOpICStub
+143adb3191c0 dc Stub:BinaryOpICStub
+143adb319300 64 Stub:BinaryOpICStub
+143adb3193e0 4a Stub:CompareICStub
+143adb3194a0 123 CallIC:A call IC from the snapshot
+143adb319640 a0 Stub:BinaryOpICStub
+143adb319740 11d CallIC:A call IC from the snapshot
+143adb3198c0 10 Handler:An IC handler from the snapshot
+143adb319940 58 Stub:CompareICStub
+143adb319a00 18 Handler:An IC handler from the snapshot
+143adb319a80 64 Stub:BinaryOpICStub
+143adb319b60 35 Stub:BinaryOpICStub
+143adb319c00 166 Stub:BinaryOpICStub
+143adb319de0 166 Stub:BinaryOpICStub
+143adb319fc0 18a Stub:BinaryOpICStub
+143adb31a1c0 35 Stub:BinaryOpICStub
+143adb31a260 14a Stub:BinaryOpICStub
+143adb31a420 1ba Stub:BinaryOpICStub
+143adb31a640 1ba Stub:BinaryOpICStub
+143adb31a860 18 Handler:An IC handler from the snapshot
+143adb31a8e0 192 Stub:BinaryOpICStub
+143adb31aae0 dc Stub:BinaryOpICStub
+143adb31ac20 37f Stub:NameDictionaryLookupStub
+143adb31b000 1f3 Stub:CompareICStub
+143adb31b260 dc Stub:BinaryOpICStub
+143adb31b3a0 10 Handler:An IC handler from the snapshot
+143adb31b420 fe Stub:FastNewContextStub
+143adb31b580 14e Stub:InternalArrayNoArgumentConstructorStub
+143adb31b740 b0 Stub:BinaryOpICStub
+143adb31b860 64 Stub:BinaryOpICStub
+143adb31b940 16e Stub:BinaryOpICStub
+143adb31bb20 123 CallIC:A call IC from the snapshot
+143adb31bcc0 35 Stub:BinaryOpICStub
+143adb31bd60 f8 Stub:BinaryOpICStub
+143adb31bec0 18 Handler:An IC handler from the snapshot
+143adb31bf40 18e Stub:BinaryOpICStub
+143adb31c140 18a Stub:BinaryOpICStub
+143adb31c340 14 Handler:An IC handler from the snapshot
+143adb31c3c0 dc Stub:BinaryOpICStub
+143adb31c500 88 Stub:BinaryOpICStub
+143adb31c600 73 Stub:CompareICStub
+143adb31c6e0 dc Stub:BinaryOpICStub
+143adb31c820 35 Stub:BinaryOpICStub
+143adb31c8c0 137 Stub:CallApiGetterStub
+143adb31ca60 dc Stub:BinaryOpICStub
+143adb31cba0 dc Stub:BinaryOpICStub
+143adb31cce0 168 Stub:BinaryOpICStub
+143adb31cec0 368 Stub:NameDictionaryLookupStub
+143adb31d2a0 18 Handler:An IC handler from the snapshot
+143adb31d320 34 Stub:CompareNilICStub
+143adb31d3c0 ec Stub:BinaryOpICStub
+143adb31d520 4a Stub:CompareICStub
+143adb31d5e0 13c Stub:BinaryOpICStub
+143adb31d780 187 Stub:CallConstructStub
+143adb31d980 6a0 Stub:RecordWriteStub
+143adb31e080 64 Handler:An IC handler from the snapshot
+143adb31e160 dc Stub:BinaryOpICStub
+143adb31e2a0 5c Stub:BinaryOpICStub
+143adb31e360 a2 Stub:ToNumberStub
+143adb31e480 35 Stub:BinaryOpICStub
+143adb31e520 166 Stub:BinaryOpICStub
+143adb31e700 10 Handler:An IC handler from the snapshot
+143adb31e780 117 CallIC:A call IC from the snapshot
+143adb31e900 93 Stub:ArrayConstructorStub
+143adb31ea00 176 Stub:ArrayNoArgumentConstructorStub
+143adb31ebe0 18a Stub:ArrayNoArgumentConstructorStub
+143adb31ede0 14e Stub:ArrayNoArgumentConstructorStub
+143adb31efa0 14e Stub:ArrayNoArgumentConstructorStub
+143adb31f160 162 Stub:ArrayNoArgumentConstructorStub
+143adb31f340 14e Stub:ArrayNoArgumentConstructorStub
+143adb31f500 a0 Stub:BinaryOpICStub
+143adb31f600 dc Stub:BinaryOpICStub
+143adb31f740 1ca Stub:BinaryOpICStub
+143adb31f980 64 Stub:BinaryOpICStub
+143adb31fa60 64 Handler:An IC handler from the snapshot
+143adb31fb40 13c Stub:BinaryOpICStub
+143adb31fce0 35 Stub:BinaryOpICStub
+143adb31fd80 1b6 Stub:BinaryOpICStub
+143adb31ffa0 140 CallIC:A call IC from the snapshot
+143adb320140 14a Stub:BinaryOpICStub
+143adb320300 13a CallIC:A call IC from the snapshot
+143adb3204a0 84 Stub:BinaryOpICStub
+143adb3205a0 35 Stub:BinaryOpICStub
+143adb320640 10 Handler:An IC handler from the snapshot
+143adb3206c0 13c Stub:BinaryOpICStub
+143adb320860 5c Stub:BinaryOpICStub
+143adb320920 168 Stub:BinaryOpICStub
+143adb320b00 1ad CallIC:A call IC from the snapshot
+143adb320d20 e4 Stub:BinaryOpICStub
+143adb320e80 192 Stub:BinaryOpICStub
+143adb321080 14a Stub:BinaryOpICStub
+143adb321240 dc Stub:BinaryOpICStub
+143adb321380 108 Stub:BinaryOpICStub
+143adb321500 140 CallIC:A call IC from the snapshot
+143adb3216a0 1b6 Stub:BinaryOpICStub
+143adb3218c0 140 CallIC:A call IC from the snapshot
+143adb321a60 11d CallIC:A call IC from the snapshot
+143adb321be0 13a CallIC:A call IC from the snapshot
+143adb321d80 13c Stub:BinaryOpICStub
+143adb321f20 35 Stub:BinaryOpICStub
+143adb321fc0 6e Stub:InternalArrayConstructorStub
+143adb3220a0 c3 Stub:ArrayConstructorStub
+143adb3221e0 1ea Stub:ArraySingleArgumentConstructorStub
+143adb322440 1fe Stub:ArraySingleArgumentConstructorStub
+143adb3226a0 1d6 Stub:ArraySingleArgumentConstructorStub
+143adb3228e0 1d6 Stub:ArraySingleArgumentConstructorStub
+143adb322b20 1c6 Stub:ArraySingleArgumentConstructorStub
+143adb322d60 16e Stub:BinaryOpICStub
+143adb322f40 11d CallIC:A call IC from the snapshot
+143adb3230c0 164 Stub:BinaryOpICStub
+143adb3232a0 11c Stub:BinaryOpICStub
+143adb323420 123 CallIC:A call IC from the snapshot
+143adb3235c0 222 Stub:CompareICStub
+143adb323860 16e Stub:BinaryOpICStub
+143adb323a40 dc Stub:BinaryOpICStub
+143adb323b80 192 Stub:FastNewContextStub
+143adb323d80 64 Stub:BinaryOpICStub
+143adb323e60 35 Stub:BinaryOpICStub
+143adb323f00 35 Stub:BinaryOpICStub
+143adb323fa0 15 Stub:StubFailureTrampolineStub
+143adb324020 dc Stub:BinaryOpICStub
+143adb324160 140 CallIC:A call IC from the snapshot
+143adb324300 64 Handler:An IC handler from the snapshot
+143adb3243e0 7c Stub:BinaryOpICStub
+143adb3244c0 13a CallIC:A call IC from the snapshot
+143adb324660 140 CallIC:A call IC from the snapshot
+143adb324800 4a Stub:CompareICStub
+143adb3248c0 64 Handler:An IC handler from the snapshot
+143adb3249a0 35 Stub:BinaryOpICStub
+143adb324a40 27a Stub:FastNewClosureStub
+143adb324d20 a36 Stub:RecordWriteStub
+143adb3257c0 64 Handler:An IC handler from the snapshot
+143adb3258a0 6c Stub:BinaryOpICStub
+143adb325980 dc Stub:BinaryOpICStub
+143adb325ac0 16e Stub:BinaryOpICStub
+143adb325ca0 13c Stub:BinaryOpICStub
+143adb325e40 84 Stub:BinaryOpICStub
+143adb325f40 1a6 Stub:BinaryOpICStub
+143adb326160 3c1 Stub:StringAddStub
+143adb3265a0 18e Stub:BinaryOpICStub
+143adb3267a0 5c Stub:BinaryOpICStub
+143adb326860 35 Stub:BinaryOpICStub
+143adb326900 13a CallIC:A call IC from the snapshot
+143adb326aa0 35 Stub:BinaryOpICStub
+143adb326b40 12e Stub:BinaryOpICStub
+143adb326ce0 d0 Stub:BinaryOpICStub
+143adb326e20 6ad Stub:RecordWriteStub
+143adb327540 10 Handler:An IC handler from the snapshot
+143adb3275c0 5c Stub:BinaryOpICStub
+143adb327680 a0 Stub:BinaryOpICStub
+143adb327780 6a0 Stub:RecordWriteStub
+143adb327e80 18 Handler:An IC handler from the snapshot
+143adb327f00 14 Stub:StubFailureTrampolineStub
+143adb327f80 123 CallIC:A call IC from the snapshot
+143adb328120 f0 Stub:BinaryOpICStub
+143adb328280 f4 Stub:BinaryOpICStub
+143adb3283e0 50 Stub:ToBooleanStub
+143adb3284a0 176 Stub:BinaryOpICStub
+143adb328680 dc Stub:BinaryOpICStub
+143adb3287c0 119 Stub:JSEntryStub
+143adb328940 1ba Stub:BinaryOpICStub
+143adb328b60 164 Stub:BinaryOpICStub
+143adb328d40 73 Stub:CompareICStub
+143adb328e20 e4 Stub:BinaryOpICStub
+143adb328f80 1a7 CallIC:A call IC from the snapshot
+143adb3291a0 14a Stub:BinaryOpICStub
+143adb329360 64 Stub:BinaryOpICStub
+143adb329440 11d CallIC:A call IC from the snapshot
+143adb3295c0 dc Stub:BinaryOpICStub
+143adb329700 35 Stub:BinaryOpICStub
+143adb3297a0 13c Stub:BinaryOpICStub
+143adb329940 dc Stub:BinaryOpICStub
+143adb329a80 19a Stub:ArgumentsAccessStub
+143adb329c80 18 Handler:An IC handler from the snapshot
+143adb329d00 10 Handler:An IC handler from the snapshot
+143adb329d80 1ba Stub:BinaryOpICStub
+143adb329fa0 12c Stub:BinaryOpICStub
+143adb32a140 11d CallIC:A call IC from the snapshot
+143adb32a2c0 5c Stub:BinaryOpICStub
+143adb32a380 192 Stub:BinaryOpICStub
+143adb32a580 100 Stub:BinaryOpICStub
+143adb32a6e0 11d CallIC:A call IC from the snapshot
+143adb32a860 10 Handler:An IC handler from the snapshot
+143adb32a8e0 a0 Stub:BinaryOpICStub
+143adb32a9e0 18 Handler:An IC handler from the snapshot
+143adb32aa60 5c Stub:BinaryOpICStub
+143adb32ab20 35 Stub:BinaryOpICStub
+143adb32abc0 f4 Stub:BinaryOpICStub
+143adb32ad20 27a Stub:FastNewClosureStub
+143adb32b000 4a Stub:CompareICStub
+143adb32b0c0 7c Stub:BinaryOpICStub
+143adb32b1a0 123 CallIC:A call IC from the snapshot
+143adb32b340 6c Stub:BinaryOpICStub
+143adb32b420 36c Stub:NameDictionaryLookupStub
+143adb32b800 16e Stub:BinaryOpICStub
+143adb32b9e0 11d CallIC:A call IC from the snapshot
+143adb32bb60 1b6 Stub:BinaryOpICStub
+143adb32bd80 14a Stub:BinaryOpICStub
+143adb32bf40 dc Stub:BinaryOpICStub
+143adb32c080 19b Stub:BinaryOpICStub
+143adb32c280 5c Stub:ToBooleanStub
+143adb32c340 176 Stub:BinaryOpICStub
+143adb32c520 35 Stub:BinaryOpICStub
+143adb32c5c0 35 Stub:BinaryOpICStub
+143adb32c660 78 Stub:BinaryOpICStub
+143adb32c740 35 Stub:BinaryOpICStub
+143adb32c7e0 a8 Stub:BinaryOpICStub
+143adb32c900 1be Stub:ArrayNArgumentsConstructorStub
+143adb32cb20 18 Handler:An IC handler from the snapshot
+143adb32cba0 13a CallIC:A call IC from the snapshot
+143adb32cd40 1a2 Stub:FastNewContextStub
+143adb32cf60 12c Stub:BinaryOpICStub
+143adb32d100 c0 Stub:BinaryOpICStub
+143adb32d220 35 Stub:BinaryOpICStub
+143adb32d2c0 b0 Stub:BinaryOpICStub
+143adb32d3e0 dc Stub:BinaryOpICStub
+143adb32d520 1a3 Stub:NumberToStringStub
+143adb32d740 18 Handler:An IC handler from the snapshot
+143adb32d7c0 35 Stub:BinaryOpICStub
+143adb32d860 dc Stub:BinaryOpICStub
+143adb32d9a0 84 Stub:BinaryOpICStub
+143adb32daa0 35 Stub:BinaryOpICStub
+143adb32db40 b7 Stub:StringCompareStub
+143adb32dc60 60 Stub:CompareICStub
+143adb32dd20 14a Stub:BinaryOpICStub
+143adb32dee0 162 Stub:ArrayNoArgumentConstructorStub
+143adb32e0c0 6c Stub:BinaryOpICStub
+143adb32e1a0 8a Stub:CallFunctionStub
+143adb32e2a0 f4 Stub:BinaryOpICStub
+143adb32e400 f4 Stub:BinaryOpICStub
+143adb32e560 f8 Stub:BinaryOpICStub
+143adb32e6c0 17a Stub:BinaryOpICStub
+143adb32e8a0 13a CallIC:A call IC from the snapshot
+143adb32ea40 11d CallIC:A call IC from the snapshot
+143adb32ebc0 35 Stub:BinaryOpICStub
+143adb32ec60 13a CallIC:A call IC from the snapshot
+143adb32ee00 1ba Stub:BinaryOpICStub
+143adb32f020 6ca Stub:RecordWriteStub
+143adb32f760 dc Stub:BinaryOpICStub
+143adb32f8a0 34 Stub:ToBooleanStub
+143adb32f940 14a Stub:BinaryOpICStub
+143adb32fb00 12e Stub:BinaryOpICStub
+143adb32fca0 d0 Stub:BinaryOpICStub
+143adb32fde0 1a6 Stub:BinaryOpICStub
+143adb330000 18 Handler:An IC handler from the snapshot
+143adb330080 69a Stub:RecordWriteStub
+143adb330780 1b6 Stub:BinaryOpICStub
+143adb3309a0 64 Stub:BinaryOpICStub
+143adb330a80 123 CallIC:A call IC from the snapshot
+143adb330c20 164 Stub:BinaryOpICStub
+143adb330e00 d4 Stub:BinaryOpICStub
+143adb330f40 108 Stub:BinaryOpICStub
+143adb3310c0 dc Stub:BinaryOpICStub
+143adb331200 4a Stub:CompareICStub
+143adb3312c0 62 Stub:CallConstructStub
+143adb3313a0 14a Stub:BinaryOpICStub
+143adb331560 1db Stub:ArrayConstructorStub
+143adb3317a0 123 CallIC:A call IC from the snapshot
+143adb331940 10 Handler:An IC handler from the snapshot
+143adb3319c0 104 Stub:BinaryOpICStub
+143adb331b40 c0 Stub:BinaryOpICStub
+143adb331c60 a4 Stub:LoadElementStub
+143adb331d80 64 Stub:BinaryOpICStub
+143adb331e60 14e Stub:BinaryOpICStub
+143adb332020 19 StoreIC:A store IC from the snapshot
+143adb3320a0 19 StoreIC:A store IC from the snapshot
+143adb332120 18 LoadIC:A load IC from the snapshot
+143adb3321a0 19 StoreIC:A store IC from the snapshot
+143adb332220 19 StoreIC:A store IC from the snapshot
+143adb3322a0 18 LoadIC:A load IC from the snapshot
+143adb332320 18 LoadIC:A load IC from the snapshot
+143adb3323a0 18 LoadIC:A load IC from the snapshot
+143adb332420 13 Builtin:A builtin from the snapshot
+143adb3324a0 239 Builtin:A builtin from the snapshot
+143adb332ba0 11 Builtin:A builtin from the snapshot
+143adb332c20 11 Builtin:A builtin from the snapshot
+143adb332ca0 3b Builtin:A builtin from the snapshot
+143adb33b340 18 KeyedLoadIC:A keyed load IC from the snapshot
+143adb33b3c0 19 KeyedStoreIC:A keyed store IC from the snapshot
+143adb33b660 18 KeyedLoadIC:A keyed load IC from the snapshot
+143adb3429a0 19 KeyedStoreIC:A keyed store IC from the snapshot
+143adb346de0 f Stub:BinaryOpICWithAllocationSiteStub
+143adb34b0a0 f Stub:BinaryOpICWithAllocationSiteStub
+143adb34bae0 f Stub:BinaryOpICWithAllocationSiteStub
+143adb356580 13 Builtin:A builtin from the snapshot
+143adb356600 13 Builtin:A builtin from the snapshot
+143adb356680 13 Builtin:A builtin from the snapshot
+143adb356700 13 Builtin:A builtin from the snapshot
+143adb356780 13 Builtin:A builtin from the snapshot
+143adb356800 13 Builtin:A builtin from the snapshot
+143adb356880 13 Builtin:A builtin from the snapshot
+143adb356900 13 Builtin:A builtin from the snapshot
+143adb356980 18 Builtin:A builtin from the snapshot
+143adb356a00 18 Builtin:A builtin from the snapshot
+143adb356a80 13 Builtin:A builtin from the snapshot
+143adb356b00 13 Builtin:A builtin from the snapshot
+143adb356b80 13 Builtin:A builtin from the snapshot
+143adb356c00 13 Builtin:A builtin from the snapshot
+143adb356c80 57 Builtin:A builtin from the snapshot
+143adb356d40 1c6 Builtin:A builtin from the snapshot
+143adb356f80 67 Builtin:A builtin from the snapshot
+143adb357060 52 Builtin:A builtin from the snapshot
+143adb357120 47 Builtin:A builtin from the snapshot
+143adb3571e0 47 Builtin:A builtin from the snapshot
+143adb3572a0 71 Builtin:A builtin from the snapshot
+143adb357380 75 Builtin:A builtin from the snapshot
+143adb357460 71 Builtin:A builtin from the snapshot
+143adb357540 5d Builtin:A builtin from the snapshot
+143adb357600 5d Builtin:A builtin from the snapshot
+143adb3576c0 18 Builtin:A builtin from the snapshot
+143adb357740 19 Builtin:A builtin from the snapshot
+143adb3577c0 19 Builtin:A builtin from the snapshot
+143adb357840 23 LoadIC:A load IC from the snapshot
+143adb3578e0 39a KeyedLoadIC:A keyed load IC from the snapshot
+143adb357ce0 254 KeyedLoadIC:A keyed load IC from the snapshot
+143adb357fa0 5c KeyedLoadIC:A keyed load IC from the snapshot
+143adb358060 d3 KeyedLoadIC:A keyed load IC from the snapshot
+143adb3581a0 25 StoreIC:A store IC from the snapshot
+143adb358240 19 KeyedStoreIC:A keyed store IC from the snapshot
+143adb3582c0 ae3 KeyedStoreIC:A keyed store IC from the snapshot
+143adb358e20 19 KeyedStoreIC:A keyed store IC from the snapshot
+143adb358ea0 ae3 KeyedStoreIC:A keyed store IC from the snapshot
+143adb359a00 131 KeyedStoreIC:A keyed store IC from the snapshot
+143adb359ba0 16c Builtin:A builtin from the snapshot
+143adb359d80 172 Builtin:A builtin from the snapshot
+143adb359f60 14 Builtin:A builtin from the snapshot
+143adb359fe0 18 Builtin:A builtin from the snapshot
+143adb35a060 18e Builtin:A builtin from the snapshot
+143adb35a260 4f Builtin:A builtin from the snapshot
+143adb35a320 42 Builtin:A builtin from the snapshot
+143adb35a3e0 6a Builtin:A builtin from the snapshot
+143adb35a4c0 61 Builtin:A builtin from the snapshot
+143adb35a5a0 61 Builtin:A builtin from the snapshot
+143adb35a680 61 Builtin:A builtin from the snapshot
+143adb35a760 61 Builtin:A builtin from the snapshot
+143adb35a840 61 Builtin:A builtin from the snapshot
+143adb35a920 61 Builtin:A builtin from the snapshot
+143adb35aa00 61 Builtin:A builtin from the snapshot
+143adb35aae0 61 Builtin:A builtin from the snapshot
+143adb35abc0 61 Builtin:A builtin from the snapshot
+143adb35aca0 61 Builtin:A builtin from the snapshot
+143adb35ad80 61 Builtin:A builtin from the snapshot
+143adb35ae60 18 Handler:An IC handler from the snapshot
+143adb35aee0 18 Handler:An IC handler from the snapshot
+143adb35af60 19 Handler:An IC handler from the snapshot
+143adb35afe0 19 Handler:An IC handler from the snapshot
+143adb35b060 b6 Handler:An IC handler from the snapshot
+143adb35b180 fc Handler:An IC handler from the snapshot
+143adb35b2e0 54 Builtin:A builtin from the snapshot
+143adb35b3a0 50 Builtin:A builtin from the snapshot
+143adb35b460 74 Builtin:A builtin from the snapshot
+143adb35b540 78 Builtin:A builtin from the snapshot
+143adb35b620 52 CallIC:A call IC from the snapshot
+143adb35b6e0 52 LoadIC:A load IC from the snapshot
+143adb35b7a0 52 KeyedLoadIC:A keyed load IC from the snapshot
+143adb35b860 54 StoreIC:A store IC from the snapshot
+143adb35b920 54 KeyedStoreIC:A keyed store IC from the snapshot
+143adb35b9e0 50 Stub:<UninitializedMajorKey>Stub
+143adb35baa0 52 Builtin:A builtin from the snapshot
+143adb35bb60 1 Builtin:A builtin from the snapshot
+143adb35bbe0 29 Builtin:A builtin from the snapshot
+143adb332420 13 LazyCompile:Empty :1
+143adb332740 1a4 LazyCompile:~ native string.js:1
+143adb332960 1c4 LazyCompile:~StringConstructor native string.js:2
+143adb332d40 71c LazyCompile:~SetUpString native string.js:620
+143adb3334c0 204 LazyCompile:~ native array-iterator.js:1
+143adb333740 244 LazyCompile:~SetUpArrayIterator native array-iterator.js:56
+143adb333a00 1cc LazyCompile:~ExtendArrayPrototype native array-iterator.js:68
+143adb333c40 e34 LazyCompile:~ExtendTypedArrayPrototypes native array-iterator.js:78
+143adb334ae0 114 LazyCompile:~ native json.js:1
+143adb334c60 12c LazyCompile:~SetUpJSON native json.js:193
+143adb334e00 41c LazyCompile:~ native typedarray.js:1
+143adb335280 30c LazyCompile:~Uint8ArrayConstructor native typedarray.js:71
+143adb335600 30c LazyCompile:~Int8ArrayConstructor native typedarray.js:212
+143adb335980 30c LazyCompile:~Uint16ArrayConstructor native typedarray.js:353
+143adb335d00 30c LazyCompile:~Int16ArrayConstructor native typedarray.js:494
+143adb336080 30c LazyCompile:~Uint32ArrayConstructor native typedarray.js:635
+143adb336400 30c LazyCompile:~Int32ArrayConstructor native typedarray.js:776
+143adb336780 30c LazyCompile:~Float32ArrayConstructor native typedarray.js:917
+143adb336b00 30c LazyCompile:~Float64ArrayConstructor native typedarray.js:1058
+143adb336e80 30c LazyCompile:~Uint8ClampedArrayConstructor native typedarray.js:1199
+143adb337200 304c LazyCompile:~SetupTypedArrays native typedarray.js:1358
+143adb33a2c0 4ec LazyCompile:~DataViewConstructor native typedarray.js:1534
+143adb33a820 56c LazyCompile:~SetupDataView native typedarray.js:1794
+143adb33ae00 184 LazyCompile:~ native object-observe.js:1
+143adb33b000 b4 LazyCompile:~nullProtoObject native object-observe.js:66
+143adb33b120 94 LazyCompile:~TypeMapCreate native object-observe.js:69
+143adb33b220 b4 LazyCompile:~TypeMapAddType native object-observe.js:72
+143adb33b440 1a8 LazyCompile:~TypeMapCreateFromList native object-observe.js:78
+143adb33b6e0 2fc LazyCompile:~SetupObjectObserve native object-observe.js:476
+143adb33ba40 d4 LazyCompile:~ native object-observe.js:97
+143adb33bb80 b4 LazyCompile:~ native uri.js:1
+143adb33bca0 45c LazyCompile:~ native uri.js:3
+143adb33c160 194 LazyCompile:~ native collection.js:1
+143adb33c360 4e0 LazyCompile:~SetConstructor native collection.js:5
+143adb33c8a0 33c LazyCompile:~SetUpSet native collection.js:80
+143adb33cc40 5b8 LazyCompile:~MapConstructor native collection.js:96
+143adb33d260 35c LazyCompile:~SetUpMap native collection.js:180
+143adb33d620 7ac LazyCompile:~ native v8natives.js:1
+143adb33de40 270 LazyCompile:~InstallFunctions native v8natives.js:4
+143adb33e120 d4 LazyCompile:~InstallGetter native v8natives.js:18
+143adb33e260 114 LazyCompile:~InstallGetterSetter native v8natives.js:24
+143adb33e3e0 238 LazyCompile:~InstallConstants native v8natives.js:33
+143adb33e680 3cc LazyCompile:~SetUpLockedPrototype native v8natives.js:45
+143adb33eac0 26c LazyCompile:~SetUpGlobal native v8natives.js:114
+143adb33eda0 22c LazyCompile:~hasOwnProperty native v8natives.js:141
+143adb33f040 10c LazyCompile:~IsAccessorDescriptor native v8natives.js:218
+143adb33f1c0 10c LazyCompile:~IsDataDescriptor native v8natives.js:222
+143adb33f340 124 LazyCompile:~IsGenericDescriptor native v8natives.js:226
+143adb33f4e0 ec LazyCompile:~IsInconsistentDescriptor native v8natives.js:230
+143adb33f640 844 LazyCompile:~ToPropertyDescriptor native v8natives.js:269
+143adb33ff00 1a4 LazyCompile:~PropertyDescriptor native v8natives.js:318
+143adb340120 2dc LazyCompile:~ConvertDescriptorArrayToDescriptor native v8natives.js:409
+143adb340460 1d2c LazyCompile:~DefineObjectProperty native v8natives.js:494
+143adb342200 204 LazyCompile:~DefineOwnProperty native v8natives.js:708
+143adb342480 4b8 LazyCompile:~defineProperty native v8natives.js:833
+143adb342a20 194 LazyCompile:~ObjectConstructor native v8natives.js:1023
+143adb342c20 604 LazyCompile:~SetUpObject native v8natives.js:1032
+143adb3432a0 15c LazyCompile:~BooleanConstructor native v8natives.js:1070
+143adb343460 244 LazyCompile:~SetUpBoolean native v8natives.js:1093
+143adb343720 17c LazyCompile:~NumberConstructor native v8natives.js:1104
+143adb343900 5dc LazyCompile:~SetUpNumber native v8natives.js:1212
+143adb343f40 1dc LazyCompile:~FunctionConstructor native v8natives.js:1330
+143adb344180 1dc LazyCompile:~SetUpFunction native v8natives.js:1339
+143adb3443c0 8c LazyCompile:~$Array.enumerable_ native v8natives.js:349
+143adb3444c0 74 LazyCompile:~$Array.enumerable_ native v8natives.js:356
+143adb3445a0 8c LazyCompile:~$Array.writable_ native v8natives.js:359
+143adb3446a0 74 LazyCompile:~$Array.writable_ native v8natives.js:363
+143adb344780 74 LazyCompile:~$Array.writable_ native v8natives.js:366
+143adb344860 8c LazyCompile:~$Array.configurable_ native v8natives.js:369
+143adb344960 74 LazyCompile:~$Array.configurable_ native v8natives.js:376
+143adb344a40 8c LazyCompile:~$Array.get_ native v8natives.js:379
+143adb344b40 74 LazyCompile:~$Array.get_ native v8natives.js:383
+143adb344c20 74 LazyCompile:~$Array.get_ native v8natives.js:386
+143adb344d00 8c LazyCompile:~$Array.set_ native v8natives.js:389
+143adb344e00 74 LazyCompile:~$Array.set_ native v8natives.js:393
+143adb344ee0 74 LazyCompile:~$Array.set_ native v8natives.js:396
+143adb344fc0 8c LazyCompile:~ native v8natives.js:399
+143adb3450c0 74 LazyCompile:~ native v8natives.js:403
+143adb3451a0 74 LazyCompile:~ native v8natives.js:406
+143adb345280 124 LazyCompile:~ native apinatives.js:1
+143adb345420 18c LazyCompile:~ native math.js:1
+143adb345620 5c LazyCompile:~MathConstructor native math.js:5
+143adb3456e0 804 LazyCompile:~SetUpMath native math.js:232
+143adb345f60 1ac LazyCompile:~ native regexp.js:1
+143adb346180 164 LazyCompile:~RegExpConstructor native regexp.js:46
+143adb346360 84 LazyCompile:~RegExpMakeCaptureGetter native regexp.js:255
+143adb346460 910 LazyCompile:~SetUpRegExp native regexp.js:279
+143adb346e60 32c LazyCompile:~ native date.js:1
+143adb347200 a74 LazyCompile:~DateConstructor native date.js:62
+143adb347ce0 8b4 LazyCompile:~SetUpDate native date.js:489
+143adb348600 16c LazyCompile:~ native collection-iterator.js:1
+143adb3487e0 7c LazyCompile:~SetIteratorConstructor native collection-iterator.js:3
+143adb3488c0 284 LazyCompile:~SetUpSetIterator native collection-iterator.js:44
+143adb348bc0 1cc LazyCompile:~ExtendSetPrototype native collection-iterator.js:57
+143adb348e00 7c LazyCompile:~MapIteratorConstructor native collection-iterator.js:67
+143adb348ee0 284 LazyCompile:~SetUpMapIterator native collection-iterator.js:115
+143adb3491e0 1cc LazyCompile:~ExtendMapPrototype native collection-iterator.js:128
+143adb349420 18c LazyCompile:~ native string-iterator.js:1
+143adb349620 244 LazyCompile:~SetUpStringIterator native string-iterator.js:46
+143adb3498e0 10c LazyCompile:~ExtendStringPrototypeWithIterator native string-iterator.js:61
+143adb349a60 e64 LazyCompile:~ native messages.js:1
+143adb34a940 700 LazyCompile:FormatString native messages.js:161
+143adb34b120 f4 LazyCompile:~MakeGenericError native messages.js:247
+143adb34b280 104 LazyCompile:~FormatMessage native messages.js:257
+143adb34b400 ac LazyCompile:~MakeRangeError native messages.js:281
+143adb34b520 1b4 LazyCompile:~SetUpError native messages.js:837
+143adb34b740 334 LazyCompile:~SetUpError.a native messages.js:838
+143adb34bb60 5c LazyCompile:~d native messages.js:844
+143adb34bc20 224 LazyCompile: native messages.js:854
+143adb34bc20 224 LazyCompile:Error native messages.js:854
+143adb34bc20 224 LazyCompile:TypeError native messages.js:854
+143adb34bc20 224 LazyCompile:RangeError native messages.js:854
+143adb34bc20 224 LazyCompile:SyntaxError native messages.js:854
+143adb34bc20 224 LazyCompile:ReferenceError native messages.js:854
+143adb34bc20 224 LazyCompile:EvalError native messages.js:854
+143adb34bc20 224 LazyCompile:URIError native messages.js:854
+143adb34bec0 11c LazyCompile:~SetUpStackOverflowBoilerplate native messages.js:927
+143adb34c040 ac LazyCompile:~ native messages.js:254
+143adb34c160 16c LazyCompile:~captureStackTrace native messages.js:831
+143adb34c340 2d4 LazyCompile:~ native runtime.js:1
+143adb34c680 aa8 LazyCompile:EQUALS native runtime.js:9
+143adb34d1a0 19c LazyCompile:STRICT_EQUALS native runtime.js:56
+143adb34d3a0 4dc LazyCompile:COMPARE native runtime.js:67
+143adb34d8e0 354 LazyCompile:ADD native runtime.js:99
+143adb34dca0 2bc LazyCompile:STRING_ADD_LEFT native runtime.js:112
+143adb34dfc0 2cc LazyCompile:STRING_ADD_RIGHT native runtime.js:124
+143adb34e300 154 LazyCompile:SUB native runtime.js:137
+143adb34e4c0 154 LazyCompile:MUL native runtime.js:142
+143adb34e680 154 LazyCompile:DIV native runtime.js:147
+143adb34e840 154 LazyCompile:MOD native runtime.js:152
+143adb34ea00 154 LazyCompile:BIT_OR native runtime.js:157
+143adb34ebc0 20c LazyCompile:BIT_AND native runtime.js:162
+143adb34ee40 154 LazyCompile:BIT_XOR native runtime.js:174
+143adb34f000 154 LazyCompile:SHL native runtime.js:179
+143adb34f1c0 20c LazyCompile:SAR native runtime.js:184
+143adb34f440 154 LazyCompile:SHR native runtime.js:196
+143adb34f600 e4 LazyCompile:DELETE native runtime.js:201
+143adb34f760 1ac LazyCompile:IN native runtime.js:204
+143adb34f980 2f4 LazyCompile:INSTANCE_OF native runtime.js:211
+143adb34fce0 d4 LazyCompile:FILTER_KEY native runtime.js:229
+143adb34fe20 18c LazyCompile:CALL_NON_FUNCTION native runtime.js:234
+143adb350020 18c LazyCompile:CALL_NON_FUNCTION_AS_CONSTRUCTOR native runtime.js:241
+143adb350220 f4 LazyCompile:CALL_FUNCTION_PROXY native runtime.js:248
+143adb350380 d4 LazyCompile:CALL_FUNCTION_PROXY_AS_CONSTRUCTOR native runtime.js:254
+143adb3504c0 51c LazyCompile:APPLY_PREPARE native runtime.js:259
+143adb350a40 cc LazyCompile:STACK_OVERFLOW native runtime.js:281
+143adb350b80 94 LazyCompile:TO_OBJECT native runtime.js:284
+143adb350c80 94 LazyCompile:TO_NUMBER native runtime.js:287
+143adb350d80 94 LazyCompile:TO_STRING native runtime.js:290
+143adb350e80 33c LazyCompile:ToPrimitive native runtime.js:293
+143adb351220 1f4 LazyCompile:~ToBoolean native runtime.js:300
+143adb351480 2cc LazyCompile:ToNumber native runtime.js:307
+143adb3517c0 294 LazyCompile:ToString native runtime.js:328
+143adb351ac0 cc LazyCompile:ToName native runtime.js:343
+143adb351c00 29c LazyCompile:ToObject native runtime.js:346
+143adb351f00 294 LazyCompile:~ native promise.js:1
+143adb352200 8e4 LazyCompile:~ native promise.js:18
+143adb352b60 114 LazyCompile:~ native arraybuffer.js:1
+143adb352ce0 16c LazyCompile:~ArrayBufferConstructor native arraybuffer.js:4
+143adb352ec0 334 LazyCompile:~SetUpArrayBuffer native arraybuffer.js:53
+143adb353260 11c LazyCompile:~ native array.js:1
+143adb3533e0 e44 LazyCompile:~SetUpArray native array.js:1105
+143adb3542a0 104 LazyCompile:~SetUpArray.c native array.js:1124
+143adb354420 3b4 LazyCompile:~ native symbol.js:1
+143adb354840 17c LazyCompile:~SymbolConstructor native symbol.js:4
+143adb354a20 ec LazyCompile:~InternalSymbol native symbol.js:25
+143adb354b80 3c4 LazyCompile:~SetUpSymbol native symbol.js:59
+143adb354fc0 10c LazyCompile:~ExtendObject native symbol.js:78
+143adb355140 84 LazyCompile:~ native fdlibm.js:1
+143adb355240 194 LazyCompile:~ native weak_collection.js:1
+143adb355440 5b8 LazyCompile:~WeakMapConstructor native weak_collection.js:5
+143adb355a60 294 LazyCompile:~SetUpWeakMap native weak_collection.js:78
+143adb355d60 4e0 LazyCompile:~WeakSetConstructor native weak_collection.js:92
+143adb3562a0 274 LazyCompile:~SetUpWeakSet native weak_collection.js:151
+143adb356b80 13 LazyCompile:ThrowTypeError
+143adb356580 13 LazyCompile:
+143adb356580 13 LazyCompile:
+143adb359fe0 18 LazyCompile:Array
+143adb356680 13 LazyCompile:pop
+143adb356600 13 LazyCompile:push
+143adb356900 13 LazyCompile:concat
+143adb356700 13 LazyCompile:shift
+143adb356780 13 LazyCompile:unshift
+143adb356800 13 LazyCompile:slice
+143adb356880 13 LazyCompile:splice
+143adb335d00 30c LazyCompile:~Int16Array native typedarray.js:494
+143adb359f60 14 LazyCompile:InternalArray
+143adb33c360 4e0 LazyCompile:~Set native collection.js:5
+143adb356580 13 LazyCompile:
+143adb336e80 30c LazyCompile:~Uint8ClampedArray native typedarray.js:1199
+143adb335280 30c LazyCompile:~Uint8Array native typedarray.js:71
+143adb356580 13 LazyCompile:JSON
+143adb335600 30c LazyCompile:~Int8Array native typedarray.js:212
+143adb352ce0 16c LazyCompile:~ArrayBuffer native arraybuffer.js:4
+143adb346180 164 LazyCompile:~RegExp native regexp.js:46
+143adb355d60 4e0 LazyCompile:~WeakSet native weak_collection.js:92
+143adb336400 30c LazyCompile:~Int32Array native typedarray.js:776
+143adb33a2c0 4ec LazyCompile:~DataView native typedarray.js:1534
+143adb332960 1c4 LazyCompile:~String native string.js:2
+143adb33cc40 5b8 LazyCompile:~Map native collection.js:96
+143adb343f40 1dc LazyCompile:~Function native v8natives.js:1330
+143adb347200 a74 LazyCompile:~Date native date.js:62
+143adb343720 17c LazyCompile:~Number native v8natives.js:1104
+143adb335980 30c LazyCompile:~Uint16Array native typedarray.js:353
+143adb336080 30c LazyCompile:~Uint32Array native typedarray.js:635
+143adb355440 5b8 LazyCompile:~WeakMap native weak_collection.js:5
+143adb3432a0 15c LazyCompile:~Boolean native v8natives.js:1070
+143adb336780 30c LazyCompile:~Float32Array native typedarray.js:917
+143adb336b00 30c LazyCompile:~Float64Array native typedarray.js:1058
+143adb354840 17c LazyCompile:~Symbol native symbol.js:4
+143adb356580 13 LazyCompile:
+143adb356580 13 LazyCompile:OpaqueReference
+143adb3487e0 7c LazyCompile:~SetIterator native collection-iterator.js:3
+143adb34c040 ac LazyCompile:~Script native messages.js:254
+143adb348e00 7c LazyCompile:~MapIterator native collection-iterator.js:67
+143adb359f60 14 LazyCompile:InternalPackedArray
+143adb342a20 194 LazyCompile:~Object native v8natives.js:1023
+143adb359ba0 16c LazyCompile:call
+143adb359d80 172 LazyCompile:apply
+143adb356580 13 LazyCompile:Arguments
+143adb356a80 13 LazyCompile:
+143adb356b00 13 LazyCompile:
+143adb356580 13 LazyCompile:
+143adb306060 1d6 Stub:ArraySingleArgumentConstructorStub
+143adb3062a0 1d7 Stub:CEntryStub
+143adb3064e0 a8 Stub:BinaryOpICStub
+143adb306600 64 Handler:An IC handler from the snapshot
+143adb3066e0 a2e Stub:RecordWriteStub
+143adb307180 124 Stub:StoreBufferOverflowStub
+143adb307320 35 Stub:BinaryOpICStub
+143adb3073c0 127 Stub:CEntryStub
+143adb307560 196 Stub:BinaryOpICStub
+143adb307760 14a Stub:BinaryOpICStub
+143adb307920 35 Stub:BinaryOpICStub
+143adb3079c0 8a Stub:CallFunctionStub
+143adb307ac0 fb Builtin:A builtin from the snapshot
+143adb307c20 dc Stub:BinaryOpICStub
+143adb307d60 56 Stub:DoubleToIStub
+143adb307e20 6c Stub:BinaryOpICStub
+143adb307f00 140 CallIC:A call IC from the snapshot
+143adb3080a0 dc Stub:BinaryOpICStub
+143adb3081e0 58 Stub:DoubleToIStub
+143adb3082a0 18 Handler:An IC handler from the snapshot
+143adb308320 17a Stub:BinaryOpICStub
+143adb308500 1b6 Stub:BinaryOpICStub
+143adb308720 5c Stub:BinaryOpICStub
+143adb3087e0 f Stub:BinaryOpICWithAllocationSiteStub
+143adb308860 421 Stub:BinaryOpWithAllocationSiteStub
+143adb308d00 dc Stub:BinaryOpICStub
+143adb308e40 14a Stub:BinaryOpICStub
+143adb309000 1e2 Stub:CreateAllocationSiteStub
+143adb309260 a43 Stub:RecordWriteStub
+143adb309d20 a18 Stub:RecordWriteStub
+143adb30a7a0 fc Stub:BinaryOpICStub
+143adb30a900 192 Stub:BinaryOpICStub
+143adb30ab00 69a Stub:RecordWriteStub
+143adb30b200 48 Stub:StoreBufferOverflowStub
+143adb30b2c0 fc Stub:BinaryOpICStub
+143adb30b420 fe Stub:StoreArrayLiteralElementStub
+143adb30b580 6bb Stub:RecordWriteStub
+143adb30bca0 14a Stub:BinaryOpICStub
+143adb30be60 e4 Stub:BinaryOpICStub
+143adb30bfc0 196 Stub:BinaryOpICStub
+143adb30c1c0 64 Handler:An IC handler from the snapshot
+143adb30c2a0 60 Stub:CompareICStub
+143adb30c360 4c Stub:CompareNilICStub
+143adb30c420 5c Stub:BinaryOpICStub
+143adb30c4e0 13c Stub:BinaryOpICStub
+143adb30c680 16e Stub:BinaryOpICStub
+143adb30c860 1e6 Stub:ArrayNArgumentsConstructorStub
+143adb30cac0 a18 Stub:RecordWriteStub
+143adb30d540 64 Handler:An IC handler from the snapshot
+143adb30d620 35 Stub:BinaryOpICStub
+143adb30d6c0 17a Stub:InternalArrayNArgumentsConstructorStub
+143adb30d8a0 35 Stub:BinaryOpICStub
+143adb30d940 13a CallIC:A call IC from the snapshot
+143adb30dae0 18 Handler:An IC handler from the snapshot
+143adb30db60 35 Stub:BinaryOpICStub
+143adb30dc00 18 Handler:An IC handler from the snapshot
+143adb30dc80 6be Stub:RecordWriteStub
+143adb30e3a0 8c Stub:LoadElementStub
+143adb30e4a0 dc Stub:BinaryOpICStub
+143adb30e5e0 134 CallIC:A call IC from the snapshot
+143adb30e780 1c6 Stub:InternalArraySingleArgumentConstructorStub
+143adb30e9c0 dc Stub:BinaryOpICStub
+143adb30eb00 168 Stub:BinaryOpICStub
+143adb30ece0 1b6 Stub:BinaryOpICStub
+143adb30ef00 140 CallIC:A call IC from the snapshot
+143adb30f0a0 123 CallIC:A call IC from the snapshot
+143adb30f240 93 Stub:ArrayConstructorStub
+143adb30f340 1d2 Stub:ArrayNArgumentsConstructorStub
+143adb30f580 1d6 Stub:ArrayNArgumentsConstructorStub
+143adb30f7c0 1d6 Stub:ArrayNArgumentsConstructorStub
+143adb30fa00 18a Stub:ArrayNArgumentsConstructorStub
+143adb30fc00 18a Stub:ArrayNArgumentsConstructorStub
+143adb30fe00 1aa Stub:ArrayNArgumentsConstructorStub
+143adb310020 5c Stub:BinaryOpICStub
+143adb3100e0 13c Stub:BinaryOpICStub
+143adb310280 a0 Stub:BinaryOpICStub
+143adb310380 dc Stub:BinaryOpICStub
+143adb3104c0 108 Stub:BinaryOpICStub
+143adb310640 ec Stub:BinaryOpICStub
+143adb3107a0 18 Handler:An IC handler from the snapshot
+143adb310820 14a Stub:BinaryOpICStub
+143adb3109e0 14a Stub:BinaryOpICStub
+143adb310ba0 4a Stub:CompareICStub
+143adb310c60 10 Handler:An IC handler from the snapshot
+143adb310ce0 dc Stub:BinaryOpICStub
+143adb310e20 176 Stub:BinaryOpICStub
+143adb311000 c0 Stub:BinaryOpICStub
+143adb311120 1a2 Stub:BinaryOpICStub
+143adb311340 a8 Stub:BinaryOpICStub
+143adb311460 16a Stub:BinaryOpICStub
+143adb311640 b0 Stub:BinaryOpICStub
+143adb311760 64 Handler:An IC handler from the snapshot
+143adb311840 17a Stub:BinaryOpICStub
+143adb311a20 35 Stub:BinaryOpICStub
+143adb311ac0 35 Stub:BinaryOpICStub
+143adb311b60 14a Stub:BinaryOpICStub
+143adb311d20 11d CallIC:A call IC from the snapshot
+143adb311ea0 13a CallIC:A call IC from the snapshot
+143adb312040 35 Stub:BinaryOpICStub
+143adb3120e0 35 Stub:BinaryOpICStub
+143adb312180 18 Handler:An IC handler from the snapshot
+143adb312200 35 Stub:BinaryOpICStub
+143adb3122a0 12e Stub:BinaryOpICStub
+143adb312440 a8 Stub:BinaryOpICStub
+143adb312560 64 Handler:An IC handler from the snapshot
+143adb312640 192 Stub:BinaryOpICStub
+143adb312840 64 Stub:BinaryOpICStub
+143adb312920 35 Stub:BinaryOpICStub
+143adb3129c0 dc Stub:BinaryOpICStub
+143adb312b00 56 Stub:DoubleToIStub
+143adb312bc0 10 Handler:An IC handler from the snapshot
+143adb312c40 18a Stub:BinaryOpICStub
+143adb312e40 dc Stub:BinaryOpICStub
+143adb312f80 1c6 Stub:InternalArraySingleArgumentConstructorStub
+143adb3131c0 dc Stub:BinaryOpICStub
+143adb313300 18 Handler:An IC handler from the snapshot
+143adb313380 6ac Stub:RecordWriteStub
+143adb313aa0 12e Stub:BinaryOpICStub
+143adb313c40 26 Handler:An IC handler from the snapshot
+143adb313ce0 18 Builtin:A builtin from the snapshot
+143adb313d60 164 Stub:BinaryOpICStub
+143adb313f40 6c Stub:BinaryOpICStub
+143adb314020 1a2 Stub:BinaryOpICStub
+143adb314240 11d CallIC:A call IC from the snapshot
+143adb3143c0 119 Stub:JSEntryStub
+143adb314540 123 CallIC:A call IC from the snapshot
+143adb3146e0 64 Handler:An IC handler from the snapshot
+143adb3147c0 2bc Stub:RecordWriteStub
+143adb314ae0 14e Stub:InternalArrayNoArgumentConstructorStub
+143adb314ca0 35 Stub:BinaryOpICStub
+143adb314d40 200 Stub:MathPowStub
+143adb314fa0 7c Stub:BinaryOpICStub
+143adb315080 68 Stub:ArgumentsAccessStub
+143adb315160 18a Stub:BinaryOpICStub
+143adb315360 35 Stub:BinaryOpICStub
+143adb315400 dc Stub:BinaryOpICStub
+143adb315540 16e Stub:BinaryOpICStub
+143adb315720 13a CallIC:A call IC from the snapshot
+143adb3158c0 f Stub:BinaryOpICWithAllocationSiteStub
+143adb315940 4d0 Stub:BinaryOpWithAllocationSiteStub
+143adb315e80 5c Stub:DoubleToIStub
+143adb315f40 162 Stub:ArrayNoArgumentConstructorStub
+143adb316120 12e Stub:BinaryOpICStub
+143adb3162c0 5a0 Stub:FastCloneShallowArrayStub
+143adb3168c0 192 Stub:BinaryOpICStub
+143adb316ac0 172 Stub:BinaryOpICStub
+143adb316ca0 10 Handler:An IC handler from the snapshot
+143adb316d20 140 CallIC:A call IC from the snapshot
+143adb316ec0 35 Stub:BinaryOpICStub
+143adb316f60 13c Stub:BinaryOpICStub
+143adb317100 13a CallIC:A call IC from the snapshot
+143adb3172a0 18a Stub:BinaryOpICStub
+143adb3174a0 18 Handler:An IC handler from the snapshot
+143adb317520 1de Stub:ArraySingleArgumentConstructorStub
+143adb317760 11d CallIC:A call IC from the snapshot
+143adb3178e0 64 Handler:An IC handler from the snapshot
+143adb3179c0 dc Stub:BinaryOpICStub
+143adb317b00 140 CallIC:A call IC from the snapshot
+143adb317ca0 18 Handler:An IC handler from the snapshot
+143adb317d20 17a Stub:InternalArrayNArgumentsConstructorStub
+143adb317f00 5c Stub:CompareNilICStub
+143adb317fc0 6c Stub:BinaryOpICStub
+143adb3180a0 dc Stub:BinaryOpICStub
+143adb3181e0 1de Stub:ArraySingleArgumentConstructorStub
+143adb318420 18 Handler:An IC handler from the snapshot
+143adb3184a0 13c Stub:BinaryOpICStub
+143adb318640 10 Handler:An IC handler from the snapshot
+143adb3186c0 a0 Stub:BinaryOpICStub
+143adb3187c0 6c7 Stub:RecordWriteStub
+143adb318f00 a0 Stub:BinaryOpICStub
+143adb319000 4c Stub:CompareNilICStub
+143adb3190c0 a0 Stub:BinaryOpICStub
+143adb3191c0 dc Stub:BinaryOpICStub
+143adb319300 64 Stub:BinaryOpICStub
+143adb3193e0 4a Stub:CompareICStub
+143adb3194a0 123 CallIC:A call IC from the snapshot
+143adb319640 a0 Stub:BinaryOpICStub
+143adb319740 11d CallIC:A call IC from the snapshot
+143adb3198c0 10 Handler:An IC handler from the snapshot
+143adb319940 58 Stub:CompareICStub
+143adb319a00 18 Handler:An IC handler from the snapshot
+143adb319a80 64 Stub:BinaryOpICStub
+143adb319b60 35 Stub:BinaryOpICStub
+143adb319c00 166 Stub:BinaryOpICStub
+143adb319de0 166 Stub:BinaryOpICStub
+143adb319fc0 18a Stub:BinaryOpICStub
+143adb31a1c0 35 Stub:BinaryOpICStub
+143adb31a260 14a Stub:BinaryOpICStub
+143adb31a420 1ba Stub:BinaryOpICStub
+143adb31a640 1ba Stub:BinaryOpICStub
+143adb31a860 18 Handler:An IC handler from the snapshot
+143adb31a8e0 192 Stub:BinaryOpICStub
+143adb31aae0 dc Stub:BinaryOpICStub
+143adb31ac20 37f Stub:NameDictionaryLookupStub
+143adb31b000 1f3 Stub:CompareICStub
+143adb31b260 dc Stub:BinaryOpICStub
+143adb31b3a0 10 Handler:An IC handler from the snapshot
+143adb31b420 fe Stub:FastNewContextStub
+143adb31b580 14e Stub:InternalArrayNoArgumentConstructorStub
+143adb31b740 b0 Stub:BinaryOpICStub
+143adb31b860 64 Stub:BinaryOpICStub
+143adb31b940 16e Stub:BinaryOpICStub
+143adb31bb20 123 CallIC:A call IC from the snapshot
+143adb31bcc0 35 Stub:BinaryOpICStub
+143adb31bd60 f8 Stub:BinaryOpICStub
+143adb31bec0 18 Handler:An IC handler from the snapshot
+143adb31bf40 18e Stub:BinaryOpICStub
+143adb31c140 18a Stub:BinaryOpICStub
+143adb31c340 14 Handler:An IC handler from the snapshot
+143adb31c3c0 dc Stub:BinaryOpICStub
+143adb31c500 88 Stub:BinaryOpICStub
+143adb31c600 73 Stub:CompareICStub
+143adb31c6e0 dc Stub:BinaryOpICStub
+143adb31c820 35 Stub:BinaryOpICStub
+143adb31c8c0 137 Stub:CallApiGetterStub
+143adb31ca60 dc Stub:BinaryOpICStub
+143adb31cba0 dc Stub:BinaryOpICStub
+143adb31cce0 168 Stub:BinaryOpICStub
+143adb31cec0 368 Stub:NameDictionaryLookupStub
+143adb31d2a0 18 Handler:An IC handler from the snapshot
+143adb31d320 34 Stub:CompareNilICStub
+143adb31d3c0 ec Stub:BinaryOpICStub
+143adb31d520 4a Stub:CompareICStub
+143adb31d5e0 13c Stub:BinaryOpICStub
+143adb31d780 187 Stub:CallConstructStub
+143adb31d980 6a0 Stub:RecordWriteStub
+143adb31e080 64 Handler:An IC handler from the snapshot
+143adb31e160 dc Stub:BinaryOpICStub
+143adb31e2a0 5c Stub:BinaryOpICStub
+143adb31e360 a2 Stub:ToNumberStub
+143adb31e480 35 Stub:BinaryOpICStub
+143adb31e520 166 Stub:BinaryOpICStub
+143adb31e700 10 Handler:An IC handler from the snapshot
+143adb31e780 117 CallIC:A call IC from the snapshot
+143adb31e900 93 Stub:ArrayConstructorStub
+143adb31ea00 176 Stub:ArrayNoArgumentConstructorStub
+143adb31ebe0 18a Stub:ArrayNoArgumentConstructorStub
+143adb31ede0 14e Stub:ArrayNoArgumentConstructorStub
+143adb31efa0 14e Stub:ArrayNoArgumentConstructorStub
+143adb31f160 162 Stub:ArrayNoArgumentConstructorStub
+143adb31f340 14e Stub:ArrayNoArgumentConstructorStub
+143adb31f500 a0 Stub:BinaryOpICStub
+143adb31f600 dc Stub:BinaryOpICStub
+143adb31f740 1ca Stub:BinaryOpICStub
+143adb31f980 64 Stub:BinaryOpICStub
+143adb31fa60 64 Handler:An IC handler from the snapshot
+143adb31fb40 13c Stub:BinaryOpICStub
+143adb31fce0 35 Stub:BinaryOpICStub
+143adb31fd80 1b6 Stub:BinaryOpICStub
+143adb31ffa0 140 CallIC:A call IC from the snapshot
+143adb320140 14a Stub:BinaryOpICStub
+143adb320300 13a CallIC:A call IC from the snapshot
+143adb3204a0 84 Stub:BinaryOpICStub
+143adb3205a0 35 Stub:BinaryOpICStub
+143adb320640 10 Handler:An IC handler from the snapshot
+143adb3206c0 13c Stub:BinaryOpICStub
+143adb320860 5c Stub:BinaryOpICStub
+143adb320920 168 Stub:BinaryOpICStub
+143adb320b00 1ad CallIC:A call IC from the snapshot
+143adb320d20 e4 Stub:BinaryOpICStub
+143adb320e80 192 Stub:BinaryOpICStub
+143adb321080 14a Stub:BinaryOpICStub
+143adb321240 dc Stub:BinaryOpICStub
+143adb321380 108 Stub:BinaryOpICStub
+143adb321500 140 CallIC:A call IC from the snapshot
+143adb3216a0 1b6 Stub:BinaryOpICStub
+143adb3218c0 140 CallIC:A call IC from the snapshot
+143adb321a60 11d CallIC:A call IC from the snapshot
+143adb321be0 13a CallIC:A call IC from the snapshot
+143adb321d80 13c Stub:BinaryOpICStub
+143adb321f20 35 Stub:BinaryOpICStub
+143adb321fc0 6e Stub:InternalArrayConstructorStub
+143adb3220a0 c3 Stub:ArrayConstructorStub
+143adb3221e0 1ea Stub:ArraySingleArgumentConstructorStub
+143adb322440 1fe Stub:ArraySingleArgumentConstructorStub
+143adb3226a0 1d6 Stub:ArraySingleArgumentConstructorStub
+143adb3228e0 1d6 Stub:ArraySingleArgumentConstructorStub
+143adb322b20 1c6 Stub:ArraySingleArgumentConstructorStub
+143adb322d60 16e Stub:BinaryOpICStub
+143adb322f40 11d CallIC:A call IC from the snapshot
+143adb3230c0 164 Stub:BinaryOpICStub
+143adb3232a0 11c Stub:BinaryOpICStub
+143adb323420 123 CallIC:A call IC from the snapshot
+143adb3235c0 222 Stub:CompareICStub
+143adb323860 16e Stub:BinaryOpICStub
+143adb323a40 dc Stub:BinaryOpICStub
+143adb323b80 192 Stub:FastNewContextStub
+143adb323d80 64 Stub:BinaryOpICStub
+143adb323e60 35 Stub:BinaryOpICStub
+143adb323f00 35 Stub:BinaryOpICStub
+143adb323fa0 15 Stub:StubFailureTrampolineStub
+143adb324020 dc Stub:BinaryOpICStub
+143adb324160 140 CallIC:A call IC from the snapshot
+143adb324300 64 Handler:An IC handler from the snapshot
+143adb3243e0 7c Stub:BinaryOpICStub
+143adb3244c0 13a CallIC:A call IC from the snapshot
+143adb324660 140 CallIC:A call IC from the snapshot
+143adb324800 4a Stub:CompareICStub
+143adb3248c0 64 Handler:An IC handler from the snapshot
+143adb3249a0 35 Stub:BinaryOpICStub
+143adb324a40 27a Stub:FastNewClosureStub
+143adb324d20 a36 Stub:RecordWriteStub
+143adb3257c0 64 Handler:An IC handler from the snapshot
+143adb3258a0 6c Stub:BinaryOpICStub
+143adb325980 dc Stub:BinaryOpICStub
+143adb325ac0 16e Stub:BinaryOpICStub
+143adb325ca0 13c Stub:BinaryOpICStub
+143adb325e40 84 Stub:BinaryOpICStub
+143adb325f40 1a6 Stub:BinaryOpICStub
+143adb326160 3c1 Stub:StringAddStub
+143adb3265a0 18e Stub:BinaryOpICStub
+143adb3267a0 5c Stub:BinaryOpICStub
+143adb326860 35 Stub:BinaryOpICStub
+143adb326900 13a CallIC:A call IC from the snapshot
+143adb326aa0 35 Stub:BinaryOpICStub
+143adb326b40 12e Stub:BinaryOpICStub
+143adb326ce0 d0 Stub:BinaryOpICStub
+143adb326e20 6ad Stub:RecordWriteStub
+143adb327540 10 Handler:An IC handler from the snapshot
+143adb3275c0 5c Stub:BinaryOpICStub
+143adb327680 a0 Stub:BinaryOpICStub
+143adb327780 6a0 Stub:RecordWriteStub
+143adb327e80 18 Handler:An IC handler from the snapshot
+143adb327f00 14 Stub:StubFailureTrampolineStub
+143adb327f80 123 CallIC:A call IC from the snapshot
+143adb328120 f0 Stub:BinaryOpICStub
+143adb328280 f4 Stub:BinaryOpICStub
+143adb3283e0 50 Stub:ToBooleanStub
+143adb3284a0 176 Stub:BinaryOpICStub
+143adb328680 dc Stub:BinaryOpICStub
+143adb3287c0 119 Stub:JSEntryStub
+143adb328940 1ba Stub:BinaryOpICStub
+143adb328b60 164 Stub:BinaryOpICStub
+143adb328d40 73 Stub:CompareICStub
+143adb328e20 e4 Stub:BinaryOpICStub
+143adb328f80 1a7 CallIC:A call IC from the snapshot
+143adb3291a0 14a Stub:BinaryOpICStub
+143adb329360 64 Stub:BinaryOpICStub
+143adb329440 11d CallIC:A call IC from the snapshot
+143adb3295c0 dc Stub:BinaryOpICStub
+143adb329700 35 Stub:BinaryOpICStub
+143adb3297a0 13c Stub:BinaryOpICStub
+143adb329940 dc Stub:BinaryOpICStub
+143adb329a80 19a Stub:ArgumentsAccessStub
+143adb329c80 18 Handler:An IC handler from the snapshot
+143adb329d00 10 Handler:An IC handler from the snapshot
+143adb329d80 1ba Stub:BinaryOpICStub
+143adb329fa0 12c Stub:BinaryOpICStub
+143adb32a140 11d CallIC:A call IC from the snapshot
+143adb32a2c0 5c Stub:BinaryOpICStub
+143adb32a380 192 Stub:BinaryOpICStub
+143adb32a580 100 Stub:BinaryOpICStub
+143adb32a6e0 11d CallIC:A call IC from the snapshot
+143adb32a860 10 Handler:An IC handler from the snapshot
+143adb32a8e0 a0 Stub:BinaryOpICStub
+143adb32a9e0 18 Handler:An IC handler from the snapshot
+143adb32aa60 5c Stub:BinaryOpICStub
+143adb32ab20 35 Stub:BinaryOpICStub
+143adb32abc0 f4 Stub:BinaryOpICStub
+143adb32ad20 27a Stub:FastNewClosureStub
+143adb32b000 4a Stub:CompareICStub
+143adb32b0c0 7c Stub:BinaryOpICStub
+143adb32b1a0 123 CallIC:A call IC from the snapshot
+143adb32b340 6c Stub:BinaryOpICStub
+143adb32b420 36c Stub:NameDictionaryLookupStub
+143adb32b800 16e Stub:BinaryOpICStub
+143adb32b9e0 11d CallIC:A call IC from the snapshot
+143adb32bb60 1b6 Stub:BinaryOpICStub
+143adb32bd80 14a Stub:BinaryOpICStub
+143adb32bf40 dc Stub:BinaryOpICStub
+143adb32c080 19b Stub:BinaryOpICStub
+143adb32c280 5c Stub:ToBooleanStub
+143adb32c340 176 Stub:BinaryOpICStub
+143adb32c520 35 Stub:BinaryOpICStub
+143adb32c5c0 35 Stub:BinaryOpICStub
+143adb32c660 78 Stub:BinaryOpICStub
+143adb32c740 35 Stub:BinaryOpICStub
+143adb32c7e0 a8 Stub:BinaryOpICStub
+143adb32c900 1be Stub:ArrayNArgumentsConstructorStub
+143adb32cb20 18 Handler:An IC handler from the snapshot
+143adb32cba0 13a CallIC:A call IC from the snapshot
+143adb32cd40 1a2 Stub:FastNewContextStub
+143adb32cf60 12c Stub:BinaryOpICStub
+143adb32d100 c0 Stub:BinaryOpICStub
+143adb32d220 35 Stub:BinaryOpICStub
+143adb32d2c0 b0 Stub:BinaryOpICStub
+143adb32d3e0 dc Stub:BinaryOpICStub
+143adb32d520 1a3 Stub:NumberToStringStub
+143adb32d740 18 Handler:An IC handler from the snapshot
+143adb32d7c0 35 Stub:BinaryOpICStub
+143adb32d860 dc Stub:BinaryOpICStub
+143adb32d9a0 84 Stub:BinaryOpICStub
+143adb32daa0 35 Stub:BinaryOpICStub
+143adb32db40 b7 Stub:StringCompareStub
+143adb32dc60 60 Stub:CompareICStub
+143adb32dd20 14a Stub:BinaryOpICStub
+143adb32dee0 162 Stub:ArrayNoArgumentConstructorStub
+143adb32e0c0 6c Stub:BinaryOpICStub
+143adb32e1a0 8a Stub:CallFunctionStub
+143adb32e2a0 f4 Stub:BinaryOpICStub
+143adb32e400 f4 Stub:BinaryOpICStub
+143adb32e560 f8 Stub:BinaryOpICStub
+143adb32e6c0 17a Stub:BinaryOpICStub
+143adb32e8a0 13a CallIC:A call IC from the snapshot
+143adb32ea40 11d CallIC:A call IC from the snapshot
+143adb32ebc0 35 Stub:BinaryOpICStub
+143adb32ec60 13a CallIC:A call IC from the snapshot
+143adb32ee00 1ba Stub:BinaryOpICStub
+143adb32f020 6ca Stub:RecordWriteStub
+143adb32f760 dc Stub:BinaryOpICStub
+143adb32f8a0 34 Stub:ToBooleanStub
+143adb32f940 14a Stub:BinaryOpICStub
+143adb32fb00 12e Stub:BinaryOpICStub
+143adb32fca0 d0 Stub:BinaryOpICStub
+143adb32fde0 1a6 Stub:BinaryOpICStub
+143adb330000 18 Handler:An IC handler from the snapshot
+143adb330080 69a Stub:RecordWriteStub
+143adb330780 1b6 Stub:BinaryOpICStub
+143adb3309a0 64 Stub:BinaryOpICStub
+143adb330a80 123 CallIC:A call IC from the snapshot
+143adb330c20 164 Stub:BinaryOpICStub
+143adb330e00 d4 Stub:BinaryOpICStub
+143adb330f40 108 Stub:BinaryOpICStub
+143adb3310c0 dc Stub:BinaryOpICStub
+143adb331200 4a Stub:CompareICStub
+143adb3312c0 62 Stub:CallConstructStub
+143adb3313a0 14a Stub:BinaryOpICStub
+143adb331560 1db Stub:ArrayConstructorStub
+143adb3317a0 123 CallIC:A call IC from the snapshot
+143adb331940 10 Handler:An IC handler from the snapshot
+143adb3319c0 104 Stub:BinaryOpICStub
+143adb331b40 c0 Stub:BinaryOpICStub
+143adb331c60 a4 Stub:LoadElementStub
+143adb331d80 64 Stub:BinaryOpICStub
+143adb331e60 14e Stub:BinaryOpICStub
+143adb332020 19 StoreIC:A store IC from the snapshot
+143adb3320a0 19 StoreIC:A store IC from the snapshot
+143adb332120 18 LoadIC:A load IC from the snapshot
+143adb3321a0 19 StoreIC:A store IC from the snapshot
+143adb332220 19 StoreIC:A store IC from the snapshot
+143adb3322a0 18 LoadIC:A load IC from the snapshot
+143adb332320 18 LoadIC:A load IC from the snapshot
+143adb3323a0 18 LoadIC:A load IC from the snapshot
+143adb332420 13 Builtin:A builtin from the snapshot
+143adb3324a0 239 Builtin:A builtin from the snapshot
+143adb332ba0 11 Builtin:A builtin from the snapshot
+143adb332c20 11 Builtin:A builtin from the snapshot
+143adb332ca0 3b Builtin:A builtin from the snapshot
+143adb33b340 18 KeyedLoadIC:A keyed load IC from the snapshot
+143adb33b3c0 19 KeyedStoreIC:A keyed store IC from the snapshot
+143adb33b660 18 KeyedLoadIC:A keyed load IC from the snapshot
+143adb3429a0 19 KeyedStoreIC:A keyed store IC from the snapshot
+143adb346de0 f Stub:BinaryOpICWithAllocationSiteStub
+143adb34b0a0 f Stub:BinaryOpICWithAllocationSiteStub
+143adb34bae0 f Stub:BinaryOpICWithAllocationSiteStub
+143adb356580 13 Builtin:A builtin from the snapshot
+143adb356600 13 Builtin:A builtin from the snapshot
+143adb356680 13 Builtin:A builtin from the snapshot
+143adb356700 13 Builtin:A builtin from the snapshot
+143adb356780 13 Builtin:A builtin from the snapshot
+143adb356800 13 Builtin:A builtin from the snapshot
+143adb356880 13 Builtin:A builtin from the snapshot
+143adb356900 13 Builtin:A builtin from the snapshot
+143adb356980 18 Builtin:A builtin from the snapshot
+143adb356a00 18 Builtin:A builtin from the snapshot
+143adb356a80 13 Builtin:A builtin from the snapshot
+143adb356b00 13 Builtin:A builtin from the snapshot
+143adb356b80 13 Builtin:A builtin from the snapshot
+143adb356c00 13 Builtin:A builtin from the snapshot
+143adb356c80 57 Builtin:A builtin from the snapshot
+143adb356d40 1c6 Builtin:A builtin from the snapshot
+143adb356f80 67 Builtin:A builtin from the snapshot
+143adb357060 52 Builtin:A builtin from the snapshot
+143adb357120 47 Builtin:A builtin from the snapshot
+143adb3571e0 47 Builtin:A builtin from the snapshot
+143adb3572a0 71 Builtin:A builtin from the snapshot
+143adb357380 75 Builtin:A builtin from the snapshot
+143adb357460 71 Builtin:A builtin from the snapshot
+143adb357540 5d Builtin:A builtin from the snapshot
+143adb357600 5d Builtin:A builtin from the snapshot
+143adb3576c0 18 Builtin:A builtin from the snapshot
+143adb357740 19 Builtin:A builtin from the snapshot
+143adb3577c0 19 Builtin:A builtin from the snapshot
+143adb357840 23 LoadIC:A load IC from the snapshot
+143adb3578e0 39a KeyedLoadIC:A keyed load IC from the snapshot
+143adb357ce0 254 KeyedLoadIC:A keyed load IC from the snapshot
+143adb357fa0 5c KeyedLoadIC:A keyed load IC from the snapshot
+143adb358060 d3 KeyedLoadIC:A keyed load IC from the snapshot
+143adb3581a0 25 StoreIC:A store IC from the snapshot
+143adb358240 19 KeyedStoreIC:A keyed store IC from the snapshot
+143adb3582c0 ae3 KeyedStoreIC:A keyed store IC from the snapshot
+143adb358e20 19 KeyedStoreIC:A keyed store IC from the snapshot
+143adb358ea0 ae3 KeyedStoreIC:A keyed store IC from the snapshot
+143adb359a00 131 KeyedStoreIC:A keyed store IC from the snapshot
+143adb359ba0 16c Builtin:A builtin from the snapshot
+143adb359d80 172 Builtin:A builtin from the snapshot
+143adb359f60 14 Builtin:A builtin from the snapshot
+143adb359fe0 18 Builtin:A builtin from the snapshot
+143adb35a060 18e Builtin:A builtin from the snapshot
+143adb35a260 4f Builtin:A builtin from the snapshot
+143adb35a320 42 Builtin:A builtin from the snapshot
+143adb35a3e0 6a Builtin:A builtin from the snapshot
+143adb35a4c0 61 Builtin:A builtin from the snapshot
+143adb35a5a0 61 Builtin:A builtin from the snapshot
+143adb35a680 61 Builtin:A builtin from the snapshot
+143adb35a760 61 Builtin:A builtin from the snapshot
+143adb35a840 61 Builtin:A builtin from the snapshot
+143adb35a920 61 Builtin:A builtin from the snapshot
+143adb35aa00 61 Builtin:A builtin from the snapshot
+143adb35aae0 61 Builtin:A builtin from the snapshot
+143adb35abc0 61 Builtin:A builtin from the snapshot
+143adb35aca0 61 Builtin:A builtin from the snapshot
+143adb35ad80 61 Builtin:A builtin from the snapshot
+143adb35ae60 18 Handler:An IC handler from the snapshot
+143adb35aee0 18 Handler:An IC handler from the snapshot
+143adb35af60 19 Handler:An IC handler from the snapshot
+143adb35afe0 19 Handler:An IC handler from the snapshot
+143adb35b060 b6 Handler:An IC handler from the snapshot
+143adb35b180 fc Handler:An IC handler from the snapshot
+143adb35b2e0 54 Builtin:A builtin from the snapshot
+143adb35b3a0 50 Builtin:A builtin from the snapshot
+143adb35b460 74 Builtin:A builtin from the snapshot
+143adb35b540 78 Builtin:A builtin from the snapshot
+143adb35b620 52 CallIC:A call IC from the snapshot
+143adb35b6e0 52 LoadIC:A load IC from the snapshot
+143adb35b7a0 52 KeyedLoadIC:A keyed load IC from the snapshot
+143adb35b860 54 StoreIC:A store IC from the snapshot
+143adb35b920 54 KeyedStoreIC:A keyed store IC from the snapshot
+143adb35b9e0 50 Stub:<UninitializedMajorKey>Stub
+143adb35baa0 52 Builtin:A builtin from the snapshot
+143adb35bb60 1 Builtin:A builtin from the snapshot
+143adb35bbe0 29 Builtin:A builtin from the snapshot
+143adb332420 13 LazyCompile:Empty :1
+143adb332960 1c4 LazyCompile:~StringConstructor native string.js:2
+143adb332d40 71c LazyCompile:~SetUpString native string.js:620
+143adb333740 244 LazyCompile:~SetUpArrayIterator native array-iterator.js:56
+143adb333a00 1cc LazyCompile:~ExtendArrayPrototype native array-iterator.js:68
+143adb333c40 e34 LazyCompile:~ExtendTypedArrayPrototypes native array-iterator.js:78
+143adb334c60 12c LazyCompile:~SetUpJSON native json.js:193
+143adb335280 30c LazyCompile:~Uint8ArrayConstructor native typedarray.js:71
+143adb335600 30c LazyCompile:~Int8ArrayConstructor native typedarray.js:212
+143adb335980 30c LazyCompile:~Uint16ArrayConstructor native typedarray.js:353
+143adb335d00 30c LazyCompile:~Int16ArrayConstructor native typedarray.js:494
+143adb336080 30c LazyCompile:~Uint32ArrayConstructor native typedarray.js:635
+143adb336400 30c LazyCompile:~Int32ArrayConstructor native typedarray.js:776
+143adb336780 30c LazyCompile:~Float32ArrayConstructor native typedarray.js:917
+143adb336b00 30c LazyCompile:~Float64ArrayConstructor native typedarray.js:1058
+143adb336e80 30c LazyCompile:~Uint8ClampedArrayConstructor native typedarray.js:1199
+143adb337200 304c LazyCompile:~SetupTypedArrays native typedarray.js:1358
+143adb33a2c0 4ec LazyCompile:~DataViewConstructor native typedarray.js:1534
+143adb33a820 56c LazyCompile:~SetupDataView native typedarray.js:1794
+143adb33b000 b4 LazyCompile:~nullProtoObject native object-observe.js:66
+143adb33b120 94 LazyCompile:~TypeMapCreate native object-observe.js:69
+143adb33b220 b4 LazyCompile:~TypeMapAddType native object-observe.js:72
+143adb33b440 1a8 LazyCompile:~TypeMapCreateFromList native object-observe.js:78
+143adb33b6e0 2fc LazyCompile:~SetupObjectObserve native object-observe.js:476
+143adb33bca0 45c LazyCompile:~ native uri.js:3
+143adb33c360 4e0 LazyCompile:~SetConstructor native collection.js:5
+143adb33c8a0 33c LazyCompile:~SetUpSet native collection.js:80
+143adb33cc40 5b8 LazyCompile:~MapConstructor native collection.js:96
+143adb33d260 35c LazyCompile:~SetUpMap native collection.js:180
+143adb33de40 270 LazyCompile:~InstallFunctions native v8natives.js:4
+143adb33e120 d4 LazyCompile:~InstallGetter native v8natives.js:18
+143adb33e260 114 LazyCompile:~InstallGetterSetter native v8natives.js:24
+143adb33e3e0 238 LazyCompile:~InstallConstants native v8natives.js:33
+143adb33e680 3cc LazyCompile:~SetUpLockedPrototype native v8natives.js:45
+143adb33eac0 26c LazyCompile:~SetUpGlobal native v8natives.js:114
+143adb33eda0 22c LazyCompile:~hasOwnProperty native v8natives.js:141
+143adb33f040 10c LazyCompile:~IsAccessorDescriptor native v8natives.js:218
+143adb33f1c0 10c LazyCompile:~IsDataDescriptor native v8natives.js:222
+143adb33f340 124 LazyCompile:~IsGenericDescriptor native v8natives.js:226
+143adb33f4e0 ec LazyCompile:~IsInconsistentDescriptor native v8natives.js:230
+143adb33f640 844 LazyCompile:~ToPropertyDescriptor native v8natives.js:269
+143adb33ff00 1a4 LazyCompile:~PropertyDescriptor native v8natives.js:318
+143adb340120 2dc LazyCompile:~ConvertDescriptorArrayToDescriptor native v8natives.js:409
+143adb340460 1d2c LazyCompile:~DefineObjectProperty native v8natives.js:494
+143adb342200 204 LazyCompile:~DefineOwnProperty native v8natives.js:708
+143adb342480 4b8 LazyCompile:~defineProperty native v8natives.js:833
+143adb342a20 194 LazyCompile:~ObjectConstructor native v8natives.js:1023
+143adb342c20 604 LazyCompile:~SetUpObject native v8natives.js:1032
+143adb3432a0 15c LazyCompile:~BooleanConstructor native v8natives.js:1070
+143adb343460 244 LazyCompile:~SetUpBoolean native v8natives.js:1093
+143adb343720 17c LazyCompile:~NumberConstructor native v8natives.js:1104
+143adb343900 5dc LazyCompile:~SetUpNumber native v8natives.js:1212
+143adb343f40 1dc LazyCompile:~FunctionConstructor native v8natives.js:1330
+143adb344180 1dc LazyCompile:~SetUpFunction native v8natives.js:1339
+143adb3443c0 8c LazyCompile:~$Array.enumerable_ native v8natives.js:349
+143adb3444c0 74 LazyCompile:~$Array.enumerable_ native v8natives.js:356
+143adb3445a0 8c LazyCompile:~$Array.writable_ native v8natives.js:359
+143adb3446a0 74 LazyCompile:~$Array.writable_ native v8natives.js:363
+143adb344780 74 LazyCompile:~$Array.writable_ native v8natives.js:366
+143adb344860 8c LazyCompile:~$Array.configurable_ native v8natives.js:369
+143adb344960 74 LazyCompile:~$Array.configurable_ native v8natives.js:376
+143adb344a40 8c LazyCompile:~$Array.get_ native v8natives.js:379
+143adb344b40 74 LazyCompile:~$Array.get_ native v8natives.js:383
+143adb344c20 74 LazyCompile:~$Array.get_ native v8natives.js:386
+143adb344d00 8c LazyCompile:~$Array.set_ native v8natives.js:389
+143adb344e00 74 LazyCompile:~$Array.set_ native v8natives.js:393
+143adb344ee0 74 LazyCompile:~$Array.set_ native v8natives.js:396
+143adb344fc0 8c LazyCompile:~ native v8natives.js:399
+143adb3450c0 74 LazyCompile:~ native v8natives.js:403
+143adb3451a0 74 LazyCompile:~ native v8natives.js:406
+143adb345620 5c LazyCompile:~MathConstructor native math.js:5
+143adb3456e0 804 LazyCompile:~SetUpMath native math.js:232
+143adb346180 164 LazyCompile:~RegExpConstructor native regexp.js:46
+143adb346360 84 LazyCompile:~RegExpMakeCaptureGetter native regexp.js:255
+143adb346460 910 LazyCompile:~SetUpRegExp native regexp.js:279
+143adb347200 a74 LazyCompile:~DateConstructor native date.js:62
+143adb347ce0 8b4 LazyCompile:~SetUpDate native date.js:489
+143adb3487e0 7c LazyCompile:~SetIteratorConstructor native collection-iterator.js:3
+143adb3488c0 284 LazyCompile:~SetUpSetIterator native collection-iterator.js:44
+143adb348bc0 1cc LazyCompile:~ExtendSetPrototype native collection-iterator.js:57
+143adb348e00 7c LazyCompile:~MapIteratorConstructor native collection-iterator.js:67
+143adb348ee0 284 LazyCompile:~SetUpMapIterator native collection-iterator.js:115
+143adb3491e0 1cc LazyCompile:~ExtendMapPrototype native collection-iterator.js:128
+143adb349620 244 LazyCompile:~SetUpStringIterator native string-iterator.js:46
+143adb3498e0 10c LazyCompile:~ExtendStringPrototypeWithIterator native string-iterator.js:61
+143adb34a940 700 LazyCompile:FormatString native messages.js:161
+143adb34b120 f4 LazyCompile:~MakeGenericError native messages.js:247
+143adb34b280 104 LazyCompile:~FormatMessage native messages.js:257
+143adb34b400 ac LazyCompile:~MakeRangeError native messages.js:281
+143adb34b520 1b4 LazyCompile:~SetUpError native messages.js:837
+143adb34b740 334 LazyCompile:~SetUpError.a native messages.js:838
+143adb34bb60 5c LazyCompile:~d native messages.js:844
+143adb34bc20 224 LazyCompile: native messages.js:854
+143adb34bc20 224 LazyCompile:Error native messages.js:854
+143adb34bc20 224 LazyCompile:TypeError native messages.js:854
+143adb34bc20 224 LazyCompile:RangeError native messages.js:854
+143adb34bc20 224 LazyCompile:SyntaxError native messages.js:854
+143adb34bc20 224 LazyCompile:ReferenceError native messages.js:854
+143adb34bc20 224 LazyCompile:EvalError native messages.js:854
+143adb34bc20 224 LazyCompile:URIError native messages.js:854
+143adb34bec0 11c LazyCompile:~SetUpStackOverflowBoilerplate native messages.js:927
+143adb34c160 16c LazyCompile:~captureStackTrace native messages.js:831
+143adb34c680 aa8 LazyCompile:EQUALS native runtime.js:9
+143adb34d1a0 19c LazyCompile:STRICT_EQUALS native runtime.js:56
+143adb34d3a0 4dc LazyCompile:COMPARE native runtime.js:67
+143adb34d8e0 354 LazyCompile:ADD native runtime.js:99
+143adb34dca0 2bc LazyCompile:STRING_ADD_LEFT native runtime.js:112
+143adb34dfc0 2cc LazyCompile:STRING_ADD_RIGHT native runtime.js:124
+143adb34e300 154 LazyCompile:SUB native runtime.js:137
+143adb34e4c0 154 LazyCompile:MUL native runtime.js:142
+143adb34e680 154 LazyCompile:DIV native runtime.js:147
+143adb34e840 154 LazyCompile:MOD native runtime.js:152
+143adb34ea00 154 LazyCompile:BIT_OR native runtime.js:157
+143adb34ebc0 20c LazyCompile:BIT_AND native runtime.js:162
+143adb34ee40 154 LazyCompile:BIT_XOR native runtime.js:174
+143adb34f000 154 LazyCompile:SHL native runtime.js:179
+143adb34f1c0 20c LazyCompile:SAR native runtime.js:184
+143adb34f440 154 LazyCompile:SHR native runtime.js:196
+143adb34f600 e4 LazyCompile:DELETE native runtime.js:201
+143adb34f760 1ac LazyCompile:IN native runtime.js:204
+143adb34f980 2f4 LazyCompile:INSTANCE_OF native runtime.js:211
+143adb34fce0 d4 LazyCompile:FILTER_KEY native runtime.js:229
+143adb34fe20 18c LazyCompile:CALL_NON_FUNCTION native runtime.js:234
+143adb350020 18c LazyCompile:CALL_NON_FUNCTION_AS_CONSTRUCTOR native runtime.js:241
+143adb350220 f4 LazyCompile:CALL_FUNCTION_PROXY native runtime.js:248
+143adb350380 d4 LazyCompile:CALL_FUNCTION_PROXY_AS_CONSTRUCTOR native runtime.js:254
+143adb3504c0 51c LazyCompile:APPLY_PREPARE native runtime.js:259
+143adb350a40 cc LazyCompile:STACK_OVERFLOW native runtime.js:281
+143adb350b80 94 LazyCompile:TO_OBJECT native runtime.js:284
+143adb350c80 94 LazyCompile:TO_NUMBER native runtime.js:287
+143adb350d80 94 LazyCompile:TO_STRING native runtime.js:290
+143adb350e80 33c LazyCompile:ToPrimitive native runtime.js:293
+143adb351220 1f4 LazyCompile:~ToBoolean native runtime.js:300
+143adb351480 2cc LazyCompile:ToNumber native runtime.js:307
+143adb3517c0 294 LazyCompile:ToString native runtime.js:328
+143adb351ac0 cc LazyCompile:ToName native runtime.js:343
+143adb351c00 29c LazyCompile:ToObject native runtime.js:346
+143adb352200 8e4 LazyCompile:~ native promise.js:18
+143adb352ce0 16c LazyCompile:~ArrayBufferConstructor native arraybuffer.js:4
+143adb352ec0 334 LazyCompile:~SetUpArrayBuffer native arraybuffer.js:53
+143adb3533e0 e44 LazyCompile:~SetUpArray native array.js:1105
+143adb354840 17c LazyCompile:~SymbolConstructor native symbol.js:4
+143adb354a20 ec LazyCompile:~InternalSymbol native symbol.js:25
+143adb354b80 3c4 LazyCompile:~SetUpSymbol native symbol.js:59
+143adb354fc0 10c LazyCompile:~ExtendObject native symbol.js:78
+143adb355440 5b8 LazyCompile:~WeakMapConstructor native weak_collection.js:5
+143adb355a60 294 LazyCompile:~SetUpWeakMap native weak_collection.js:78
+143adb355d60 4e0 LazyCompile:~WeakSetConstructor native weak_collection.js:92
+143adb3562a0 274 LazyCompile:~SetUpWeakSet native weak_collection.js:151
+143adb356b80 13 LazyCompile:ThrowTypeError
+143adb356580 13 LazyCompile:
+143adb356580 13 LazyCompile:
+143adb359fe0 18 LazyCompile:Array
+143adb356680 13 LazyCompile:pop
+143adb356600 13 LazyCompile:push
+143adb356900 13 LazyCompile:concat
+143adb356700 13 LazyCompile:shift
+143adb356780 13 LazyCompile:unshift
+143adb356800 13 LazyCompile:slice
+143adb356880 13 LazyCompile:splice
+143adb335d00 30c LazyCompile:~Int16Array native typedarray.js:494
+143adb359f60 14 LazyCompile:InternalArray
+143adb33c360 4e0 LazyCompile:~Set native collection.js:5
+143adb356580 13 LazyCompile:
+143adb336e80 30c LazyCompile:~Uint8ClampedArray native typedarray.js:1199
+143adb335280 30c LazyCompile:~Uint8Array native typedarray.js:71
+143adb356580 13 LazyCompile:JSON
+143adb335600 30c LazyCompile:~Int8Array native typedarray.js:212
+143adb352ce0 16c LazyCompile:~ArrayBuffer native arraybuffer.js:4
+143adb346180 164 LazyCompile:~RegExp native regexp.js:46
+143adb355d60 4e0 LazyCompile:~WeakSet native weak_collection.js:92
+143adb336400 30c LazyCompile:~Int32Array native typedarray.js:776
+143adb33a2c0 4ec LazyCompile:~DataView native typedarray.js:1534
+143adb332960 1c4 LazyCompile:~String native string.js:2
+143adb33cc40 5b8 LazyCompile:~Map native collection.js:96
+143adb343f40 1dc LazyCompile:~Function native v8natives.js:1330
+143adb347200 a74 LazyCompile:~Date native date.js:62
+143adb343720 17c LazyCompile:~Number native v8natives.js:1104
+143adb335980 30c LazyCompile:~Uint16Array native typedarray.js:353
+143adb336080 30c LazyCompile:~Uint32Array native typedarray.js:635
+143adb355440 5b8 LazyCompile:~WeakMap native weak_collection.js:5
+143adb3432a0 15c LazyCompile:~Boolean native v8natives.js:1070
+143adb336780 30c LazyCompile:~Float32Array native typedarray.js:917
+143adb336b00 30c LazyCompile:~Float64Array native typedarray.js:1058
+143adb354840 17c LazyCompile:~Symbol native symbol.js:4
+143adb356580 13 LazyCompile:
+143adb356580 13 LazyCompile:OpaqueReference
+143adb3487e0 7c LazyCompile:~SetIterator native collection-iterator.js:3
+143adb34c040 ac LazyCompile:~Script native messages.js:254
+143adb348e00 7c LazyCompile:~MapIterator native collection-iterator.js:67
+143adb359f60 14 LazyCompile:InternalPackedArray
+143adb342a20 194 LazyCompile:~Object native v8natives.js:1023
+143adb359ba0 16c LazyCompile:call
+143adb359d80 172 LazyCompile:apply
+143adb356580 13 LazyCompile:Arguments
+143adb356a80 13 LazyCompile:
+143adb356b00 13 LazyCompile:
+143adb356580 13 LazyCompile:
+143adb349a60 1aa Stub:FastCloneShallowObjectStub
+143adb349c80 2cc LazyCompile:~Instantiate native apinatives.js:10
+143adb349fc0 55 Stub:CompareICStub
+143adb34a080 49c LazyCompile:InstantiateFunction native apinatives.js:31
+143adb34a580 4c Stub:ToBooleanStub(Smi)
+143adb34a640 44 Stub:ToBooleanStub(Undefined)
+143adb35bc80 9ec Stub:RecordWriteStub
+143adb35c6e0 5c Stub:DoubleToIStub
+143adb35c7a0 326 Stub:StoreElementStub
+143adb35cb40 22 KeyedStoreIC:
+143adb35cbe0 5a0 LazyCompile:ConfigureTemplateInstance native apinatives.js:63
+143adb35d1e0 25 KeyedLoadIC:
+143adb35d280 f Stub:InstantiateFunction
+143adb35d300 25 LoadIC:InstantiateFunction
+143adb35d3a0 f Stub:kApiFunctionCache
+143adb35d420 25 LoadIC:kApiFunctionCache
+143adb35d4c0 f Stub:ConfigureTemplateInstance
+143adb35d540 25 LoadIC:ConfigureTemplateInstance
+143adb35d5e0 152 Stub:FastNewContextStub
+143adb35d7a0 93c Function:~ node.js:27
+143adb35e140 b4 Script:~node.js
+143adb35e260 68 Stub:ToBooleanStub(Undefined,SpecObject)
+143adb35e340 a4 Stub:LoadElementStub
+143adb35e460 25 KeyedLoadIC:
+143adb35e500 f Stub:Instantiate
+143adb35e580 25 LoadIC:Instantiate
+143adb35e620 1aa Stub:CallICStub(args(2), METHOD, 
+143adb35e840 1ba Stub:FastCloneShallowObjectStub
+143adb35ea60 114c LazyCompile:~startup node.js:30
+143adb35fc20 2dc LazyCompile:~NativeModule.require node.js:755
+143adb35ff60 9c LazyCompile:~NativeModule.getCached node.js:779
+143adb360060 c4 LazyCompile:~NativeModule.exists node.js:783
+143adb3601a0 f Stub:ToName
+143adb360220 25 LoadIC:ToName
+143adb3602c0 f Stub:ToString
+143adb360340 25 LoadIC:ToString
+143adb3603e0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb360460 fc LazyCompile:~NativeModule node.js:745
+143adb3605c0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb360640 ac LazyCompile:~NativeModule.cache node.js:810
+143adb360760 204 LazyCompile:~NativeModule.compile node.js:800
+143adb3609e0 9c LazyCompile:~NativeModule.getSource node.js:787
+143adb360ae0 d4 LazyCompile:~NativeModule.wrap node.js:791
+143adb360c20 25 KeyedLoadIC:
+143adb360cc0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb360d40 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb360dc0 dc LazyCompile:~runInThisContext node.js:740
+143adb360f00 11a Stub:FastNewContextStub
+143adb361080 58c Function:~ events.js:1
+143adb361680 b4 Script:~events.js
+143adb3617a0 18 Stub:LoadConstantStub
+143adb361820 25 LoadIC:getCached
+143adb3618c0 14 Stub:LoadFieldStub
+143adb361940 25 LoadIC:_cache
+143adb3619e0 38 KeyedLoadIC:util
+143adb361a80 18 Stub:LoadConstantStub
+143adb361b00 25 LoadIC:exists
+143adb361ba0 14 Stub:LoadFieldStub
+143adb361c20 25 LoadIC:_source
+143adb361cc0 48a Stub:NameDictionaryLookupStub
+143adb3621c0 1d0 Stub:hasOwnProperty
+143adb362400 25 LoadIC:hasOwnProperty
+143adb3624a0 14 Stub:LoadFieldStub
+143adb362520 25 LoadIC:moduleLoadList
+143adb3625c0 18 Stub:LoadConstantStub
+143adb362640 2e Stub:push
+143adb3626e0 25 LoadIC:push
+143adb362780 d1 Stub:filename
+143adb3628c0 25 StoreIC:filename
+143adb362960 d1 Stub:id
+143adb362aa0 25 StoreIC:id
+143adb362b40 d1 Stub:exports
+143adb362c80 25 StoreIC:exports
+143adb362d20 d1 Stub:loaded
+143adb362e60 25 StoreIC:loaded
+143adb362f00 18 Stub:LoadConstantStub
+143adb362f80 2e Stub:cache
+143adb363020 25 LoadIC:cache
+143adb3630c0 25 LoadIC:_cache
+143adb363160 25 LoadIC:id
+143adb363200 2e Stub:compile
+143adb3632a0 25 LoadIC:compile
+143adb363340 18 Stub:LoadConstantStub
+143adb3633c0 25 LoadIC:getSource
+143adb363460 25 LoadIC:id
+143adb363500 25 LoadIC:_source
+143adb3635a0 38 KeyedLoadIC:util
+143adb363640 18 Stub:LoadConstantStub
+143adb3636c0 25 LoadIC:wrap
+143adb363760 25 LoadIC:wrapper
+143adb363800 25 LoadIC:wrapper
+143adb3638a0 25 LoadIC:filename
+143adb363940 25 StoreIC:filename
+143adb3639e0 306 Stub:FastNewContextStub
+143adb363d60 112c Function:~ util.js:1
+143adb364f00 b4 Script:~util.js
+143adb365020 2e Stub:runInThisContext
+143adb3650c0 25 LoadIC:runInThisContext
+143adb365160 25 LoadIC:exports
+143adb365200 25 LoadIC:require
+143adb3652a0 25 LoadIC:filename
+143adb365340 838 LazyCompile:~DoConstructRegExp native regexp.js:3
+143adb365be0 62c LazyCompile:~charAt native string.js:22
+143adb366280 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+143adb366340 10 Stub:LoadFieldStub
+143adb3663c0 25 LoadIC:length
+143adb366460 10e Stub:FastNewContextStub
+143adb3665e0 1bc LazyCompile:~exports.deprecate util.js:65
+143adb366800 9c LazyCompile:~isUndefined util.js:544
+143adb366900 23 Stub:global
+143adb3669a0 25 LoadIC:global
+143adb366a40 b3 Stub:process
+143adb366b60 25 LoadIC:process
+143adb366c00 25 StoreIC:loaded
+143adb366ca0 25 LoadIC:exports
+143adb366d40 1cc LazyCompile:~create native v8natives.js:824
+143adb366f80 42c LazyCompile:~defineProperties native v8natives.js:868
+143adb367420 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+143adb3674e0 4cc LazyCompile:~GetOwnEnumerablePropertyNames native v8natives.js:850
+143adb367a20 f Stub:PropertyDescriptor
+143adb367aa0 25 LoadIC:PropertyDescriptor
+143adb367b40 25 LoadIC:ToName
+143adb367be0 25 StoreIC:value_
+143adb367c80 25 StoreIC:hasValue_
+143adb367d20 f Stub:IsInconsistentDescriptor
+143adb367da0 25 LoadIC:IsInconsistentDescriptor
+143adb367e40 f Stub:IsAccessorDescriptor
+143adb367ec0 25 LoadIC:IsAccessorDescriptor
+143adb367f60 2e Stub:hasGetter
+143adb368000 25 LoadIC:hasGetter
+143adb3680a0 25 LoadIC:hasGetter_
+143adb368140 25 LoadIC:hasSetter_
+143adb3681e0 25 LoadIC:length
+143adb368280 f Stub:DefineObjectProperty
+143adb368300 25 LoadIC:DefineObjectProperty
+143adb3683a0 f Stub:ToObject
+143adb368420 25 LoadIC:ToObject
+143adb3684c0 f Stub:ConvertDescriptorArrayToDescriptor
+143adb368540 25 LoadIC:ConvertDescriptorArrayToDescriptor
+143adb3685e0 2e Stub:hasEnumerable
+143adb368680 25 LoadIC:hasEnumerable
+143adb368720 25 LoadIC:hasEnumerable_
+143adb3687c0 2e Stub:hasConfigurable
+143adb368860 25 LoadIC:hasConfigurable
+143adb368900 25 LoadIC:hasConfigurable_
+143adb3689a0 f Stub:IsDataDescriptor
+143adb368a20 25 LoadIC:IsDataDescriptor
+143adb368ac0 2e Stub:hasValue
+143adb368b60 25 LoadIC:hasValue
+143adb368c00 25 LoadIC:hasValue_
+143adb368ca0 25 LoadIC:hasWritable_
+143adb368d40 74 LazyCompile:~$Array.enumerable_ native v8natives.js:353
+143adb368e20 25 LoadIC:length
+143adb368ec0 1a4 LazyCompile:~__proto__ native v8natives.js:1017
+143adb3690e0 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+143adb3691a0 bc LazyCompile:~EventEmitter events.js:25
+143adb3692c0 10e Stub:InstanceofStub
+143adb369440 304 LazyCompile:~EventEmitter.init events.js:43
+143adb3697c0 114 LazyCompile:~getPrototypeOf native v8natives.js:719
+143adb369940 b4 LazyCompile:~startup.processFatal node.js:228
+143adb369a60 1fc LazyCompile:~startup.globalVariables node.js:170
+143adb369cc0 38 LoadPolymorphicIC:moduleLoadList
+143adb369d60 1f6 Stub:FastNewContextStub
+143adb369fc0 1864 Function:~ buffer.js:1
+143adb36b8a0 b4 Script:~buffer.js
+143adb36b9c0 17c LazyCompile:~createPool buffer.js:40
+143adb36bba0 67 Stub:process
+143adb36bc80 25 LoadIC:process
+143adb36bd20 21f Stub:CompareICStub
+143adb36bfa0 23 Stub:process
+143adb36c040 25 LoadIC:process
+143adb36c0e0 6b Stub:symbol(hash 32eb1ba4)
+143adb36c1c0 25 LoadIC:noDeprecation
+143adb36c260 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb36c2e0 25c LazyCompile:~startup.globalTimeouts node.js:180
+143adb36c5a0 d4 LazyCompile:~startup.globalConsole node.js:212
+143adb36c6e0 374 LazyCompile:~__defineGetter__ native v8natives.js:163
+143adb36cac0 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+143adb36cb80 b3 Stub:value_
+143adb36cca0 25 StoreIC:value_
+143adb36cd40 b3 Stub:hasValue_
+143adb36ce60 25 StoreIC:hasValue_
+143adb36cf00 b3 Stub:writable_
+143adb36d020 25 StoreIC:writable_
+143adb36d0c0 b3 Stub:hasWritable_
+143adb36d1e0 25 StoreIC:hasWritable_
+143adb36d280 b3 Stub:enumerable_
+143adb36d3a0 25 StoreIC:enumerable_
+143adb36d440 b3 Stub:hasEnumerable_
+143adb36d560 25 StoreIC:hasEnumerable_
+143adb36d600 b3 Stub:configurable_
+143adb36d720 25 StoreIC:configurable_
+143adb36d7c0 b3 Stub:hasConfigurable_
+143adb36d8e0 25 StoreIC:hasConfigurable_
+143adb36d980 b3 Stub:get_
+143adb36daa0 25 StoreIC:get_
+143adb36db40 b3 Stub:hasGetter_
+143adb36dc60 25 StoreIC:hasGetter_
+143adb36dd00 b3 Stub:set_
+143adb36de20 25 StoreIC:set_
+143adb36dec0 b3 Stub:hasSetter_
+143adb36dfe0 25 StoreIC:hasSetter_
+143adb36e080 25 StoreIC:get_
+143adb36e120 25 StoreIC:hasGetter_
+143adb36e1c0 25 StoreIC:enumerable_
+143adb36e260 25 StoreIC:hasEnumerable_
+143adb36e300 25 StoreIC:configurable_
+143adb36e3a0 25 StoreIC:hasConfigurable_
+143adb36e440 25 LoadIC:enumerable_
+143adb36e4e0 2e Stub:isConfigurable
+143adb36e580 25 LoadIC:isConfigurable
+143adb36e620 25 LoadIC:configurable_
+143adb36e6c0 2e Stub:hasWritable
+143adb36e760 25 LoadIC:hasWritable
+143adb36e800 f Stub:IsGenericDescriptor
+143adb36e880 25 LoadIC:IsGenericDescriptor
+143adb36e920 25 LoadIC:hasGetter
+143adb36e9c0 2e Stub:getGet
+143adb36ea60 25 LoadIC:getGet
+143adb36eb00 25 LoadIC:get_
+143adb36eba0 2e Stub:hasSetter
+143adb36ec40 25 LoadIC:hasSetter
+143adb36ece0 ec LazyCompile:~startup.processAssert node.js:260
+143adb36ee40 43c LazyCompile:~startup.processConfig node.js:266
+143adb36f2e0 44c LazyCompile:~split native string.js:399
+143adb36f7a0 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+143adb36f860 c1 Stub:CompareICStub
+143adb36f9a0 674 LazyCompile:~join native array.js:272
+143adb370080 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+143adb370140 1138 LazyCompile:Join native array.js:75
+143adb3712e0 1b4 LazyCompile:~UseSparseVariant native array.js:63
+143adb371500 e8 Stub:StoreElementStub
+143adb371660 22 KeyedStoreIC:
+143adb371700 fc LazyCompile:~ToUint32 native runtime.js:360
+143adb371860 f Stub:DoConstructRegExp
+143adb3718e0 25 LoadIC:DoConstructRegExp
+143adb371980 25 LoadIC:ToString
+143adb371a20 f Stub:StringCharAt
+143adb371aa0 25 LoadIC:StringCharAt
+143adb371b40 337 Stub:SubStringStub
+143adb371ee0 c14 LazyCompile:~replace native string.js:122
+143adb372b60 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+143adb372c20 21f Stub:CompareICStub
+143adb372ea0 4c Stub:CompareNilICStub(NullValue)(Null)
+143adb372f60 25 LoadIC:lastIndex
+143adb373000 25 LoadIC:global
+143adb3730a0 40 Stub:StoreFieldStub
+143adb373140 25 StoreIC:lastIndex
+143adb3731e0 f Stub:lastMatchInfoOverride
+143adb373260 25 LoadIC:lastMatchInfoOverride
+143adb373300 f Stub:lastMatchInfo
+143adb373380 25 LoadIC:lastMatchInfo
+143adb373420 21c LazyCompile:~parse native json.js:28
+143adb3736a0 5d4 LazyCompile:~Revive native json.js:4
+143adb373ce0 38 KeyedLoadIC:target_defaults
+143adb373d80 f Stub:ObjectHasOwnProperty
+143adb373e00 25 LoadIC:ObjectHasOwnProperty
+143adb373ea0 f Stub:Revive
+143adb373f20 25 LoadIC:Revive
+143adb373fc0 f4 LazyCompile:~ node.js:278
+143adb374120 21f Stub:CompareICStub
+143adb3743a0 25 LoadIC:length
+143adb374440 254 LazyCompile:NonStringToString native runtime.js:336
+143adb374700 e8 Stub:StoreElementStub
+143adb374860 22 KeyedStoreIC:
+143adb374900 f Stub:$String
+143adb374980 25 LoadIC:$String
+143adb374a20 f Stub:NonStringToString
+143adb374aa0 25 LoadIC:NonStringToString
+143adb374b40 162 Stub:FastNewContextStub
+143adb374d20 1aa Stub:CallICStub(args(3), METHOD, 
+143adb374f40 464 LazyCompile:~startup.processNextTick node.js:285
+143adb375420 1dc LazyCompile:~startup.processStdio node.js:497
+143adb375660 2e Stub:setGet
+143adb375700 25 LoadIC:setGet
+143adb3757a0 2e Stub:setEnumerable
+143adb375840 25 LoadIC:setEnumerable
+143adb3758e0 2e Stub:setConfigurable
+143adb375980 25 LoadIC:setConfigurable
+143adb375a20 f Stub:DefineOwnProperty
+143adb375aa0 25 LoadIC:DefineOwnProperty
+143adb375b40 2e Stub:isEnumerable
+143adb375be0 25 LoadIC:isEnumerable
+143adb375c80 fc LazyCompile:~startup.processKillAndExit node.js:592
+143adb375de0 254 LazyCompile:~startup.processSignalHandlers node.js:634
+143adb3760a0 25 KeyedLoadIC:
+143adb376140 10e Stub:CompareICStub
+143adb3762c0 2ac LazyCompile:~startup.processChannel node.js:687
+143adb3765e0 fe Stub:FastNewContextStub
+143adb376740 1a4 LazyCompile:~startup.processRawDebug node.js:710
+143adb376960 25 LoadIC:exports
+143adb376a00 2cc LazyCompile:~startup.resolveArgv0 node.js:719
+143adb376d40 38c LazyCompile:~indexOf native string.js:53
+143adb377140 5d Stub:CompareICStub
+143adb377200 10e Stub:CompareICStub
+143adb377380 68 Stub:ToBooleanStub(String)
+143adb377460 4b LoadPolymorphicIC:moduleLoadList
+143adb377520 e0c Function:~ path.js:1
+143adb3783a0 b4 Script:~path.js
+143adb3784c0 72 Stub:resolve
+143adb3785a0 ea StoreMegamorphic:0
+143adb378700 4b8 LazyCompile:~posix.resolve path.js:430
+143adb378c20 25 KeyedLoadIC:
+143adb378cc0 b4 LazyCompile:~isString util.js:534
+143adb378de0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb378e60 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb378ee0 25 LoadIC:isString
+143adb378f80 25 LoadIC:length
+143adb379020 25 LoadIC:length
+143adb3790c0 398 LazyCompile:~normalizeArray path.js:31
+143adb3794c0 25 LoadIC:length
+143adb379560 25 LoadIC:push
+143adb379600 25 LoadIC:length
+143adb3796a0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb379720 22 KeyedStoreIC:
+143adb3797c0 206 Stub:FastNewContextStub
+143adb379a40 d44 Function:~ module.js:1
+143adb37a800 b4 Script:~module.js
+143adb37a920 3f4 Function:~ vm.js:1
+143adb37ad80 b4 Script:~vm.js
+143adb37aea0 774 Function:~ assert.js:1
+143adb37b680 b4 Script:~assert.js
+143adb37b7a0 2e Stub:runInThisContext
+143adb37b840 25 LoadIC:runInThisContext
+143adb37b8e0 17c LazyCompile:~exports.inherits util.js:632
+143adb37bac0 f Stub:ObjectDefineProperties
+143adb37bb40 25 LoadIC:ObjectDefineProperties
+143adb37bbe0 f Stub:GetOwnEnumerablePropertyNames
+143adb37bc60 25 LoadIC:GetOwnEnumerablePropertyNames
+143adb37bd00 f Stub:InternalArray
+143adb37bd80 25 LoadIC:InternalArray
+143adb37be20 2e Stub:push
+143adb37bec0 25 LoadIC:push
+143adb37bf60 25 LoadIC:length
+143adb37c000 25 LoadIC:push
+143adb37c0a0 f Stub:ToPropertyDescriptor
+143adb37c120 25 LoadIC:ToPropertyDescriptor
+143adb37c1c0 38 KeyedLoadIC:constructor
+143adb37c260 25 LoadIC:setConfigurable
+143adb37c300 f Stub:ToBoolean
+143adb37c380 25 LoadIC:ToBoolean
+143adb37c420 25 LoadIC:configurable
+143adb37c4c0 2e Stub:setValue
+143adb37c560 25 LoadIC:setValue
+143adb37c600 25 LoadIC:value
+143adb37c6a0 25 StoreIC:writable_
+143adb37c740 25 StoreIC:hasWritable_
+143adb37c7e0 25 LoadIC:hasSetter
+143adb37c880 25 LoadIC:hasWritable
+143adb37c920 74 LazyCompile:~$Array.configurable_ native v8natives.js:373
+143adb37ca00 25 LoadIC:hasValue
+143adb37caa0 18 Stub:LoadConstantStub
+143adb37cb20 2e Stub:getValue
+143adb37cbc0 25 LoadIC:getValue
+143adb37cc60 25 LoadIC:value_
+143adb37cd00 3b2 Stub:FastNewContextStub
+143adb37d120 361c Function:~ fs.js:1
+143adb3807a0 b4 Script:~fs.js
+143adb3808c0 364 Function:~ stream.js:1
+143adb380ca0 b4 Script:~stream.js
+143adb380dc0 90 Stub:super_
+143adb380ec0 23 Stub:Object
+143adb380f60 25 LoadIC:Object
+143adb381000 25 LoadIC:create
+143adb3810a0 25 LoadIC:prototype
+143adb381140 25 StoreIC:value
+143adb3811e0 36 Stub:constructor
+143adb381280 25 StoreIC:constructor
+143adb381320 25 LoadIC:setEnumerable
+143adb3813c0 25 LoadIC:enumerable
+143adb381460 2e Stub:setWritable
+143adb381500 25 LoadIC:setWritable
+143adb3815a0 25 LoadIC:writable
+143adb381640 18 Stub:LoadConstantStub
+143adb3816c0 2e Stub:isWritable
+143adb381760 25 LoadIC:isWritable
+143adb381800 25 LoadIC:writable_
+143adb3818a0 2e Stub:prototype
+143adb381940 25 StoreIC:prototype
+143adb3819e0 27e Stub:FastNewContextStub
+143adb381cc0 c74 Function:~ _stream_readable.js:1
+143adb3829a0 b4 Script:~_stream_readable.js
+143adb382ac0 39c LazyCompile:~exports.debuglog util.js:98
+143adb382ec0 1a4 LazyCompile:~toUpperCase native string.js:520
+143adb3830e0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb383160 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3831e0 683 Stub:RecordWriteStub
+143adb3838e0 367 Stub:RegExpExecStub
+143adb383cc0 99c LazyCompile:~test native regexp.js:145
+143adb3846c0 389 RegExp:\bSTREAM\b
+143adb384ac0 38 LoadPolymorphicIC:prototype
+143adb384b60 2e Stub:prototype
+143adb384c00 38 StorePolymorphicIC:prototype
+143adb384ca0 22a Stub:FastNewContextStub
+143adb384f40 a94 Function:~ _stream_writable.js:1
+143adb385a40 b4 Script:~_stream_writable.js
+143adb385b60 4b LoadPolymorphicIC:prototype
+143adb385c20 2e Stub:prototype
+143adb385cc0 4b StorePolymorphicIC:prototype
+143adb385d80 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb385e00 23 Stub:global
+143adb385ea0 38 LoadPolymorphicIC:global
+143adb385f40 67 Stub:process
+143adb386020 25 LoadIC:process
+143adb3860c0 23 Stub:process
+143adb386160 38 LoadPolymorphicIC:process
+143adb386200 20d Stub:noDeprecation
+143adb386480 38 LoadPolymorphicIC:noDeprecation
+143adb386520 25 LoadIC:get
+143adb3865c0 25 LoadIC:setGet
+143adb386660 3f8 Function:~ _stream_duplex.js:1
+143adb386ac0 b4 Script:~_stream_duplex.js
+143adb386be0 5e LoadPolymorphicIC:prototype
+143adb386ca0 20c LazyCompile:~keys native v8natives.js:207
+143adb386f20 25 LoadIC:length
+143adb386fc0 25 LoadIC:prototype
+143adb387060 38 KeyedLoadIC:write
+143adb387100 25 LoadIC:prototype
+143adb3871a0 18 Stub:LoadConstantStub
+143adb387220 38 KeyedLoadIC:cork
+143adb3872c0 136 Stub:FastNewContextStub
+143adb387460 3dc Function:~ _stream_transform.js:1
+143adb3878a0 b4 Script:~_stream_transform.js
+143adb3879c0 1fc Function:~ _stream_passthrough.js:1
+143adb387c20 b4 Script:~_stream_passthrough.js
+143adb387d40 46c Function:~ smalloc.js:1
+143adb388220 b4 Script:~smalloc.js
+143adb388340 38 LoadPolymorphicIC:enumerable
+143adb3883e0 38 LoadPolymorphicIC:value
+143adb388480 25 StoreIC:hasValue_
+143adb388520 25 LoadIC:setWritable
+143adb3885c0 38 LoadPolymorphicIC:writable
+143adb388660 25 StoreIC:writable_
+143adb388700 25 StoreIC:hasWritable_
+143adb3887a0 25 LoadIC:hasGetter
+143adb388840 25 LoadIC:hasGetter_
+143adb3888e0 25 LoadIC:hasSetter
+143adb388980 25 LoadIC:hasSetter_
+143adb388a20 25 LoadIC:hasEnumerable
+143adb388ac0 25 LoadIC:hasEnumerable_
+143adb388b60 25 LoadIC:isEnumerable
+143adb388c00 25 LoadIC:enumerable_
+143adb388ca0 25 LoadIC:hasConfigurable
+143adb388d40 25 LoadIC:hasConfigurable_
+143adb388de0 25 LoadIC:hasValue
+143adb388e80 25 LoadIC:hasValue_
+143adb388f20 25 LoadIC:hasWritable
+143adb388fc0 25 LoadIC:hasWritable_
+143adb389060 25 LoadIC:isWritable
+143adb389100 25 LoadIC:writable_
+143adb3891a0 25 LoadIC:hasValue
+143adb389240 25 LoadIC:getValue
+143adb3892e0 25 LoadIC:value_
+143adb389380 9b Stub:value_
+143adb389480 25 StoreIC:value_
+143adb389520 b3 Stub:hasValue_
+143adb389640 25 StoreIC:hasValue_
+143adb3896e0 b3 Stub:writable_
+143adb389800 25 StoreIC:writable_
+143adb3898a0 b3 Stub:hasWritable_
+143adb3899c0 25 StoreIC:hasWritable_
+143adb389a60 b3 Stub:enumerable_
+143adb389b80 25 StoreIC:enumerable_
+143adb389c20 b3 Stub:hasEnumerable_
+143adb389d40 25 StoreIC:hasEnumerable_
+143adb389de0 b3 Stub:configurable_
+143adb389f00 25 StoreIC:configurable_
+143adb389fa0 b3 Stub:hasConfigurable_
+143adb38a0c0 25 StoreIC:hasConfigurable_
+143adb38a160 b3 Stub:get_
+143adb38a280 25 StoreIC:get_
+143adb38a320 b3 Stub:hasGetter_
+143adb38a440 25 StoreIC:hasGetter_
+143adb38a4e0 b3 Stub:set_
+143adb38a600 25 StoreIC:set_
+143adb38a6a0 b3 Stub:hasSetter_
+143adb38a7c0 25 StoreIC:hasSetter_
+143adb38a860 25 LoadIC:setEnumerable
+143adb38a900 25 StoreIC:enumerable_
+143adb38a9a0 25 StoreIC:hasEnumerable_
+143adb38aa40 25 LoadIC:setValue
+143adb38aae0 40 Stub:StoreFieldStub
+143adb38ab80 25 StoreIC:value_
+143adb38ac20 38 LoadPolymorphicIC:enumerable
+143adb38acc0 38 LoadPolymorphicIC:value
+143adb38ad60 38 LoadPolymorphicIC:writable
+143adb38ae00 580 LazyCompile:~forEach native array.js:863
+143adb38b3e0 12c LazyCompile:~ fs.js:186
+143adb38b580 25 LoadIC:defineProperty
+143adb38b620 38 KeyedLoadIC:R_OK
+143adb38b6c0 40 Stub:StoreFieldStub
+143adb38b760 25 StoreIC:value
+143adb38b800 4b LoadPolymorphicIC:enumerable
+143adb38b8c0 4b LoadPolymorphicIC:value
+143adb38b980 25 LoadIC:setConfigurable
+143adb38ba20 25 StoreIC:configurable_
+143adb38bac0 25 StoreIC:hasConfigurable_
+143adb38bb60 25 LoadIC:isConfigurable
+143adb38bc00 25 LoadIC:configurable_
+143adb38bca0 e9 LoadMegamorphic:0
+143adb38be00 29c LazyCompile:NonNumberToNumber native runtime.js:318
+143adb38c100 1c4 Stub:CompareICStub
+143adb38c340 f4 Stub:CompareICStub
+143adb38c4a0 53 Stub:toUpperCase
+143adb38c560 25 LoadIC:toUpperCase
+143adb38c600 23 Stub:RegExp
+143adb38c6a0 25 LoadIC:RegExp
+143adb38c740 2e Stub:test
+143adb38c7e0 25 LoadIC:test
+143adb38c880 25 LoadIC:lastIndex
+143adb38c920 25 LoadIC:global
+143adb38c9c0 25 LoadIC:source
+143adb38ca60 389 RegExp:\bMODULE\b
+143adb38ce60 25 StoreIC:lastIndex
+143adb38cf00 1aa Stub:CallICStub(args(5), METHOD, 
+143adb38d120 48c LazyCompile:~Module._initPaths module.js:506
+143adb38d620 25 LoadIC:length
+143adb38d6c0 53 Stub:split
+143adb38d780 25 LoadIC:split
+143adb38d820 25 LoadIC:length
+143adb38d8c0 25 LoadIC:length
+143adb38d960 2e Stub:pop
+143adb38da00 25 LoadIC:pop
+143adb38daa0 18 Stub:LoadConstantStub
+143adb38db20 2e Stub:join
+143adb38dbc0 25 LoadIC:join
+143adb38dc60 f Stub:Join
+143adb38dce0 25 LoadIC:Join
+143adb38dd80 f Stub:ConvertToString
+143adb38de00 25 LoadIC:ConvertToString
+143adb38dea0 f Stub:visited_arrays
+143adb38df20 25 LoadIC:visited_arrays
+143adb38dfc0 f Stub:UseSparseVariant
+143adb38e040 25 LoadIC:UseSparseVariant
+143adb38e0e0 25 LoadIC:length
+143adb38e180 25 LoadIC:length
+143adb38e220 2e Stub:length
+143adb38e2c0 25 StoreIC:length
+143adb38e360 134 LazyCompile:~Module.runMain module.js:499
+143adb38e500 59c LazyCompile:Module._load module.js:273
+143adb38eb00 44 Stub:ToBooleanStub(Null)
+143adb38ebc0 304 LazyCompile:~Module._resolveFilename module.js:321
+143adb38ef40 8b4 LazyCompile:~Module._resolveLookupPaths module.js:222
+143adb38f860 3ec LazyCompile:~substring native string.js:462
+143adb38fcc0 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+143adb38fd80 9e8 LazyCompile:~stringify native json.js:147
+143adb3907e0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb390860 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3908e0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb390960 74 LazyCompile:~debugs.(anonymous function) util.js:110
+143adb390a40 5a0 LazyCompile:~Module._findPath module.js:153
+143adb391040 464 LazyCompile:~slice native string.js:365
+143adb391520 5d Stub:CompareICStub
+143adb3915e0 15c LazyCompile:~tryFile module.js:132
+143adb3917a0 12c LazyCompile:statPath module.js:84
+143adb391940 10c LazyCompile:~fs.statSync fs.js:795
+143adb391ac0 21c LazyCompile:~nullCheck fs.js:105
+143adb391d40 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb391dc0 7c LazyCompile:~posix._makeLong path.js:531
+143adb391ea0 29c LazyCompile:~fs.Stats fs.js:119
+143adb3921a0 c4 LazyCompile:~fs.Stats.isDirectory fs.js:157
+143adb3922e0 dc LazyCompile:~fs.Stats._checkModeProperty fs.js:153
+143adb392420 b20 LazyCompile:~realpathSync fs.js:1323
+143adb392fa0 27c LazyCompile:~start fs.js:1346
+143adb393280 1d2 Stub:RegExpConstructResultStub
+143adb3934c0 630 LazyCompile:~exec native regexp.js:98
+143adb393b60 2ee RegExp:^[\/]*
+143adb393ec0 25 KeyedLoadIC:
+143adb393f60 22 KeyedStoreIC:
+143adb394000 25 KeyedLoadIC:
+143adb3940a0 25 LoadIC:lastIndex
+143adb394140 25 LoadIC:global
+143adb3941e0 40e RegExp:(.*?)(?:[\/]+|$)
+143adb394660 4c Stub:StoreGlobalStub
+143adb394720 4c Stub:StoreGlobalStub
+143adb3947e0 25 StoreIC:lastMatchInfoOverride
+143adb394880 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb394900 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb394980 21f Stub:CompareICStub
+143adb394c00 10c LazyCompile:~fs.lstatSync fs.js:790
+143adb394d80 53 Stub:indexOf
+143adb394e40 25 LoadIC:indexOf
+143adb394ee0 a8 Stub:dev
+143adb395000 25 StoreIC:dev
+143adb3950a0 a8 Stub:mode
+143adb3951c0 25 StoreIC:mode
+143adb395260 a8 Stub:nlink
+143adb395380 25 StoreIC:nlink
+143adb395420 a8 Stub:uid
+143adb395540 25 StoreIC:uid
+143adb3955e0 a8 Stub:gid
+143adb395700 25 StoreIC:gid
+143adb3957a0 a8 Stub:rdev
+143adb3958c0 25 StoreIC:rdev
+143adb395960 a8 Stub:blksize
+143adb395a80 25 StoreIC:blksize
+143adb395b20 a8 Stub:ino
+143adb395c40 25 StoreIC:ino
+143adb395ce0 a8 Stub:size
+143adb395e00 25 StoreIC:size
+143adb395ea0 a8 Stub:blocks
+143adb395fc0 25 StoreIC:blocks
+143adb396060 23 Stub:Date
+143adb396100 25 LoadIC:Date
+143adb3961a0 e5 Stub:atime
+143adb396300 25 StoreIC:atime
+143adb3963a0 e5 Stub:mtime
+143adb396500 25 StoreIC:mtime
+143adb3965a0 e5 Stub:ctime
+143adb396700 25 StoreIC:ctime
+143adb3967a0 e5 Stub:birthtime
+143adb396900 25 StoreIC:birthtime
+143adb3969a0 c4 LazyCompile:~fs.Stats.isSymbolicLink fs.js:173
+143adb396ae0 25 LoadIC:mode
+143adb396b80 25 LoadIC:symbol(hash 38c6dc98)
+143adb396c20 25 LoadIC:length
+143adb396cc0 25 StoreIC:lastIndex
+143adb396d60 2e Stub:exec
+143adb396e00 25 LoadIC:exec
+143adb396ea0 25 LoadIC:length
+143adb396f40 25 StoreIC:lastIndex
+143adb396fe0 25 LoadIC:lastIndex
+143adb397080 25 LoadIC:prototype
+143adb397120 25 LoadIC:hasOwnProperty
+143adb3971c0 2e Stub:call
+143adb397260 25 LoadIC:call
+143adb397300 18 Stub:LoadConstantStub
+143adb397380 25 LoadIC:lstatSync
+143adb397420 38 LoadPolymorphicIC:indexOf
+143adb3974c0 18 Stub:LoadConstantStub
+143adb397540 25 LoadIC:lstat
+143adb3975e0 25 LoadIC:_makeLong
+143adb397680 2e Stub:isSymbolicLink
+143adb397720 25 LoadIC:isSymbolicLink
+143adb3977c0 2e Stub:_checkModeProperty
+143adb397860 25 LoadIC:_checkModeProperty
+143adb397900 1bc LazyCompile:~Module module.js:38
+143adb397b20 36c LazyCompile:~Module.load module.js:345
+143adb397f00 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb397f80 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb398000 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb398080 dc LazyCompile:~ok assert.js:105
+143adb3981c0 17c LazyCompile:~posix.dirname path.js:536
+143adb3983a0 e4 LazyCompile:~posixSplitPath path.js:423
+143adb398500 990 RegExp:^(\/?|)([\s\S]*?)((?:\.{1,2}|[^\/]+?|)(\.[^.\/]*|))(?:[\/]*)$
+143adb398f00 46c LazyCompile:~substr native string.js:488
+143adb3993e0 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+143adb3994a0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb399520 580 LazyCompile:~Module._nodeModulePaths module.js:200
+143adb399b00 71c LazyCompile:~StringSplitOnRegExp native string.js:416
+143adb39a280 cc LazyCompile:~DoRegExpExec native regexp.js:67
+143adb39a3c0 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+143adb39a480 22 KeyedStoreIC:
+143adb39a520 c2 Stub:CompareICStub
+143adb39a660 f Stub:DoRegExpExec
+143adb39a6e0 25 LoadIC:DoRegExpExec
+143adb39a780 25 LoadIC:length
+143adb39a820 25 LoadIC:length
+143adb39a8c0 70 Stub:CompareNilICStub(NullValue)(Null,MonomorphicMap)
+143adb39a9a0 70 Stub:CompareNilICStub(NullValue)(Null,MonomorphicMap)
+143adb39aa80 2e0 LazyCompile:~ArrayConcatJS native array.js:344
+143adb39adc0 25 LoadIC:length
+143adb39ae60 18 Stub:LoadConstantStub
+143adb39aee0 2e Stub:slice
+143adb39af80 25 LoadIC:slice
+143adb39b020 2e Stub:concat
+143adb39b0c0 25 LoadIC:concat
+143adb39b160 25 LoadIC:join
+143adb39b200 25 LoadIC:sep
+143adb39b2a0 25 LoadIC:push
+143adb39b340 ac LazyCompile:~posix.extname path.js:565
+143adb39b460 25 LoadIC:exec
+143adb39b500 25 LoadIC:slice
+143adb39b5a0 11c LazyCompile:~Module._extensions..js module.js:476
+143adb39b720 1aa Stub:CallICStub(args(4), METHOD, 
+143adb39b940 bb8 LazyCompile:fs.readFileSync fs.js:339
+143adb39c560 12c LazyCompile:~assertEncoding fs.js:99
+143adb39c700 364 LazyCompile:~Buffer.isEncoding buffer.js:173
+143adb39cae0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb39cb60 1a4 LazyCompile:~toLowerCase native string.js:512
+143adb39cd80 16c LazyCompile:~fs.openSync fs.js:497
+143adb39cf60 1a4 LazyCompile:~modeNum fs.js:472
+143adb39d180 ac LazyCompile:~isNumber util.js:529
+143adb39d2a0 77c LazyCompile:~stringToFlags fs.js:418
+143adb39da80 b4 LazyCompile:~fs.fstatSync fs.js:786
+143adb39dba0 31 Stub:CompareNilICStub(UndefinedValue)(None)
+143adb39dc40 d20 LazyCompile:~Buffer buffer.js:48
+143adb39e9c0 b4 LazyCompile:~isBuffer util.js:585
+143adb39eae0 122 Stub:FastNewContextStub
+143adb39ec80 3c4 LazyCompile:~fs.readSync fs.js:536
+143adb39f0c0 23 Stub:Buffer
+143adb39f160 25 LoadIC:Buffer
+143adb39f200 b4 LazyCompile:~fs.closeSync fs.js:468
+143adb39f320 870 LazyCompile:~Buffer.toString buffer.js:249
+143adb39fc00 f Stub:$NaN
+143adb39fc80 25 LoadIC:$NaN
+143adb39fd20 114 LazyCompile:~stripBOM module.js:464
+143adb39fea0 50c LazyCompile:~charCodeAt native string.js:30
+143adb3a0420 d90 LazyCompile:~Module._compile module.js:378
+143adb3a1220 31f RegExp:^\#\!.*
+143adb3a15a0 25 LoadIC:setGet
+143adb3a1640 25 StoreIC:get_
+143adb3a16e0 25 StoreIC:hasGetter_
+143adb3a1780 25 LoadIC:hasWritable
+143adb3a1820 25 LoadIC:hasGetter
+143adb3a18c0 25 LoadIC:getGet
+143adb3a1960 25 LoadIC:get_
+143adb3a1a00 25 LoadIC:hasSetter
+143adb3a1aa0 53 Stub:substr
+143adb3a1b60 25 LoadIC:substr
+143adb3a1c00 25 LoadIC:length
+143adb3a1ca0 25 LoadIC:length
+143adb3a1d40 25 LoadIC:length
+143adb3a1de0 dc LazyCompile:~exports.runInThisContext vm.js:72
+143adb3a1f20 29c Function:~ /SAQUIB/gitHub/urlParser/benchmark/url.js:1
+143adb3a2220 b4 Script:~/SAQUIB/gitHub/urlParser/benchmark/url.js
+143adb3a2340 b4 LazyCompile:~require module.js:383
+143adb3a2460 144 LazyCompile:~Module.require module.js:362
+143adb3a2620 7c Stub:ToBooleanStub(Bool,String)
+143adb3a2700 68 Stub:ToBooleanStub(Null,SpecObject)
+143adb3a27e0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3a2860 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3a28e0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3a2960 25 LoadIC:_resolveFilename
+143adb3a2a00 25 LoadIC:exists
+143adb3a2aa0 25 LoadIC:_resolveLookupPaths
+143adb3a2b40 25 LoadIC:exists
+143adb3a2be0 53 Stub:substring
+143adb3a2ca0 25 LoadIC:substring
+143adb3a2d40 25 LoadIC:length
+143adb3a2de0 1b4 LazyCompile:~posix.basename path.js:555
+143adb3a3000 34b RegExp:^index\.\w+?$
+143adb3a33c0 25 LoadIC:process
+143adb3a3460 25 LoadIC:symbol(hash 38c6dc98)
+143adb3a3500 38 LoadPolymorphicIC:length
+143adb3a35a0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3a3620 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3a36a0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3a3720 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3a37a0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3a3820 23 Stub:JSON
+143adb3a38c0 25 LoadIC:JSON
+143adb3a3960 25 LoadIC:stringify
+143adb3a3a00 25 LoadIC:stringify
+143adb3a3aa0 25 LoadIC:_findPath
+143adb3a3b40 25 LoadIC:keys
+143adb3a3be0 14 Stub:LoadFieldStub
+143adb3a3c60 25 LoadIC:_extensions
+143adb3a3d00 53 Stub:charAt
+143adb3a3dc0 25 LoadIC:charAt
+143adb3a3e60 53 Stub:slice
+143adb3a3f20 25 LoadIC:slice
+143adb3a3fc0 25 LoadIC:length
+143adb3a4060 25 LoadIC:stringify
+143adb3a4100 25 StoreIC:request
+143adb3a41a0 25 StoreIC:paths
+143adb3a4240 25 LoadIC:_pathCache
+143adb3a42e0 25 LoadIC:length
+143adb3a4380 25 LoadIC:resolve
+143adb3a4420 18 Stub:LoadConstantStub
+143adb3a44a0 25 LoadIC:statSync
+143adb3a4540 25 LoadIC:stat
+143adb3a45e0 25 LoadIC:_makeLong
+143adb3a4680 f Stub:captureStackTrace
+143adb3a4700 25 LoadIC:captureStackTrace
+143adb3a47a0 f Stub:ObjectDefineProperty
+143adb3a4820 25 LoadIC:ObjectDefineProperty
+143adb3a48c0 f Stub:StackTraceGetter
+143adb3a4940 25 LoadIC:StackTraceGetter
+143adb3a49e0 25 StoreIC:get
+143adb3a4a80 f Stub:StackTraceSetter
+143adb3a4b00 25 LoadIC:StackTraceSetter
+143adb3a4ba0 25 StoreIC:set
+143adb3a4c40 38 LoadPolymorphicIC:configurable
+143adb3a4ce0 38 LoadPolymorphicIC:get
+143adb3a4d80 25 LoadIC:set
+143adb3a4e20 2e Stub:setSet
+143adb3a4ec0 25 LoadIC:setSet
+143adb3a4f60 25 StoreIC:set_
+143adb3a5000 25 StoreIC:hasSetter_
+143adb3a50a0 25 LoadIC:setValue
+143adb3a5140 25 LoadIC:setWritable
+143adb3a51e0 25 LoadIC:setEnumerable
+143adb3a5280 25 LoadIC:setConfigurable
+143adb3a5320 25 LoadIC:isConfigurable
+143adb3a53c0 25 LoadIC:isEnumerable
+143adb3a5460 2e Stub:getSet
+143adb3a5500 25 LoadIC:getSet
+143adb3a55a0 25 LoadIC:set_
+143adb3a5640 70 Stub:ToBooleanStub(Bool,SpecObject)
+143adb3a5720 1c8 LazyCompile:~tryExtensions module.js:141
+143adb3a5960 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3a59e0 2e Stub:isDirectory
+143adb3a5a80 25 LoadIC:isDirectory
+143adb3a5b20 25 LoadIC:_checkModeProperty
+143adb3a5bc0 18 Stub:LoadConstantStub
+143adb3a5c40 25 LoadIC:realpathSync
+143adb3a5ce0 25 LoadIC:_realpathCache
+143adb3a5d80 25 LoadIC:resolve
+143adb3a5e20 25 LoadIC:hasOwnProperty
+143adb3a5ec0 25 LoadIC:call
+143adb3a5f60 25 LoadIC:exec
+143adb3a6000 25 LoadIC:length
+143adb3a60a0 25 LoadIC:_pathCache
+143adb3a6140 25 LoadIC:_cache
+143adb3a61e0 25 LoadIC:exists
+143adb3a6280 d1 Stub:id
+143adb3a63c0 25 StoreIC:id
+143adb3a6460 d1 Stub:exports
+143adb3a65a0 25 StoreIC:exports
+143adb3a6640 d1 Stub:parent
+143adb3a6780 25 StoreIC:parent
+143adb3a6820 d1 Stub:filename
+143adb3a6960 25 StoreIC:filename
+143adb3a6a00 d1 Stub:loaded
+143adb3a6b40 25 StoreIC:loaded
+143adb3a6be0 d1 Stub:children
+143adb3a6d20 25 StoreIC:children
+143adb3a6dc0 58 Stub:ToBooleanStub(Undefined,Bool)
+143adb3a6e80 25 LoadIC:_cache
+143adb3a6f20 2e Stub:load
+143adb3a6fc0 25 LoadIC:load
+143adb3a7060 25 LoadIC:stringify
+143adb3a7100 25 LoadIC:stringify
+143adb3a71a0 25 LoadIC:id
+143adb3a7240 25 LoadIC:loaded
+143adb3a72e0 25 StoreIC:filename
+143adb3a7380 25 LoadIC:_nodeModulePaths
+143adb3a7420 25 LoadIC:dirname
+143adb3a74c0 25 LoadIC:resolve
+143adb3a7560 25 LoadIC:split
+143adb3a7600 f Stub:StringSplitOnRegExp
+143adb3a7680 25 LoadIC:StringSplitOnRegExp
+143adb3a7720 25 LoadIC:length
+143adb3a77c0 25 LoadIC:length
+143adb3a7860 d1 Stub:paths
+143adb3a79a0 25 StoreIC:paths
+143adb3a7a40 25 LoadIC:extname
+143adb3a7ae0 25 LoadIC:_extensions
+143adb3a7b80 25 LoadIC:_extensions
+143adb3a7c20 25 LoadIC:readFileSync
+143adb3a7cc0 25 LoadIC:isString
+143adb3a7d60 25 StoreIC:encoding
+143adb3a7e00 25 LoadIC:encoding
+143adb3a7ea0 25 LoadIC:isEncoding
+143adb3a7f40 53 Stub:toLowerCase
+143adb3a8000 25 LoadIC:toLowerCase
+143adb3a80a0 25 LoadIC:flag
+143adb3a8140 25 LoadIC:openSync
+143adb3a81e0 25 LoadIC:isNumber
+143adb3a8280 25 LoadIC:open
+143adb3a8320 25 LoadIC:_makeLong
+143adb3a83c0 25 LoadIC:isString
+143adb3a8460 18 Stub:LoadConstantStub
+143adb3a84e0 25 LoadIC:fstatSync
+143adb3a8580 25 LoadIC:fstat
+143adb3a8620 25 LoadIC:size
+143adb3a86c0 25 LoadIC:isBuffer
+143adb3a8760 25 LoadIC:isNumber
+143adb3a8800 a8 Stub:length
+143adb3a8920 25 StoreIC:length
+143adb3a89c0 25 LoadIC:length
+143adb3a8a60 25 LoadIC:length
+143adb3a8b00 25 LoadIC:length
+143adb3a8ba0 40 Stub:StoreFieldStub
+143adb3a8c40 25 StoreIC:length
+143adb3a8ce0 f Stub:undefined
+143adb3a8d60 25 LoadIC:undefined
+143adb3a8e00 d1 Stub:parent
+143adb3a8f40 25 StoreIC:parent
+143adb3a8fe0 25 LoadIC:length
+143adb3a9080 25 LoadIC:poolSize
+143adb3a9120 25 LoadIC:isNumber
+143adb3a91c0 25 LoadIC:readSync
+143adb3a9260 25 LoadIC:isBuffer
+143adb3a9300 25 LoadIC:read
+143adb3a93a0 25 LoadIC:closeSync
+143adb3a9440 25 LoadIC:close
+143adb3a94e0 2e Stub:toString
+143adb3a9580 25 LoadIC:toString
+143adb3a9620 25 LoadIC:isUndefined
+143adb3a96c0 25 LoadIC:length
+143adb3a9760 25 LoadIC:length
+143adb3a9800 2e Stub:utf8Slice
+143adb3a98a0 25 LoadIC:utf8Slice
+143adb3a9940 2e Stub:_compile
+143adb3a99e0 25 LoadIC:_compile
+143adb3a9a80 53 Stub:charCodeAt
+143adb3a9b40 25 LoadIC:charCodeAt
+143adb3a9be0 53 Stub:replace
+143adb3a9ca0 25 LoadIC:replace
+143adb3a9d40 25 StoreIC:lastIndex
+143adb3a9de0 90 Stub:resolve
+143adb3a9ee0 25 LoadIC:defineProperty
+143adb3a9f80 25 StoreIC:get
+143adb3aa020 25 LoadIC:_extensions
+143adb3aa0c0 25 LoadIC:_cache
+143adb3aa160 25 LoadIC:dirname
+143adb3aa200 25 LoadIC:_contextLoad
+143adb3aa2a0 25 LoadIC:wrap
+143adb3aa340 25 StoreIC:filename
+143adb3aa3e0 e5c Function:~ /SAQUIB/gitHub/urlParser/lib/url.js:1
+143adb3ab2a0 b4 Script:~/SAQUIB/gitHub/urlParser/lib/url.js
+143adb3ab3c0 25 LoadIC:runInThisContext
+143adb3ab460 25 LoadIC:global
+143adb3ab500 b3 Stub:v8debug
+143adb3ab620 25 LoadIC:v8debug
+143adb3ab6c0 25 LoadIC:exports
+143adb3ab760 2e Stub:apply
+143adb3ab800 25 LoadIC:apply
+143adb3ab8a0 25 LoadIC:exports
+143adb3ab940 25 LoadIC:length
+143adb3ab9e0 2e Stub:require
+143adb3aba80 25 LoadIC:require
+143adb3abb20 25 LoadIC:isString
+143adb3abbc0 25 LoadIC:_load
+143adb3abc60 25 LoadIC:id
+143adb3abd00 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3abd80 28e Stub:FastNewContextStub
+143adb3ac080 1c2 Stub:FastCloneShallowObjectStub
+143adb3ac2c0 1290 Function:~ punycode.js:2
+143adb3ad5c0 dc Function:~ punycode.js:1
+143adb3ad700 b4 Script:~punycode.js
+143adb3ad820 7d Stub:CompareICStub
+143adb3ad900 7d Stub:CompareICStub
+143adb3ad9e0 25 LoadIC:require
+143adb3ada80 25 LoadIC:length
+143adb3adb20 1f4 LazyCompile:~tryPackage module.js:116
+143adb3add80 344 LazyCompile:readPackage module.js:94
+143adb3ae140 e4 LazyCompile:~hasOwnProperty module.js:33
+143adb3ae2a0 25 LoadIC:hasOwnProperty
+143adb3ae340 25 LoadIC:call
+143adb3ae3e0 25 LoadIC:resolve
+143adb3ae480 25 LoadIC:readFileSync
+143adb3ae520 25 LoadIC:length
+143adb3ae5c0 25 LoadIC:length
+143adb3ae660 25 LoadIC:length
+143adb3ae700 25 StoreIC:parent
+143adb3ae7a0 25 LoadIC:length
+143adb3ae840 25 LoadIC:children
+143adb3ae8e0 25 LoadIC:children
+143adb3ae980 25 LoadIC:push
+143adb3aea20 25 LoadIC:length
+143adb3aeac0 38 LoadPolymorphicIC:charCodeAt
+143adb3aeb60 38 LoadPolymorphicIC:replace
+143adb3aec00 334 RegExp:^\#\!.*
+143adb3aefa0 55c Function:~ /SAQUIB/gitHub/urlParser/node_modules/bindings/bindings.js:1
+143adb3af560 b4 Script:~/SAQUIB/gitHub/urlParser/node_modules/bindings/bindings.js
+143adb3af680 38 LoadPolymorphicIC:apply
+143adb3af720 8d0 LazyCompile:bindings /SAQUIB/gitHub/urlParser/node_modules/bindings/bindings.js:43
+143adb3b0060 254 LazyCompile:~getFileName /SAQUIB/gitHub/urlParser/node_modules/bindings/bindings.js:102
+143adb3b0320 230 LazyCompile:~StackTraceGetter native messages.js:809
+143adb3b05c0 6e8 LazyCompile:FormatStackTrace native messages.js:760
+143adb3b0d20 340 LazyCompile:~GetStackFrames native messages.js:745
+143adb3b10c0 e4 LazyCompile:~CallSite native messages.js:506
+143adb3b1220 25 LoadIC:length
+143adb3b12c0 25 LoadIC:push
+143adb3b1360 f Stub:CallSite
+143adb3b13e0 25 LoadIC:CallSite
+143adb3b1480 f Stub:CallSiteReceiverKey
+143adb3b1500 25 LoadIC:CallSiteReceiverKey
+143adb3b15a0 f Stub:CallSiteFunctionKey
+143adb3b1620 25 LoadIC:CallSiteFunctionKey
+143adb3b16c0 f Stub:CallSitePositionKey
+143adb3b1740 25 LoadIC:CallSitePositionKey
+143adb3b17e0 f Stub:CallSiteStrictModeKey
+143adb3b1860 25 LoadIC:CallSiteStrictModeKey
+143adb3b1900 288 LazyCompile:~Error.prepareStackTrace /SAQUIB/gitHub/urlParser/node_modules/bindings/bindings.js:110
+143adb3b1c00 d4 LazyCompile:~CallSiteGetFileName native messages.js:582
+143adb3b1d40 10e Stub:CompareICStub
+143adb3b1ec0 38 KeyedLoadIC:symbol("CallSite#function" hash 1adf03bf)
+143adb3b1f60 33 Stub:name
+143adb3b2000 25 LoadIC:name
+143adb3b20a0 390 LazyCompile:~getRoot /SAQUIB/gitHub/urlParser/node_modules/bindings/bindings.js:145
+143adb3b24a0 300 LazyCompile:~posix.join path.js:483
+143adb3b2800 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3b2880 25 LoadIC:length
+143adb3b2920 25 LoadIC:isString
+143adb3b29c0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3b2a40 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3b2ac0 29c LazyCompile:~posix.normalize path.js:460
+143adb3b2dc0 dc LazyCompile:~posix.isAbsolute path.js:478
+143adb3b2f00 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3b2f80 194 LazyCompile:fs.existsSync fs.js:230
+143adb3b3180 25 LoadIC:normalize
+143adb3b3220 25 LoadIC:isAbsolute
+143adb3b32c0 25 LoadIC:charAt
+143adb3b3360 25 LoadIC:length
+143adb3b3400 25 LoadIC:split
+143adb3b34a0 25 LoadIC:join
+143adb3b3540 25 LoadIC:stat
+143adb3b35e0 25 LoadIC:_makeLong
+143adb3b3680 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3b3700 618 LazyCompile:~map native array.js:928
+143adb3b3d80 ac LazyCompile:~ /SAQUIB/gitHub/urlParser/node_modules/bindings/bindings.js:71
+143adb3b3ea0 38 KeyedLoadIC:build
+143adb3b3f40 74 Stub:ToBooleanStub(Undefined,String)
+143adb3b4020 25 LoadIC:length
+143adb3b40c0 38 LoadPolymorphicIC:substring
+143adb3b4160 38 LoadPolymorphicIC:length
+143adb3b4200 25 LoadIC:paths
+143adb3b42a0 25 LoadIC:paths
+143adb3b4340 25 LoadIC:concat
+143adb3b43e0 38 LoadPolymorphicIC:charAt
+143adb3b4480 38 LoadPolymorphicIC:slice
+143adb3b4520 38 LoadPolymorphicIC:length
+143adb3b45c0 38 LoadPolymorphicIC:split
+143adb3b4660 38 LoadPolymorphicIC:length
+143adb3b4700 4b LoadPolymorphicIC:indexOf
+143adb3b47c0 25 LoadIC:resolve
+143adb3b4860 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3b48e0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3b4960 74 LazyCompile:~$Array.configurable_ native v8natives.js:376
+143adb3b4a40 30a RegExp:not find
+143adb3b4dc0 62 LazyCompile:*$Array.configurable_ native v8natives.js:376
+143adb3b4ea0 25 LoadIC:apply
+143adb3b4f40 2e Stub:try
+143adb3b4fe0 25 LoadIC:try
+143adb3b5080 2e Stub:map
+143adb3b5120 25 LoadIC:map
+143adb3b51c0 25 LoadIC:length
+143adb3b5260 f Stub:$Array
+143adb3b52e0 25 LoadIC:$Array
+143adb3b5380 25 LoadIC:push
+143adb3b5420 4f Stub:symbol(hash 32eb1ba4)
+143adb3b54e0 25 LoadIC:path
+143adb3b5580 23 Stub:Error
+143adb3b5620 25 LoadIC:Error
+143adb3b56c0 25 LoadIC:test
+143adb3b5760 25 LoadIC:message
+143adb3b5800 2f5 RegExp:^[\/]*
+143adb3b5b60 38 LoadPolymorphicIC:length
+143adb3b5c00 38 LoadPolymorphicIC:length
+143adb3b5ca0 42a RegExp:(.*?)(?:[\/]+|$)
+143adb3b6140 9af RegExp:^(\/?|)([\s\S]*?)((?:\.{1,2}|[^\/]+?|)(\.[^.\/]*|))(?:[\/]*)$
+143adb3b6b60 38 LoadPolymorphicIC:substr
+143adb3b6c00 38 LoadPolymorphicIC:length
+143adb3b6ca0 38 LoadPolymorphicIC:length
+143adb3b6d40 38 LoadPolymorphicIC:length
+143adb3b6de0 38 LoadPolymorphicIC:split
+143adb3b6e80 25 StoreIC:loaded
+143adb3b6f20 25 LoadIC:exports
+143adb3b6fc0 72 Stub:parse
+143adb3b70a0 ea StoreMegamorphic:0
+143adb3b7200 34c Function:~ querystring.js:1
+143adb3b75c0 b4 Script:~querystring.js
+143adb3b76e0 3c4 LazyCompile:~benchmark /SAQUIB/gitHub/urlParser/benchmark/url.js:30
+143adb3b7b20 154 LazyCompile:~urlParse /SAQUIB/gitHub/urlParser/lib/url.js:103
+143adb3b7ce0 10c LazyCompile:~isObject util.js:554
+143adb3b7e60 1b4 LazyCompile:~Url /SAQUIB/gitHub/urlParser/lib/url.js:35
+143adb3b8080 1168 LazyCompile:~Url.parse /SAQUIB/gitHub/urlParser/lib/url.js:111
+143adb3b9260 ac LazyCompile:~toASCII punycode.js:449
+143adb3b9380 114 LazyCompile:~mapDomain punycode.js:90
+143adb3b9500 4b LoadPolymorphicIC:length
+143adb3b95c0 289 RegExp:\x2E|\u3002|\uFF0E|\uFF61
+143adb3b98c0 150 LazyCompile:~map punycode.js:73
+143adb3b9a80 104 LazyCompile:~ punycode.js:450
+143adb3b9c00 268 RegExp:[^ -~]
+143adb3b9ee0 25 LoadIC:test
+143adb3b9f80 25 LoadIC:indexOf
+143adb3ba020 4b LoadPolymorphicIC:length
+143adb3ba0e0 4b LoadPolymorphicIC:length
+143adb3ba1a0 4b LoadPolymorphicIC:length
+143adb3ba260 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3ba2e0 b7c LazyCompile:~Url.format /SAQUIB/gitHub/urlParser/lib/url.js:508
+143adb3baec0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3baf40 25 LoadIC:length
+143adb3bafe0 25 LoadIC:length
+143adb3bb080 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3bb100 80c LazyCompile:~StringReplaceGlobalRegExpWithFunction native string.js:267
+143adb3bb980 2ce RegExp:[?#]
+143adb3bbcc0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3bbd40 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3bbdc0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3bbe40 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3bbec0 25 LoadIC:isObject
+143adb3bbf60 d1 Stub:protocol
+143adb3bc0a0 25 StoreIC:protocol
+143adb3bc140 d1 Stub:slashes
+143adb3bc280 25 StoreIC:slashes
+143adb3bc320 d1 Stub:auth
+143adb3bc460 25 StoreIC:auth
+143adb3bc500 d1 Stub:host
+143adb3bc640 25 StoreIC:host
+143adb3bc6e0 d1 Stub:port
+143adb3bc820 25 StoreIC:port
+143adb3bc8c0 d1 Stub:hostname
+143adb3bca00 25 StoreIC:hostname
+143adb3bcaa0 d1 Stub:hash
+143adb3bcbe0 25 StoreIC:hash
+143adb3bcc80 d1 Stub:search
+143adb3bcdc0 25 StoreIC:search
+143adb3bce60 d1 Stub:query
+143adb3bcfa0 25 StoreIC:query
+143adb3bd040 d1 Stub:pathname
+143adb3bd180 25 StoreIC:pathname
+143adb3bd220 d1 Stub:path
+143adb3bd360 25 StoreIC:path
+143adb3bd400 d1 Stub:href
+143adb3bd540 25 StoreIC:href
+143adb3bd5e0 2e Stub:parse
+143adb3bd680 25 LoadIC:parse
+143adb3bd720 25 LoadIC:isString
+143adb3bd7c0 25 LoadIC:symbol(hash 38c6dc98)
+143adb3bd860 25 LoadIC:length
+143adb3bd900 25 LoadIC:length
+143adb3bd9a0 25 StoreIC:href
+143adb3bda40 25 LoadIC:length
+143adb3bdae0 25 LoadIC:length
+143adb3bdb80 25 LoadIC:length
+143adb3bdc20 25 LoadIC:length
+143adb3bdcc0 25 StoreIC:protocol
+143adb3bdd60 25 StoreIC:slashes
+143adb3bde00 25 LoadIC:length
+143adb3bdea0 25 LoadIC:length
+143adb3bdf40 25 StoreIC:host
+143adb3bdfe0 25 LoadIC:length
+143adb3be080 25 StoreIC:hostname
+143adb3be120 25 LoadIC:length
+143adb3be1c0 25 LoadIC:length
+143adb3be260 25 LoadIC:hostname
+143adb3be300 25 LoadIC:toASCII
+143adb3be3a0 25 LoadIC:hostname
+143adb3be440 25 LoadIC:split
+143adb3be4e0 25 LoadIC:length
+143adb3be580 25 LoadIC:join
+143adb3be620 25 StoreIC:hostname
+143adb3be6c0 25 LoadIC:protocol
+143adb3be760 25 LoadIC:length
+143adb3be800 38 LoadPolymorphicIC:indexOf
+143adb3be8a0 25 LoadIC:indexOf
+143adb3be940 25 LoadIC:indexOf
+143adb3be9e0 25 StoreIC:pathname
+143adb3bea80 25 LoadIC:hostname
+143adb3beb20 25 LoadIC:pathname
+143adb3bebc0 25 LoadIC:pathname
+143adb3bec60 25 LoadIC:pathname
+143adb3bed00 25 LoadIC:search
+143adb3beda0 25 StoreIC:path
+143adb3bee40 2e Stub:format
+143adb3beee0 25 LoadIC:format
+143adb3bef80 25 LoadIC:auth
+143adb3bf020 25 LoadIC:protocol
+143adb3bf0c0 25 LoadIC:pathname
+143adb3bf160 25 LoadIC:hash
+143adb3bf200 74 Stub:ToBooleanStub(Null,String)
+143adb3bf2e0 25 LoadIC:host
+143adb3bf380 25 LoadIC:host
+143adb3bf420 25 LoadIC:query
+143adb3bf4c0 25 LoadIC:search
+143adb3bf560 25 LoadIC:substr
+143adb3bf600 25 LoadIC:length
+143adb3bf6a0 25 LoadIC:slashes
+143adb3bf740 25 LoadIC:charAt
+143adb3bf7e0 25 LoadIC:replace
+143adb3bf880 25 LoadIC:global
+143adb3bf920 f Stub:StringReplaceGlobalRegExpWithFunction
+143adb3bf9a0 25 LoadIC:StringReplaceGlobalRegExpWithFunction
+143adb3bfa40 f Stub:reusableReplaceArray
+143adb3bfac0 25 LoadIC:reusableReplaceArray
+143adb3bfb60 5c Stub:StoreGlobalStub
+143adb3bfc20 5c Stub:StoreGlobalStub
+143adb3bfce0 25 StoreIC:reusableReplaceArray
+143adb3bfd80 25 StoreIC:lastIndex
+143adb3bfe20 25 LoadIC:replace
+143adb3bfec0 25 LoadIC:length
+143adb3bff60 25 LoadIC:length
+143adb3c0000 25 StoreIC:href
+143adb3c00a0 25 LoadIC:parse
+143adb3c0140 38 LoadPolymorphicIC:indexOf
+143adb3c01e0 38 LoadPolymorphicIC:indexOf
+143adb3c0280 38 LoadPolymorphicIC:charAt
+143adb3c0320 38 LoadPolymorphicIC:replace
+143adb3c03c0 38 LoadPolymorphicIC:replace
+143adb3c0460 38 LoadPolymorphicIC:length
+143adb3c0500 58 Stub:ToBooleanStub(Bool,Null)
+143adb3c05c0 25 LoadIC:substr
+143adb3c0660 25 StoreIC:hash
+143adb3c0700 25 LoadIC:slice
+143adb3c07a0 4b LoadPolymorphicIC:indexOf
+143adb3c0860 25 LoadIC:substr
+143adb3c0900 38 LoadPolymorphicIC:length
+143adb3c09a0 38 LoadPolymorphicIC:length
+143adb3c0a40 25 StoreIC:search
+143adb3c0ae0 25 LoadIC:substr
+143adb3c0b80 25 StoreIC:query
+143adb3c0c20 25 LoadIC:slice
+143adb3c0cc0 5e LoadPolymorphicIC:length
+143adb3c0d80 25 LoadIC:hostname
+143adb3c0e20 25 LoadIC:isObject
+143adb3c0ec0 25 LoadIC:query
+143adb3c0f60 25 LoadIC:charAt
+143adb3c1000 25 LoadIC:charAt
+143adb3c10a0 4b LoadPolymorphicIC:replace
+143adb3c1160 4b LoadPolymorphicIC:replace
+143adb3c1220 4b LoadPolymorphicIC:length
+143adb3c12e0 25 LoadIC:length
+143adb3c1380 4b LoadPolymorphicIC:charAt
+143adb3c1440 38 LoadPolymorphicIC:charAt
+143adb3c14e0 38 LoadPolymorphicIC:substr
+143adb3c1580 38 LoadPolymorphicIC:substr
+143adb3c1620 38 LoadPolymorphicIC:slice
+143adb3c16c0 38 LoadPolymorphicIC:charAt
+143adb3c1760 b4 LazyCompile:~isString util.js:534
+143adb3c1880 6a LazyCompile:*isString util.js:534
+143adb3c1960 ac LazyCompile:~toASCII punycode.js:449
+143adb3c1a80 114 Function:~mapDomain punycode.js:90
+143adb3c1c00 150 Function:~map punycode.js:73
+143adb3c1dc0 a11 Stub:RecordWriteStub
+143adb3c2840 2d2 LazyCompile:*toASCII punycode.js:449
+143adb3c2b80 cc LazyCompile:~DoRegExpExec native regexp.js:67
+143adb3c2cc0 96 LazyCompile:*DoRegExpExec native regexp.js:67
+143adb3c2dc0 104 LazyCompile:~ punycode.js:450
+143adb3c2f40 e9 LazyCompile:* punycode.js:450
+143adb3c30a0 10c LazyCompile:~isObject util.js:554
+143adb3c3220 b6 LazyCompile:*isObject util.js:554
+143adb3c3340 154 LazyCompile:~urlParse /SAQUIB/gitHub/urlParser/lib/url.js:103
+143adb3c3500 1b4 Function:~Url /SAQUIB/gitHub/urlParser/lib/url.js:35
+143adb3c3720 438 LazyCompile:*urlParse /SAQUIB/gitHub/urlParser/lib/url.js:103
+143adb3c3bc0 462 Stub:RecordWriteStub
+143adb3c40a0 2ce LazyCompile:*Url /SAQUIB/gitHub/urlParser/lib/url.js:35
+143adb3c43e0 46c LazyCompile:~substr native string.js:488
+143adb3c48c0 552 LazyCompile:*substr native string.js:488
+143adb3c4e80 99c LazyCompile:~test native regexp.js:145
+143adb3c5880 a16 Stub:RecordWriteStub
+143adb3c6300 9e7 Stub:RecordWriteStub
+143adb3c6d60 503 LazyCompile:*test native regexp.js:145
+143adb3c72e0 464 LazyCompile:~slice native string.js:365
+143adb3c77c0 4fe LazyCompile:*slice native string.js:365
+143adb3c7d20 1168 LazyCompile:~Url.parse /SAQUIB/gitHub/urlParser/lib/url.js:111
+143adb3c8f00 b7c LazyCompile:~Url.format /SAQUIB/gitHub/urlParser/lib/url.js:508
+143adb3c9ae0 fd Stub:CallFunctionStub_Args3
+143adb3c9c40 fd Stub:CallFunctionStub_Args1
+143adb3c9da0 9e7 Stub:RecordWriteStub
+143adb3ca800 9e0 Stub:RecordWriteStub
+143adb3cb240 351 Stub:StringAddStub
+143adb3cb600 1616 LazyCompile:*Url.parse /SAQUIB/gitHub/urlParser/lib/url.js:111
+143adb3ccc80 fd Stub:CallFunctionStub_Args2
+143adb3ccde0 119c LazyCompile:*Url.format /SAQUIB/gitHub/urlParser/lib/url.js:508
+143adb3cdfe0 674 LazyCompile:~join native array.js:272
+143adb3ce6c0 44c LazyCompile:~split native string.js:399
+143adb3ceb80 791 LazyCompile:*split native string.js:399
+143adb3cf380 38c LazyCompile:~indexOf native string.js:53
+143adb3cf780 353 LazyCompile:*indexOf native string.js:53
+143adb3cfb40 71c LazyCompile:~StringSplitOnRegExp native string.js:416
+143adb3d02c0 a0a Stub:RecordWriteStub
+143adb3d0d40 a0a Stub:RecordWriteStub
+143adb3d17c0 9db Stub:RecordWriteStub
+143adb3d2200 aa0 LazyCompile:*StringSplitOnRegExp native string.js:416
+143adb3d2d00 c14 LazyCompile:~replace native string.js:122
+143adb3d3980 9f4 Stub:RecordWriteStub
+143adb3d43e0 6c6 LazyCompile:*replace native string.js:122
+143adb3d4b20 bc LazyCompile:~ node.js:213
+143adb3d4c40 4fc Function:~ console.js:1
+143adb3d51a0 b4 Script:~console.js
+143adb3d52c0 1cc LazyCompile:~ node.js:500
+143adb3d5500 1b2 Stub:FastCloneShallowObjectStub
+143adb3d5720 664 LazyCompile:~createWritableStdioStream node.js:435
+143adb3d5e00 1bc LazyCompile:~SyncWriteStream fs.js:1816
+143adb3d6020 ac LazyCompile:~Stream stream.js:42
+143adb3d6140 25 LoadIC:init
+143adb3d61e0 25 LoadIC:call
+143adb3d6280 25 LoadIC:usingDomains
+143adb3d6320 6a Stub:_events
+143adb3d6400 25 LoadIC:_events
+143adb3d64a0 6a Stub:_maxListeners
+143adb3d6580 25 LoadIC:_maxListeners
+143adb3d6620 154 LazyCompile:~ node.js:515
+143adb3d67e0 25 LoadIC:guessHandleType
+143adb3d6880 7c4 Function:~ tty.js:1
+143adb3d70c0 b4 Script:~tty.js
+143adb3d71e0 38e Stub:FastNewContextStub
+143adb3d75e0 21a4 Function:~ net.js:1
+143adb3d9800 b4 Script:~net.js
+143adb3d9920 b94 Function:~ timers.js:1
+143adb3da520 b4 Script:~timers.js
+143adb3da640 1ac Function:~ _linklist.js:1
+143adb3da860 b4 Script:~_linklist.js
+143adb3da980 373 RegExp:\bTIMER\b
+143adb3dad60 a4 LazyCompile:~init _linklist.js:22
+143adb3dae80 374 RegExp:\bNET\b
+143adb3db260 25 LoadIC:setGet
+143adb3db300 25 LoadIC:setEnumerable
+143adb3db3a0 25 LoadIC:setConfigurable
+143adb3db440 24c LazyCompile:~WriteStream tty.js:73
+143adb3db700 984 LazyCompile:~Socket net.js:137
+143adb3dc100 2f4 LazyCompile:~Duplex _stream_duplex.js:41
+143adb3dc460 154 LazyCompile:~Readable _stream_readable.js:99
+143adb3dc620 5f4 LazyCompile:~ReadableState _stream_readable.js:34
+143adb3dcc80 227 Stub:CompareICStub
+143adb3dcf20 25 LoadIC:call
+143adb3dcfc0 c2 Stub:_events
+143adb3dd100 38 LoadPolymorphicIC:_events
+143adb3dd1a0 c2 Stub:_maxListeners
+143adb3dd2e0 38 LoadPolymorphicIC:_maxListeners
+143adb3dd380 194 LazyCompile:~Writable _stream_writable.js:146
+143adb3dd580 56c LazyCompile:~WritableState _stream_writable.js:42
+143adb3ddb60 25 StoreIC:domain
+143adb3ddc00 4b LoadPolymorphicIC:_events
+143adb3ddcc0 25 LoadIC:_events
+143adb3ddd60 25 LoadIC:getPrototypeOf
+143adb3dde00 a6 Stub:_events
+143adb3ddf20 25 LoadIC:_events
+143adb3ddfc0 4b LoadPolymorphicIC:_maxListeners
+143adb3de080 25 StoreIC:_maxListeners
+143adb3de120 234 LazyCompile:~once events.js:188
+143adb3de3c0 b4 LazyCompile:~isFunction util.js:570
+143adb3de4e0 39c LazyCompile:~Readable.on _stream_readable.js:670
+143adb3de8e0 744 LazyCompile:~addListener events.js:138
+143adb3df0a0 25 LoadIC:prototype
+143adb3df140 2e Stub:on
+143adb3df1e0 25 LoadIC:on
+143adb3df280 25 LoadIC:call
+143adb3df320 25 LoadIC:isFunction
+143adb3df3c0 25 LoadIC:_events
+143adb3df460 25 LoadIC:_events
+143adb3df500 31 Stub:symbol(hash 32eb1ba4)
+143adb3df5a0 25 LoadIC:newListener
+143adb3df640 25 LoadIC:_events
+143adb3df6e0 38 KeyedLoadIC:finish
+143adb3df780 25 LoadIC:_events
+143adb3df820 25 LoadIC:isObject
+143adb3df8c0 25 LoadIC:_events
+143adb3df960 38 KeyedLoadIC:finish
+143adb3dfa00 38 LoadPolymorphicIC:newListener
+143adb3dfaa0 18c LazyCompile:~initSocketHandle net.js:121
+143adb3dfca0 a4 Stub:LoadElementStub
+143adb3dfdc0 25 KeyedLoadIC:
+143adb3dfe60 500 LazyCompile:~Console console.js:24
+143adb3e03c0 5e LoadPolymorphicIC:enumerable
+143adb3e0480 4b LoadPolymorphicIC:configurable
+143adb3e0540 5e LoadPolymorphicIC:value
+143adb3e0600 4b LoadPolymorphicIC:writable
+143adb3e06c0 2e4 LazyCompile:~bind native v8natives.js:1274
+143adb3e0a20 134 LazyCompile:~Console.log console.js:54
+143adb3e0bc0 25 LoadIC:length
+143adb3e0c60 2e Stub:info
+143adb3e0d00 38 KeyedLoadIC:info
+143adb3e0da0 2e Stub:bind
+143adb3e0e40 25 LoadIC:bind
+143adb3e0ee0 33 Stub:length
+143adb3e0f80 25 LoadIC:length
+143adb3e1020 2e Stub:warn
+143adb3e10c0 134 LazyCompile:~Console.warn console.js:62
+143adb3e1260 15c LazyCompile:~Console.dir console.js:70
+143adb3e1420 d4 LazyCompile:~Console.time console.js:77
+143adb3e1560 1ac LazyCompile:~Console.timeEnd console.js:82
+143adb3e1780 1ec LazyCompile:~trace console.js:92
+143adb3e19e0 1e4 LazyCompile:~Console.assert console.js:103
+143adb3e1c40 48c LazyCompile:~toPrecision native v8natives.js:1176
+143adb3e2140 b9 Stub:CompareICStub
+143adb3e2260 ef Stub:ArgumentsAccessStub_NewStrict
+143adb3e23c0 4b4 LazyCompile:~b native v8natives.js:1278
+143adb3e28e0 5c Stub:CompareNilICStub(NullValue)(MonomorphicMap)
+143adb3e29a0 38 KeyedLoadPolymorphicIC:
+143adb3e2a40 6a4 LazyCompile:~exports.format util.js:23
+143adb3e3160 2f7 RegExp:%[sdj%]
+143adb3e34c0 22 KeyedStoreIC:
+143adb3e3560 414 LazyCompile: util.js:35
+143adb3e39e0 22 KeyedStoreIC:
+143adb3e3a80 23 Stub:String
+143adb3e3b20 25 LoadIC:String
+143adb3e3bc0 25 LoadIC:length
+143adb3e3c60 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3e3ce0 30c LazyCompile:~SyncWriteStream.write fs.js:1835
+143adb3e4060 334 LazyCompile:~Buffer.byteLength buffer.js:223
+143adb3e4400 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3e4480 b5c LazyCompile:~Buffer.write buffer.js:369
+143adb3e5040 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3e50c0 25c LazyCompile:~fs.writeSync fs.js:609
+143adb3e5380 194 LazyCompile:~urlFormat /SAQUIB/gitHub/urlParser/lib/url.js:498
+143adb3e5580 25 LoadIC:isString
+143adb3e5620 25 LoadIC:format
+143adb3e56c0 194 LazyCompile:~urlFormat /SAQUIB/gitHub/urlParser/lib/url.js:498
+143adb3e58c0 572 LazyCompile:*urlFormat /SAQUIB/gitHub/urlParser/lib/url.js:498
+143adb3e5ea0 6ea LazyCompile:*replace native string.js:122
+143adb3e6600 80c LazyCompile:~StringReplaceGlobalRegExpWithFunction native string.js:267
+143adb3e6e80 9ec Stub:RecordWriteStub
+143adb3e78e0 8a Stub:CallFunctionStub_Args3
+143adb3e79e0 a0a Stub:RecordWriteStub
+143adb3e8460 56 Stub:DoubleToIStub
+143adb3e8520 7e0 LazyCompile:*StringReplaceGlobalRegExpWithFunction native string.js:267
+143adb3e8d60 25 LoadIC:console
+143adb3e8e00 25 LoadIC:require
+143adb3e8ea0 25 LoadIC:log
+143adb3e8f40 53 Stub:toPrecision
+143adb3e9000 25 LoadIC:toPrecision
+143adb3e90a0 25 LoadIC:length
+143adb3e9140 25 LoadIC:_stdout
+143adb3e91e0 2e Stub:write
+143adb3e9280 25 LoadIC:write
+143adb3e9320 18 Stub:LoadConstantStub
+143adb3e93a0 25 LoadIC:format
+143adb3e9440 25 LoadIC:apply
+143adb3e94e0 f Stub:ToUint32
+143adb3e9560 25 LoadIC:ToUint32
+143adb3e9600 25 LoadIC:length
+143adb3e96a0 25 LoadIC:length
+143adb3e9740 25 LoadIC:replace
+143adb3e97e0 25 LoadIC:isString
+143adb3e9880 25 LoadIC:isString
+143adb3e9920 25 LoadIC:isString
+143adb3e99c0 25 LoadIC:byteLength
+143adb3e9a60 25 LoadIC:byteLength
+143adb3e9b00 25 StoreIC:length
+143adb3e9ba0 25 LoadIC:isString
+143adb3e9c40 2e Stub:write
+143adb3e9ce0 25 LoadIC:write
+143adb3e9d80 25 LoadIC:isUndefined
+143adb3e9e20 25 LoadIC:isUndefined
+143adb3e9ec0 25 LoadIC:isString
+143adb3e9f60 25 LoadIC:length
+143adb3ea000 25 LoadIC:length
+143adb3ea0a0 25 LoadIC:isUndefined
+143adb3ea140 25 LoadIC:toLowerCase
+143adb3ea1e0 25 LoadIC:length
+143adb3ea280 2e Stub:utf8Write
+143adb3ea320 25 LoadIC:utf8Write
+143adb3ea3c0 25 LoadIC:length
+143adb3ea460 25 LoadIC:writeSync
+143adb3ea500 25 LoadIC:fd
+143adb3ea5a0 25 LoadIC:length
+143adb3ea640 25 LoadIC:isBuffer
+143adb3ea6e0 25 LoadIC:isUndefined
+143adb3ea780 25 LoadIC:writeBuffer
+143adb3ea820 25 LoadIC:length
+143adb3ea8c0 e4 LazyCompile:~ /SAQUIB/gitHub/urlParser/benchmark/url.js:24
+143adb3eaa20 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3eaaa0 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3eab20 b4 LazyCompile:~ /SAQUIB/gitHub/urlParser/benchmark/url.js:25
+143adb3eac40 cc LazyCompile:~urlResolve /SAQUIB/gitHub/urlParser/lib/url.js:564
+143adb3ead80 104 LazyCompile:~Url.resolve /SAQUIB/gitHub/urlParser/lib/url.js:568
+143adb3eaf00 2f54 LazyCompile:~Url.resolveObject /SAQUIB/gitHub/urlParser/lib/url.js:577
+143adb3edec0 25 LoadIC:length
+143adb3edf60 38 KeyedLoadIC:slashes
+143adb3ee000 9c LazyCompile:~isNull util.js:519
+143adb3ee100 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb3ee180 25 LoadIC:resolve
+143adb3ee220 2e Stub:resolve
+143adb3ee2c0 25 LoadIC:resolve
+143adb3ee360 2e Stub:resolveObject
+143adb3ee400 25 LoadIC:resolveObject
+143adb3ee4a0 25 LoadIC:isString
+143adb3ee540 25 LoadIC:keys
+143adb3ee5e0 25 LoadIC:hash
+143adb3ee680 25 StoreIC:hash
+143adb3ee720 25 LoadIC:href
+143adb3ee7c0 25 LoadIC:slashes
+143adb3ee860 25 LoadIC:protocol
+143adb3ee900 25 LoadIC:pathname
+143adb3ee9a0 25 LoadIC:pathname
+143adb3eea40 25 LoadIC:charAt
+143adb3eeae0 25 LoadIC:host
+143adb3eeb80 25 LoadIC:pathname
+143adb3eec20 25 LoadIC:pathname
+143adb3eecc0 25 LoadIC:charAt
+143adb3eed60 25 LoadIC:pathname
+143adb3eee00 25 LoadIC:pathname
+143adb3eeea0 25 LoadIC:split
+143adb3eef40 25 LoadIC:pathname
+143adb3eefe0 25 LoadIC:pathname
+143adb3ef080 25 LoadIC:split
+143adb3ef120 25 LoadIC:protocol
+143adb3ef1c0 25 LoadIC:protocol
+143adb3ef260 25 LoadIC:length
+143adb3ef300 25 LoadIC:pop
+143adb3ef3a0 25 LoadIC:concat
+143adb3ef440 25 LoadIC:search
+143adb3ef4e0 25 StoreIC:search
+143adb3ef580 25 LoadIC:query
+143adb3ef620 25 StoreIC:query
+143adb3ef6c0 25 LoadIC:length
+143adb3ef760 25 LoadIC:slice
+143adb3ef800 25 LoadIC:host
+143adb3ef8a0 25 LoadIC:length
+143adb3ef940 2e Stub:splice
+143adb3ef9e0 25 LoadIC:splice
+143adb3efa80 25 LoadIC:splice
+143adb3efb20 25 LoadIC:length
+143adb3efbc0 25 LoadIC:join
+143adb3efc60 25 StoreIC:pathname
+143adb3efd00 25 LoadIC:isNull
+143adb3efda0 25 LoadIC:pathname
+143adb3efe40 25 LoadIC:pathname
+143adb3efee0 25 LoadIC:pathname
+143adb3eff80 25 LoadIC:search
+143adb3f0020 25 LoadIC:search
+143adb3f00c0 25 StoreIC:path
+143adb3f0160 25 LoadIC:auth
+143adb3f0200 25 LoadIC:auth
+143adb3f02a0 25 StoreIC:auth
+143adb3f0340 25 LoadIC:slashes
+143adb3f03e0 25 StoreIC:slashes
+143adb3f0480 25 LoadIC:format
+143adb3f0520 25 StoreIC:href
+143adb3f05c0 25 LoadIC:format
+143adb3f0660 38 LoadPolymorphicIC:charAt
+143adb3f0700 38 LoadPolymorphicIC:split
+143adb3f07a0 25 LoadIC:charAt
+143adb3f0840 2e Stub:unshift
+143adb3f08e0 25 LoadIC:unshift
+143adb3f0980 60 Stub:ToBooleanStub(Bool,Smi)
+143adb3f0a40 4b LoadPolymorphicIC:charAt
+143adb3f0b00 25 LoadIC:host
+143adb3f0ba0 4b LoadPolymorphicIC:split
+143adb3f0c60 25 LoadIC:host
+143adb3f0d00 25 LoadIC:length
+143adb3f0da0 25 LoadIC:charAt
+143adb3f0e40 25 LoadIC:host
+143adb3f0ee0 6c Stub:ToBooleanStub(Bool,Null,Smi)
+143adb3f0fc0 25 LoadIC:slashes
+143adb3f1060 25 StoreIC:hostname
+143adb3f1100 25 StoreIC:port
+143adb3f11a0 25 LoadIC:host
+143adb3f1240 25 StoreIC:host
+143adb3f12e0 25 LoadIC:protocol
+143adb3f1380 25 LoadIC:unshift
+143adb3f1420 38 LoadPolymorphicIC:charAt
+143adb3f14c0 25 LoadIC:length
+143adb3f1560 2e Stub:shift
+143adb3f1600 25 LoadIC:shift
+143adb3f16a0 25 StoreIC:host
+143adb3f1740 25 StoreIC:hostname
+143adb3f17e0 25 LoadIC:host
+143adb3f1880 25 LoadIC:host
+143adb3f1920 25 LoadIC:indexOf
+143adb3f19c0 25 LoadIC:length
+143adb3f1a60 25 LoadIC:unshift
+143adb3f1b00 11d0 LazyCompile:*Url.format /SAQUIB/gitHub/urlParser/lib/url.js:508
+143adb3f2d40 b4 LazyCompile:~ /SAQUIB/gitHub/urlParser/benchmark/url.js:25
+143adb3f2e60 cc Function:~urlResolve /SAQUIB/gitHub/urlParser/lib/url.js:564
+143adb3f2fa0 104 Function:~Url.resolve /SAQUIB/gitHub/urlParser/lib/url.js:568
+143adb3f3120 9b7 LazyCompile:* /SAQUIB/gitHub/urlParser/benchmark/url.js:25
+143adb3f3b40 9c LazyCompile:~isNull util.js:519
+143adb3f3c40 96f LazyCompile:*urlResolve /SAQUIB/gitHub/urlParser/lib/url.js:564
+143adb3f4620 51e LazyCompile:*Url.resolve /SAQUIB/gitHub/urlParser/lib/url.js:568
+143adb3f4ba0 66 LazyCompile:*isNull util.js:519
+143adb3f4c80 163e LazyCompile:*Url.parse /SAQUIB/gitHub/urlParser/lib/url.js:111
+143adb3f6320 38 KeyedLoadIC:
+143adb3f63c0 38 KeyedLoadIC:
+143adb3f6460 2f54 LazyCompile:~Url.resolveObject /SAQUIB/gitHub/urlParser/lib/url.js:577
+143adb3f9420 a22 Stub:RecordWriteStub
+143adb3f9ec0 9fc Stub:RecordWriteStub
+143adb3fa920 f7 Stub:CallFunctionStub_Args0
+143adb3faa80 2a02 LazyCompile:*Url.resolveObject /SAQUIB/gitHub/urlParser/lib/url.js:577
+143adb3fd500 38 KeyedLoadIC:slashes
+143adb3fd5a0 25 LoadIC:length
+143adb3fd640 25 LoadIC:length
+143adb3fd6e0 25 StoreIC:length
+143adb3fd780 3c4 LazyCompile:~benchmark /SAQUIB/gitHub/urlParser/benchmark/url.js:30
+143adb3fdbc0 38 LoadPolymorphicIC:indexOf
+143adb3fdc60 613 LazyCompile:*benchmark /SAQUIB/gitHub/urlParser/benchmark/url.js:30
+143adb406060 2a0a LazyCompile:*Url.resolveObject /SAQUIB/gitHub/urlParser/lib/url.js:577
+143adb408ae0 38 KeyedLoadIC:slashes
+143adb408b80 20c LazyCompile:~keys native v8natives.js:207
+143adb408e00 2be LazyCompile:*keys native v8natives.js:207
+143adb409120 70d LazyCompile:*benchmark /SAQUIB/gitHub/urlParser/benchmark/url.js:30
+143adb4098a0 38 LoadPolymorphicIC:split
+143adb409940 88 Stub:ToBooleanStub(Bool,Null,String)
+143adb409a40 90 Stub:ToBooleanStub(Bool,Null,Smi,String)
+143adb409b40 25 StoreIC:pathname
+143adb409be0 25 LoadIC:protocol
+143adb409c80 25 LoadIC:protocol
+143adb409d20 25 LoadIC:protocol
+143adb409dc0 25 LoadIC:host
+143adb409e60 25 LoadIC:host
+143adb409f00 25 StoreIC:host
+143adb409fa0 25 LoadIC:hostname
+143adb40a040 25 LoadIC:hostname
+143adb40a0e0 25 StoreIC:hostname
+143adb40a180 25 LoadIC:search
+143adb40a220 25 StoreIC:search
+143adb40a2c0 25 LoadIC:query
+143adb40a360 25 StoreIC:query
+143adb40a400 25 LoadIC:join
+143adb40a4a0 25 LoadIC:substr
+143adb40a540 f Stub:BinaryOpICWithAllocationSiteStub(ADD_CreateAllocationMementos:String*String->String)
+143adb40a5c0 25 LoadIC:protocol
+143adb40a660 25 LoadIC:protocol
+143adb40a700 25 StoreIC:protocol
+143adb40a7a0 25 LoadIC:host
+143adb40a840 25 LoadIC:pathname
+143adb40a8e0 25 StoreIC:pathname
+143adb40a980 25 LoadIC:search
+143adb40aa20 25 StoreIC:search
+143adb40aac0 25 LoadIC:query
+143adb40ab60 25 StoreIC:query
+143adb40ac00 25 LoadIC:host
+143adb40aca0 25 StoreIC:host
+143adb40ad40 25 LoadIC:auth
+143adb40ade0 25 StoreIC:auth
+143adb40ae80 25 LoadIC:hostname
+143adb40af20 25 StoreIC:hostname
+143adb40afc0 25 LoadIC:port
+143adb40b060 25 StoreIC:port
+143adb40b100 25 LoadIC:pathname
+143adb40b1a0 25 LoadIC:pathname
+143adb40b240 25 LoadIC:search
+143adb40b2e0 25 StoreIC:path
+143adb40b380 25 LoadIC:slashes
+143adb40b420 25 StoreIC:slashes
+143adb40b4c0 25 LoadIC:format
+143adb40b560 25 StoreIC:href
+143adb40b600 21f Stub:CompareICStub
+143adb40b880 25 LoadIC:slashes
+143adb40b920 1676 LazyCompile:*Url.parse /SAQUIB/gitHub/urlParser/lib/url.js:111
+143adb40d000 a05 Stub:RecordWriteStub
+143adb40da80 a05 Stub:RecordWriteStub
+143adb40e500 a11 Stub:RecordWriteStub
+143adb40ef80 3364 LazyCompile:*Url.resolveObject /SAQUIB/gitHub/urlParser/lib/url.js:577
+143adb412360 38 KeyedLoadIC:slashes
+143adb412400 25 LoadIC:splice
+143adb4124a0 378 LazyCompile:_tickCallback node.js:345
+143adb412880 184 LazyCompile:~scheduleMicrotasks node.js:322
+143adb412a80 15a Stub:LoadElementStub
+143adb412c40 25 KeyedLoadIC:
+143adb412ce0 56 Stub:DoubleToIStub
+143adb412da0 10c Stub:StoreElementStub
+143adb412f20 22 KeyedStoreIC:
+143adb412fc0 144 LazyCompile:~runMicrotasksCallback node.js:335
+143adb413180 1f4 LazyCompile:~tickDone node.js:309
+143adb4133e0 d4 LazyCompile:~ToInteger native runtime.js:356
+143adb413520 bf0 LazyCompile:~emit events.js:68
+143adb414180 d4 LazyCompile:~ToInt32 native runtime.js:364
+143adb4142c0 25 LoadIC:isUndefined
+143adb414360 f Stub:ToNumber
+143adb4143e0 25 LoadIC:ToNumber

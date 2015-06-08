@@ -1,4 +1,10 @@
-#Url parser for Node.js - ***Work In Progress***
+#Url parser for Node.js - *Development Stopped*
+
+##Performance Analysis
+**Performance is very slow with C++**. Issue is while setting the object at v8 layer which is taking max time.
+
+![](https://raw.githubusercontent.com/saquibkhan/urlParser/master/assets/urlparser_perf1.gif)
+![](https://raw.githubusercontent.com/saquibkhan/urlParser/master/assets/urlparser_perf2.gif)
 
 ##Compiling and Running
 1. make configure
